@@ -109,7 +109,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/firefighting/shiftOnDay">
         <rdfs:subPropertyOf rdf:resource="https://www.w3.org/TR/owl-time/#time:dayOfWeek"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/firefighting/DayOfWeek/time:DayOfWeek"/>
+        <rdfs:range rdf:resource="https://www.w3.org/TR/owl-time/#time:DayOfWeek"/>
     </owl:ObjectProperty>
     
 
@@ -314,9 +314,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/firefighting/DayOfWeek/time:DayOfWeek -->
+    <!-- https://www.w3.org/TR/owl-time/#time:DayOfWeek -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/firefighting/DayOfWeek/time:DayOfWeek"/>
+    <owl:Class rdf:about="https://www.w3.org/TR/owl-time/#time:DayOfWeek"/>
     
 
 
@@ -490,7 +490,7 @@
     <!-- https://www.w3.org/TR/owl-time/#time:Friday -->
 
     <owl:NamedIndividual rdf:about="https://www.w3.org/TR/owl-time/#time:Friday">
-        <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/DayOfWeek/time:DayOfWeek"/>
+        <rdf:type rdf:resource="https://www.w3.org/TR/owl-time/#time:DayOfWeek"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Friday</rdfs:label>
     </owl:NamedIndividual>
     
@@ -499,7 +499,7 @@
     <!-- https://www.w3.org/TR/owl-time/#time:Monday -->
 
     <owl:NamedIndividual rdf:about="https://www.w3.org/TR/owl-time/#time:Monday">
-        <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/DayOfWeek/time:DayOfWeek"/>
+        <rdf:type rdf:resource="https://www.w3.org/TR/owl-time/#time:DayOfWeek"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monday</rdfs:label>
     </owl:NamedIndividual>
     
@@ -508,7 +508,7 @@
     <!-- https://www.w3.org/TR/owl-time/#time:Saturday -->
 
     <owl:NamedIndividual rdf:about="https://www.w3.org/TR/owl-time/#time:Saturday">
-        <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/DayOfWeek/time:DayOfWeek"/>
+        <rdf:type rdf:resource="https://www.w3.org/TR/owl-time/#time:DayOfWeek"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saturday</rdfs:label>
     </owl:NamedIndividual>
     
@@ -517,7 +517,7 @@
     <!-- https://www.w3.org/TR/owl-time/#time:Sunday -->
 
     <owl:NamedIndividual rdf:about="https://www.w3.org/TR/owl-time/#time:Sunday">
-        <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/DayOfWeek/time:DayOfWeek"/>
+        <rdf:type rdf:resource="https://www.w3.org/TR/owl-time/#time:DayOfWeek"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sunday</rdfs:label>
     </owl:NamedIndividual>
     
@@ -526,7 +526,7 @@
     <!-- https://www.w3.org/TR/owl-time/#time:Thursday -->
 
     <owl:NamedIndividual rdf:about="https://www.w3.org/TR/owl-time/#time:Thursday">
-        <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/DayOfWeek/time:DayOfWeek"/>
+        <rdf:type rdf:resource="https://www.w3.org/TR/owl-time/#time:DayOfWeek"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thursday</rdfs:label>
     </owl:NamedIndividual>
     
@@ -535,7 +535,7 @@
     <!-- https://www.w3.org/TR/owl-time/#time:Tuesday -->
 
     <owl:NamedIndividual rdf:about="https://www.w3.org/TR/owl-time/#time:Tuesday">
-        <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/DayOfWeek/time:DayOfWeek"/>
+        <rdf:type rdf:resource="https://www.w3.org/TR/owl-time/#time:DayOfWeek"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tuesday</rdfs:label>
     </owl:NamedIndividual>
     
@@ -544,7 +544,7 @@
     <!-- https://www.w3.org/TR/owl-time/#time:Wednesday -->
 
     <owl:NamedIndividual rdf:about="https://www.w3.org/TR/owl-time/#time:Wednesday">
-        <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/DayOfWeek/time:DayOfWeek"/>
+        <rdf:type rdf:resource="https://www.w3.org/TR/owl-time/#time:DayOfWeek"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wednesday</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
