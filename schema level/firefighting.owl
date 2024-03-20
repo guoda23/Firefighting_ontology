@@ -1,0 +1,555 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/firefighting#"
+     xml:base="http://www.semanticweb.org/firefighting"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:sem="http://semanticweb.cs.vu.nl/2009/11/sem/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:time="https://www.w3.org/TR/owl-time/#time:"
+     xmlns:firefighting="http://www.semanticweb.org/firefighting/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/firefighting"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#time -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#time"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/accidentLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/firefighting/accidentLocation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/entrance -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/firefighting/entrance">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/firefighting/Entrance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/hasShift -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/firefighting/hasShift"/>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/locatedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/firefighting/locatedIn">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/openOnDay -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/firefighting/openOnDay">
+        <rdfs:subPropertyOf rdf:resource="https://www.w3.org/TR/owl-time/#time:dayOfWeek"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/openingTime -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/firefighting/openingTime"/>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/respond -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/firefighting/respond">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/firefighting/Accident"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/shiftFloor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/firefighting/shiftFloor">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/firefighting/shiftLocation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/shiftLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/firefighting/shiftLocation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/shiftOnDay -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/firefighting/shiftOnDay">
+        <rdfs:subPropertyOf rdf:resource="https://www.w3.org/TR/owl-time/#time:dayOfWeek"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/firefighting/DayOfWeek/time:DayOfWeek"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/shiftTimes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/firefighting/shiftTimes"/>
+    
+
+
+    <!-- https://www.w3.org/TR/owl-time/#time:dayOfWeek -->
+
+    <owl:ObjectProperty rdf:about="https://www.w3.org/TR/owl-time/#time:dayOfWeek"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/accidentOccuranceTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/firefighting/accidentOccuranceTime">
+        <rdfs:subPropertyOf rdf:resource="https://www.w3.org/TR/owl-time/#time:hasBeginning"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/closingTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/firefighting/closingTime">
+        <rdfs:subPropertyOf rdf:resource="https://www.w3.org/TR/owl-time/#time:hasEnd"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/endShift -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/firefighting/endShift">
+        <rdfs:subPropertyOf rdf:resource="https://www.w3.org/TR/owl-time/#time:hasEnd"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/openingTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/firefighting/openingTime">
+        <rdfs:subPropertyOf rdf:resource="https://www.w3.org/TR/owl-time/#time:hasBeginning"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/personName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/firefighting/personName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/firefighting/Person"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/startShift -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/firefighting/startShift">
+        <rdfs:subPropertyOf rdf:resource="https://www.w3.org/TR/owl-time/#time:hasBeginning"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.w3.org/TR/owl-time/#time:hasBeginning -->
+
+    <owl:DatatypeProperty rdf:about="https://www.w3.org/TR/owl-time/#time:hasBeginning"/>
+    
+
+
+    <!-- https://www.w3.org/TR/owl-time/#time:hasEnd -->
+
+    <owl:DatatypeProperty rdf:about="https://www.w3.org/TR/owl-time/#time:hasEnd"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/Accident -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/firefighting/Accident">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/firefighting/Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/BHVer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/firefighting/BHVer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/firefighting/Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/Building -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/firefighting/Building">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/firefighting/Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/EmergencyServicesPersonnel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/firefighting/EmergencyServicesPersonnel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/firefighting/BHVer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/Entrance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/firefighting/Entrance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/firefighting/Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/Evacuator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/firefighting/Evacuator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/firefighting/BHVer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/firefighting/Event"/>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/FirstAidPersonnel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/firefighting/FirstAidPersonnel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/firefighting/BHVer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/Floor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/firefighting/Floor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/firefighting/Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/firefighting/Location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/OpeningTimes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/firefighting/OpeningTimes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/firefighting/Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/Room -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/firefighting/Room">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/firefighting/Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/Shift -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/firefighting/Shift">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/firefighting/Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/DayOfWeek/time:DayOfWeek -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/firefighting/DayOfWeek/time:DayOfWeek"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/ACTA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/firefighting/ACTA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/Building"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACTA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/BelleVUe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/firefighting/BelleVUe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/Building"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BelleVUe</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/Initium -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/firefighting/Initium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/Building"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Initium</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/Kinderrijk_Day_care_centre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/firefighting/Kinderrijk_Day_care_centre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/Building"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kinderrijk Day care centre</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/MF_building -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/firefighting/MF_building">
+        <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/Building"/>
+        <firefighting:closingTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22:00 Friday</firefighting:closingTime>
+        <firefighting:openingTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7:00 Monday</firefighting:openingTime>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medical Faculty building (MF)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/New_University_building -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/firefighting/New_University_building">
+        <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/Building"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New University building (NU)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/O2_Lab_building -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/firefighting/O2_Lab_building">
+        <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/Building"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O|2 Lab building</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/OZW_building -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/firefighting/OZW_building">
+        <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/Building"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OZW building</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/Symphonie_building -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/firefighting/Symphonie_building">
+        <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/Building"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Symphonie building</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/TentT -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/firefighting/TentT">
+        <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/Building"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TenT</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/Transitorium -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/firefighting/Transitorium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/Building"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transitorium</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/VU_Main_building -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/firefighting/VU_Main_building">
+        <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/Building"/>
+        <firefighting:closingTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23:00 Sunday</firefighting:closingTime>
+        <firefighting:openingTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7:00 Monday</firefighting:openingTime>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VU Main building</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/VU_Sports_Centre_Uilenstede -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/firefighting/VU_Sports_Centre_Uilenstede">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VU Sports Centre Uilenstede location</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/VU_StartHub -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/firefighting/VU_StartHub">
+        <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/Building"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VU StartHub</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/Amsterdam_UMC_location_VUmc_(hospital) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/firefighting/Amsterdam_UMC_location_VUmc_(hospital)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/Building"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amsterdam UMC location VUmc hospital</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/Coordination_Centre_Energy_(CCE) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/firefighting/Coordination_Centre_Energy_(CCE)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/Building"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coordination Centre Energy (CCE)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/W&amp;N_building -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/firefighting/W&amp;N_building">
+        <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/Building"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">W&amp;N building</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.w3.org/TR/owl-time/#time:Friday -->
+
+    <owl:NamedIndividual rdf:about="https://www.w3.org/TR/owl-time/#time:Friday">
+        <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/DayOfWeek/time:DayOfWeek"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Friday</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.w3.org/TR/owl-time/#time:Monday -->
+
+    <owl:NamedIndividual rdf:about="https://www.w3.org/TR/owl-time/#time:Monday">
+        <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/DayOfWeek/time:DayOfWeek"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monday</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.w3.org/TR/owl-time/#time:Saturday -->
+
+    <owl:NamedIndividual rdf:about="https://www.w3.org/TR/owl-time/#time:Saturday">
+        <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/DayOfWeek/time:DayOfWeek"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saturday</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.w3.org/TR/owl-time/#time:Sunday -->
+
+    <owl:NamedIndividual rdf:about="https://www.w3.org/TR/owl-time/#time:Sunday">
+        <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/DayOfWeek/time:DayOfWeek"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sunday</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.w3.org/TR/owl-time/#time:Thursday -->
+
+    <owl:NamedIndividual rdf:about="https://www.w3.org/TR/owl-time/#time:Thursday">
+        <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/DayOfWeek/time:DayOfWeek"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thursday</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.w3.org/TR/owl-time/#time:Tuesday -->
+
+    <owl:NamedIndividual rdf:about="https://www.w3.org/TR/owl-time/#time:Tuesday">
+        <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/DayOfWeek/time:DayOfWeek"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tuesday</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.w3.org/TR/owl-time/#time:Wednesday -->
+
+    <owl:NamedIndividual rdf:about="https://www.w3.org/TR/owl-time/#time:Wednesday">
+        <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/DayOfWeek/time:DayOfWeek"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wednesday</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

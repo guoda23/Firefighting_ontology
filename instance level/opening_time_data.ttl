@@ -1,0 +1,649 @@
+@base <http://www.semanticweb.org/firefighting/> .
+@prefix fr: <http://www.semanticweb.org/firefighting/> .
+@prefix time: <https://www.w3.org/TR/owl-time/#time:> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+fr:MF_building a fr:Building;
+  fr:openingTime fr:MF_Monday_Opening_Times, fr:MF_Tuesday_Opening_Times, fr:MF_Wednesday_Opening_Times,
+    fr:MF_Thursday_Opening_Times, fr:MF_Friday_Opening_Times .
+
+fr:MF_Monday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Monday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:22%3A00%3A00 "22:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+<https://www.w3.org/TR/owl-time/#time:Monday> a <https://www.w3.org/TR/owl-time/#time:DayOfWeek> .
+
+fr:MF_Tuesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Tuesday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:22%3A00%3A00 "22:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+<https://www.w3.org/TR/owl-time/#time:Tuesday> a <https://www.w3.org/TR/owl-time/#time:DayOfWeek> .
+
+fr:MF_Wednesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Wednesday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:22%3A00%3A00 "22:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+<https://www.w3.org/TR/owl-time/#time:Wednesday> a <https://www.w3.org/TR/owl-time/#time:DayOfWeek> .
+
+fr:MF_Thursday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Thursday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:22%3A00%3A00 "22:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+<https://www.w3.org/TR/owl-time/#time:Thursday> a <https://www.w3.org/TR/owl-time/#time:DayOfWeek> .
+
+fr:MF_Friday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Friday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:22%3A00%3A00 "22:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+<https://www.w3.org/TR/owl-time/#time:Friday> a <https://www.w3.org/TR/owl-time/#time:DayOfWeek> .
+
+fr:New_university_building a fr:Building;
+  fr:openingTime fr:NU_Monday_Opening_Times, fr:NU_Tuesday_Opening_Times, fr:NU_Wednesday_Opening_Times,
+    fr:NU_Thursday_Opening_Times, fr:NU_Friday_Opening_Times, fr:NU_Saturday_Opening_Times,
+    fr:NU_Sunday_Opening_Times .
+
+fr:NU_Monday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Monday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:00%3A00%3A00 "00:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:NU_Tuesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Tuesday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:00%3A00%3A00 "00:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:NU_Wednesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Wednesday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:00%3A00%3A00 "00:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:NU_Thursday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Thursday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:00%3A00%3A00 "00:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:NU_Friday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Friday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:00%3A00%3A00 "00:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:NU_Saturday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Saturday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:00%3A00%3A00 "00:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+<https://www.w3.org/TR/owl-time/#time:Saturday> a <https://www.w3.org/TR/owl-time/#time:DayOfWeek> .
+
+fr:NU_Sunday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Sunday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:00%3A00%3A00 "00:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+<https://www.w3.org/TR/owl-time/#time:Sunday> a <https://www.w3.org/TR/owl-time/#time:DayOfWeek> .
+
+fr:W%26N_Main_Entrance_1085 a fr:Entrance;
+  fr:locatedIn fr:W%26N_building .
+
+fr:W%26N_building a fr:Building;
+  fr:openingTime fr:W%26N_1085_Monday_Opening_Times, fr:W%26N_1085_Tuesday_Opening_Times,
+    fr:W%26N_1085_Wednesday_Opening_Times, fr:W%26N_1085_Thursday_Opening_Times, fr:W%26N_1085_Friday_Opening_Times,
+    fr:W%26N_1085_Saturday_Opening_Times, fr:W%26N_1085_Sunday_Opening_Times, fr:W%26N_1081_Monday_Opening_Times,
+    fr:W%26N_1081_Tuesday_Opening_Times, fr:W%26N_1081_Wednesday_Opening_Times, fr:W%26N_1081_Thursday_Opening_Times,
+    fr:W%26N_1081_Friday_Opening_Times, fr:W%26N_1081_Saturday_Opening_Times, fr:W%26N_1081_Sunday_Opening_Times .
+
+fr:W%26N_1085_Monday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Monday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:22%3A00%3A00 "22:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:W%26N_1085_Tuesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Tuesday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:22%3A00%3A00 "22:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:W%26N_1085_Wednesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Wednesday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:22%3A00%3A00 "22:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:W%26N_1085_Thursday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Thursday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:22%3A00%3A00 "22:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:W%26N_1085_Friday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Friday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:22%3A00%3A00 "22:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:W%26N_1085_Saturday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Saturday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:22%3A00%3A00 "22:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:W%26N_1085_Sunday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Sunday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:22%3A00%3A00 "22:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:W%26N_Entrance_1081 a fr:Entrance;
+  fr:locatedIn fr:W%26N_building .
+
+fr:W%26N_1081_Monday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Monday>;
+  fr:openingTime "08:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:W%26N_1081_Tuesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Tuesday>;
+  fr:openingTime "08:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:W%26N_1081_Wednesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Wednesday>;
+  fr:openingTime "08:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:W%26N_1081_Thursday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Thursday>;
+  fr:openingTime "08:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:W%26N_1081_Friday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Friday>;
+  fr:openingTime "08:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:W%26N_1081_Saturday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Saturday>;
+  fr:openingTime "08:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:W%26N_1081_Sunday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Sunday>;
+  fr:openingTime "08:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:Initium a fr:Building;
+  fr:openingTime fr:IN_Monday_Opening_Times, fr:IN_Tuesday_Opening_Times, fr:IN_Wednesday_Opening_Times,
+    fr:IN_Thursday_Opening_Times, fr:IN_Friday_Opening_Times, fr:IN_Saturday_Opening_Times .
+
+fr:IN_Monday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Monday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:22%3A00%3A00 "22:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:IN_Tuesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Tuesday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:22%3A00%3A00 "22:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:IN_Wednesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Wednesday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:22%3A00%3A00 "22:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:IN_Thursday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Thursday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:22%3A00%3A00 "22:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:IN_Friday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Friday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:22%3A00%3A00 "22:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:IN_Saturday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Saturday>;
+  fr:openingTime "08:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:16%3A00%3A00 "16:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:O2_Lab_building a fr:Building;
+  fr:openingTime fr:O2_Monday_Opening_Times, fr:O2_Tuesday_Opening_Times, fr:O2_Wednesday_Opening_Times,
+    fr:O2_Thursday_Opening_Times, fr:O2_Friday_Opening_Times .
+
+fr:O2_Monday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Monday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:22%3A00%3A00 "22:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:O2_Tuesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Tuesday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:22%3A00%3A00 "22:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:O2_Wednesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Wednesday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:22%3A00%3A00 "22:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:O2_Thursday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Thursday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:22%3A00%3A00 "22:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:O2_Friday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Friday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:22%3A00%3A00 "22:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:Transitorium a fr:Building;
+  fr:openingTime fr:T_Monday_Opening_Times, fr:T_Tuesday_Opening_Times, fr:T_Wednesday_Opening_Times,
+    fr:T_Thursday_Opening_Times, fr:T_Friday_Opening_Times .
+
+fr:T_Monday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Monday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:19%3A30%3A00 "19:30:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:T_Tuesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Tuesday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:19%3A30%3A00 "19:30:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:T_Wednesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Wednesday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:19%3A30%3A00 "19:30:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:T_Thursday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Thursday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:19%3A30%3A00 "19:30:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:T_Friday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Friday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:19%3A30%3A00 "19:30:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:ACTA a fr:Building;
+  fr:openingTime fr:ACTA_Monday_Opening_Times, fr:ACTA_Tuesday_Opening_Times, fr:ACTA_Wednesday_Opening_Times,
+    fr:ACTA_Thursday_Opening_Times, fr:ACTA_Friday_Opening_Times .
+
+fr:ACTA_Monday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Monday>;
+  fr:openingTime "06:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:20%3A15%3A00 "20:15:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:ACTA_Tuesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Tuesday>;
+  fr:openingTime "06:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:20%3A15%3A00 "20:15:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:ACTA_Wednesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Wednesday>;
+  fr:openingTime "06:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:21%3A00%3A00 "21:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:ACTA_Thursday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Thursday>;
+  fr:openingTime "06:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:21%3A00%3A00 "21:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:ACTA_Friday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Friday>;
+  fr:openingTime "06:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:OZW_building a fr:Building;
+  fr:openingTime fr:OZW_Monday_Opening_Times, fr:OZW_Tuesday_Opening_Times, fr:OZW_Wednesday_Opening_Times,
+    fr:OZW_Thursday_Opening_Times, fr:OZW_Friday_Opening_Times, fr:OZW_Saturday_Opening_Times .
+
+fr:OZW_Monday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Monday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:23%3A00%3A00 "23:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:OZW_Tuesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Tuesday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:23%3A00%3A00 "23:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:OZW_Wednesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Wednesday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:23%3A00%3A00 "23:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:OZW_Thursday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Thursday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:23%3A00%3A00 "23:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:OZW_Friday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Friday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:23%3A00%3A00 "23:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:OZW_Saturday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Saturday>;
+  fr:openingTime "09:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:17%3A00%3A00 "17:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:BelleVUe a fr:Building;
+  fr:openingTime fr:BVUe_Monday_Opening_Times, fr:BVUe_Tuesday_Opening_Times, fr:BVUe_Wednesday_Opening_Times,
+    fr:BVUe_Thursday_Opening_Times, fr:BVUe_Friday_Opening_Times .
+
+fr:BVUe_Monday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Monday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:22%3A00%3A00 "22:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:BVUe_Tuesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Tuesday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:22%3A00%3A00 "22:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:BVUe_Wednesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Wednesday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:22%3A00%3A00 "22:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:BVUe_Thursday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Thursday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:22%3A00%3A00 "22:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:BVUe_Friday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Friday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:22%3A00%3A00 "22:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:Kinderrijk_Day_care_centre a fr:Building;
+  fr:openingTime fr:Kinderrijk_Monday_Opening_Times, fr:Kinderrijk_Tuesday_Opening_Times,
+    fr:Kinderrijk_Wednesday_Opening_Times, fr:Kinderrijk_Thursday_Opening_Times, fr:Kinderrijk_Friday_Opening_Times .
+
+fr:Kinderrijk_Monday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Monday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:Kinderrijk_Tuesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Tuesday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:Kinderrijk_Wednesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Wednesday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:Kinderrijk_Thursday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Thursday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:Kinderrijk_Friday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Friday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:VU_StartHub a fr:Building;
+  fr:openingTime fr:StartHub_Monday_Opening_Times, fr:StartHub_Tuesday_Opening_Times,
+    fr:StartHub_Wednesday_Opening_Times, fr:StartHub_Thursday_Opening_Times, fr:StartHub_Friday_Opening_Times .
+
+fr:StartHub_Monday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Monday>;
+  fr:openingTime "09:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:StartHub_Tuesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Tuesday>;
+  fr:openingTime "09:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:StartHub_Wednesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Wednesday>;
+  fr:openingTime "09:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:StartHub_Thursday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Thursday>;
+  fr:openingTime "09:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:StartHub_Friday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Friday>;
+  fr:openingTime "09:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:Symphonie_building a fr:Building;
+  fr:openingTime fr:Sym_Monday_Opening_Times, fr:Sym_Tuesday_Opening_Times, fr:Sym_Wednesday_Opening_Times,
+    fr:Sym_Thursday_Opening_Times, fr:Sym_Friday_Opening_Times .
+
+fr:Sym_Monday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Monday>;
+  fr:openingTime "09:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:Sym_Tuesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Tuesday>;
+  fr:openingTime "09:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:Sym_Wednesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Wednesday>;
+  fr:openingTime "09:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:Sym_Thursday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Thursday>;
+  fr:openingTime "09:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:Sym_Friday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Friday>;
+  fr:openingTime "09:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:HG_Main_Entrance a fr:Entrance;
+  fr:locatedIn fr:VU_Main_building .
+
+fr:VU_Main_building a fr:Building;
+  fr:openingTime fr:HG_Main_Entrance_Monday_Opening_Times, fr:HG_Main_Entrance_Tuesday_Opening_Times,
+    fr:HG_Main_Entrance_Wednesday_Opening_Times, fr:HG_Main_Entrance_Thursday_Opening_Times,
+    fr:HG_Main_Entrance_Friday_Opening_Times, fr:HG_Main_Entrance_Saturday_Opening_Times,
+    fr:HG_Main_Entrance_Sunday_Opening_Times, fr:HG_1101_Monday_Opening_Times, fr:HG_1101_Tuesday_Opening_Times,
+    fr:HG_1101_Wednesday_Opening_Times, fr:HG_1101_Thursday_Opening_Times, fr:HG_1101_Friday_Opening_Times,
+    fr:HG_1101_Saturday_Opening_Times, fr:HG_1101_Sunday_Opening_Times, fr:HG_basement_Monday_Opening_Times,
+    fr:HG_basement_Tuesday_Opening_Times, fr:HG_basement_Wednesday_Opening_Times, fr:HG_basement_Thursday_Opening_Times,
+    fr:HG_basement_Friday_Opening_Times, fr:HG_basement_Saturday_Opening_Times, fr:HG_basement_Sunday_Opening_Times,
+    fr:HG_BelleVUe_Monday_Opening_Times, fr:HG_BelleVUe_Tuesday_Opening_Times, fr:HG_BelleVUe_Wednesday_Opening_Times,
+    fr:HG_BelleVUe_Thursday_Opening_Times, fr:HG_BelleVUe_Friday_Opening_Times, fr:HG_BelleVUe_Saturday_Opening_Times,
+    fr:HG_BelleVUe_Sunday_Opening_Times .
+
+fr:HG_Main_Entrance_Monday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Monday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:23%3A00%3A00 "23:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:HG_Main_Entrance_Tuesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Tuesday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:23%3A00%3A00 "23:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:HG_Main_Entrance_Wednesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Wednesday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:23%3A00%3A00 "23:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:HG_Main_Entrance_Thursday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Thursday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:23%3A00%3A00 "23:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:HG_Main_Entrance_Friday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Friday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:23%3A00%3A00 "23:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:HG_Main_Entrance_Saturday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Saturday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:23%3A00%3A00 "23:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:HG_Main_Entrance_Sunday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Sunday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:23%3A00%3A00 "23:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:HG_De_Boelelaan_1101_Entrance a fr:Entrance;
+  fr:locatedIn fr:VU_Main_building .
+
+fr:HG_1101_Monday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Monday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:HG_1101_Tuesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Tuesday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:HG_1101_Wednesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Wednesday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:HG_1101_Thursday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Thursday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:HG_1101_Friday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Friday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:HG_1101_Saturday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Saturday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:HG_1101_Sunday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Sunday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:HG_basement_Entrance a fr:Entrance;
+  fr:locatedIn fr:VU_Main_building .
+
+fr:HG_basement_Monday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Monday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:HG_basement_Tuesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Tuesday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:HG_basement_Wednesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Wednesday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:HG_basement_Thursday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Thursday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:HG_basement_Friday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Friday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:HG_basement_Saturday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Saturday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:HG_basement_Sunday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Sunday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:HG_BelleVUe_Entrance a fr:Entrance;
+  fr:locatedIn fr:VU_Main_building .
+
+fr:HG_BelleVUe_Monday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Monday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:HG_BelleVUe_Tuesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Tuesday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:HG_BelleVUe_Wednesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Wednesday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:HG_BelleVUe_Thursday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Thursday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:HG_BelleVUe_Friday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Friday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:HG_BelleVUe_Saturday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Saturday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:HG_BelleVUe_Sunday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Sunday>;
+  fr:openingTime "07:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:VU_Sports_Centre_Uilenstede a fr:Building;
+  fr:openingTime fr:Sports_Centre_Uilenstede_Monday_Opening_Times, fr:Sports_Centre_Uilenstede_Tuesday_Opening_Times,
+    fr:Sports_Centre_Uilenstede_Wednesday_Opening_Times, fr:Sports_Centre_Uilenstede_Thursday_Opening_Times,
+    fr:Sports_Centre_Uilenstede_Friday_Opening_Times, fr:Sports_Centre_Uilenstede_Saturday_Opening_Times,
+    fr:Sports_Centre_Uilenstede_Sunday_Opening_Times .
+
+fr:Sports_Centre_Uilenstede_Monday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Monday>;
+  fr:openingTime "08:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:23%3A00%3A00 "23:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:Sports_Centre_Uilenstede_Tuesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Tuesday>;
+  fr:openingTime "08:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:23%3A00%3A00 "23:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:Sports_Centre_Uilenstede_Wednesday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Wednesday>;
+  fr:openingTime "08:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:23%3A00%3A00 "23:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:Sports_Centre_Uilenstede_Thursday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Thursday>;
+  fr:openingTime "08:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:23%3A00%3A00 "23:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:Sports_Centre_Uilenstede_Friday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Friday>;
+  fr:openingTime "08:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:23%3A00%3A00 "23:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:Sports_Centre_Uilenstede_Saturday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Saturday>;
+  fr:openingTime "10:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .
+
+fr:Sports_Centre_Uilenstede_Sunday_Opening_Times a fr:OpeningTimes;
+  fr:openOnDay <https://www.w3.org/TR/owl-time/#time:Sunday>;
+  fr:openingTime "10:00:00"^^<http://www.w3.org/2001/XMLSchematime>;
+  fr:18%3A00%3A00 "18:00:00"^^<http://www.w3.org/2001/XMLSchematime> .

@@ -1,0 +1,4612 @@
+@base <http://www.semanticweb.org/firefighting/> .
+@prefix fr: <http://www.semanticweb.org/firefighting/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+
+fr:VU_Main_building fr:hasBuildingCode "HG"^^<http://www.w3.org/2001/XMLSchemastring> .
+
+fr:HG0 a fr:Floor;
+  fr:locatedIn fr:VU_Main_building .
+
+fr:HG-A001 a fr:Room;
+  fr:locatedIn fr:HG0 .
+
+fr:HG-A002 a fr:Room;
+  fr:locatedIn fr:HG0 .
+
+fr:HG-B003 a fr:Room;
+  fr:locatedIn fr:HG0 .
+
+fr:HG-D004 a fr:Room;
+  fr:locatedIn fr:HG0 .
+
+fr:HG-A005 a fr:Room;
+  fr:locatedIn fr:HG0 .
+
+fr:HG-C006 a fr:Room;
+  fr:locatedIn fr:HG0 .
+
+fr:HG-C007 a fr:Room;
+  fr:locatedIn fr:HG0 .
+
+fr:HG-C008 a fr:Room;
+  fr:locatedIn fr:HG0 .
+
+fr:HG-B009 a fr:Room;
+  fr:locatedIn fr:HG0 .
+
+fr:HG-C010 a fr:Room;
+  fr:locatedIn fr:HG0 .
+
+fr:HG-B011 a fr:Room;
+  fr:locatedIn fr:HG0 .
+
+fr:HG-C012 a fr:Room;
+  fr:locatedIn fr:HG0 .
+
+fr:HG-D013 a fr:Room;
+  fr:locatedIn fr:HG0 .
+
+fr:HG-C014 a fr:Room;
+  fr:locatedIn fr:HG0 .
+
+fr:HG-C015 a fr:Room;
+  fr:locatedIn fr:HG0 .
+
+fr:HG1 a fr:Floor;
+  fr:locatedIn fr:VU_Main_building .
+
+fr:HG-D101 a fr:Room;
+  fr:locatedIn fr:HG1 .
+
+fr:HG-D102 a fr:Room;
+  fr:locatedIn fr:HG1 .
+
+fr:HG-B103 a fr:Room;
+  fr:locatedIn fr:HG1 .
+
+fr:HG-D104 a fr:Room;
+  fr:locatedIn fr:HG1 .
+
+fr:HG-C105 a fr:Room;
+  fr:locatedIn fr:HG1 .
+
+fr:HG-C106 a fr:Room;
+  fr:locatedIn fr:HG1 .
+
+fr:HG-D107 a fr:Room;
+  fr:locatedIn fr:HG1 .
+
+fr:HG-C108 a fr:Room;
+  fr:locatedIn fr:HG1 .
+
+fr:HG-D109 a fr:Room;
+  fr:locatedIn fr:HG1 .
+
+fr:HG-B110 a fr:Room;
+  fr:locatedIn fr:HG1 .
+
+fr:HG-B111 a fr:Room;
+  fr:locatedIn fr:HG1 .
+
+fr:HG-B112 a fr:Room;
+  fr:locatedIn fr:HG1 .
+
+fr:HG2 a fr:Floor;
+  fr:locatedIn fr:VU_Main_building .
+
+fr:HG-C201 a fr:Room;
+  fr:locatedIn fr:HG2 .
+
+fr:HG-B202 a fr:Room;
+  fr:locatedIn fr:HG2 .
+
+fr:HG-D203 a fr:Room;
+  fr:locatedIn fr:HG2 .
+
+fr:HG-D204 a fr:Room;
+  fr:locatedIn fr:HG2 .
+
+fr:HG-B205 a fr:Room;
+  fr:locatedIn fr:HG2 .
+
+fr:HG-B206 a fr:Room;
+  fr:locatedIn fr:HG2 .
+
+fr:HG-B207 a fr:Room;
+  fr:locatedIn fr:HG2 .
+
+fr:HG-D208 a fr:Room;
+  fr:locatedIn fr:HG2 .
+
+fr:HG-A209 a fr:Room;
+  fr:locatedIn fr:HG2 .
+
+fr:HG-B210 a fr:Room;
+  fr:locatedIn fr:HG2 .
+
+fr:HG-D211 a fr:Room;
+  fr:locatedIn fr:HG2 .
+
+fr:HG3 a fr:Floor;
+  fr:locatedIn fr:VU_Main_building .
+
+fr:HG-B301 a fr:Room;
+  fr:locatedIn fr:HG3 .
+
+fr:HG-C302 a fr:Room;
+  fr:locatedIn fr:HG3 .
+
+fr:HG-D303 a fr:Room;
+  fr:locatedIn fr:HG3 .
+
+fr:HG-C304 a fr:Room;
+  fr:locatedIn fr:HG3 .
+
+fr:HG-C305 a fr:Room;
+  fr:locatedIn fr:HG3 .
+
+fr:HG-A306 a fr:Room;
+  fr:locatedIn fr:HG3 .
+
+fr:HG-D307 a fr:Room;
+  fr:locatedIn fr:HG3 .
+
+fr:HG-A308 a fr:Room;
+  fr:locatedIn fr:HG3 .
+
+fr:HG-B309 a fr:Room;
+  fr:locatedIn fr:HG3 .
+
+fr:HG-A310 a fr:Room;
+  fr:locatedIn fr:HG3 .
+
+fr:HG-B311 a fr:Room;
+  fr:locatedIn fr:HG3 .
+
+fr:HG-C312 a fr:Room;
+  fr:locatedIn fr:HG3 .
+
+fr:HG-D313 a fr:Room;
+  fr:locatedIn fr:HG3 .
+
+fr:HG-A314 a fr:Room;
+  fr:locatedIn fr:HG3 .
+
+fr:HG-D315 a fr:Room;
+  fr:locatedIn fr:HG3 .
+
+fr:HG-C316 a fr:Room;
+  fr:locatedIn fr:HG3 .
+
+fr:HG-C317 a fr:Room;
+  fr:locatedIn fr:HG3 .
+
+fr:HG4 a fr:Floor;
+  fr:locatedIn fr:VU_Main_building .
+
+fr:HG-C401 a fr:Room;
+  fr:locatedIn fr:HG4 .
+
+fr:HG-C402 a fr:Room;
+  fr:locatedIn fr:HG4 .
+
+fr:HG-C403 a fr:Room;
+  fr:locatedIn fr:HG4 .
+
+fr:HG-A404 a fr:Room;
+  fr:locatedIn fr:HG4 .
+
+fr:HG-D405 a fr:Room;
+  fr:locatedIn fr:HG4 .
+
+fr:HG-A406 a fr:Room;
+  fr:locatedIn fr:HG4 .
+
+fr:HG-C407 a fr:Room;
+  fr:locatedIn fr:HG4 .
+
+fr:HG-B408 a fr:Room;
+  fr:locatedIn fr:HG4 .
+
+fr:HG-B409 a fr:Room;
+  fr:locatedIn fr:HG4 .
+
+fr:HG-C410 a fr:Room;
+  fr:locatedIn fr:HG4 .
+
+fr:HG-C411 a fr:Room;
+  fr:locatedIn fr:HG4 .
+
+fr:HG-C412 a fr:Room;
+  fr:locatedIn fr:HG4 .
+
+fr:HG-D413 a fr:Room;
+  fr:locatedIn fr:HG4 .
+
+fr:HG-D414 a fr:Room;
+  fr:locatedIn fr:HG4 .
+
+fr:HG-A415 a fr:Room;
+  fr:locatedIn fr:HG4 .
+
+fr:HG5 a fr:Floor;
+  fr:locatedIn fr:VU_Main_building .
+
+fr:HG-C501 a fr:Room;
+  fr:locatedIn fr:HG5 .
+
+fr:HG-D502 a fr:Room;
+  fr:locatedIn fr:HG5 .
+
+fr:HG-B503 a fr:Room;
+  fr:locatedIn fr:HG5 .
+
+fr:HG-B504 a fr:Room;
+  fr:locatedIn fr:HG5 .
+
+fr:HG-C505 a fr:Room;
+  fr:locatedIn fr:HG5 .
+
+fr:HG-D506 a fr:Room;
+  fr:locatedIn fr:HG5 .
+
+fr:HG-D507 a fr:Room;
+  fr:locatedIn fr:HG5 .
+
+fr:HG-A508 a fr:Room;
+  fr:locatedIn fr:HG5 .
+
+fr:HG-A509 a fr:Room;
+  fr:locatedIn fr:HG5 .
+
+fr:HG-B510 a fr:Room;
+  fr:locatedIn fr:HG5 .
+
+fr:HG-C511 a fr:Room;
+  fr:locatedIn fr:HG5 .
+
+fr:HG-B512 a fr:Room;
+  fr:locatedIn fr:HG5 .
+
+fr:HG-C513 a fr:Room;
+  fr:locatedIn fr:HG5 .
+
+fr:HG-C514 a fr:Room;
+  fr:locatedIn fr:HG5 .
+
+fr:HG-C515 a fr:Room;
+  fr:locatedIn fr:HG5 .
+
+fr:HG-C516 a fr:Room;
+  fr:locatedIn fr:HG5 .
+
+fr:HG6 a fr:Floor;
+  fr:locatedIn fr:VU_Main_building .
+
+fr:HG-D601 a fr:Room;
+  fr:locatedIn fr:HG6 .
+
+fr:HG-C602 a fr:Room;
+  fr:locatedIn fr:HG6 .
+
+fr:HG-D603 a fr:Room;
+  fr:locatedIn fr:HG6 .
+
+fr:HG-C604 a fr:Room;
+  fr:locatedIn fr:HG6 .
+
+fr:HG-D605 a fr:Room;
+  fr:locatedIn fr:HG6 .
+
+fr:HG-D606 a fr:Room;
+  fr:locatedIn fr:HG6 .
+
+fr:HG-B607 a fr:Room;
+  fr:locatedIn fr:HG6 .
+
+fr:HG-B608 a fr:Room;
+  fr:locatedIn fr:HG6 .
+
+fr:HG-A609 a fr:Room;
+  fr:locatedIn fr:HG6 .
+
+fr:HG-B610 a fr:Room;
+  fr:locatedIn fr:HG6 .
+
+fr:HG-B611 a fr:Room;
+  fr:locatedIn fr:HG6 .
+
+fr:HG-C612 a fr:Room;
+  fr:locatedIn fr:HG6 .
+
+fr:HG-A613 a fr:Room;
+  fr:locatedIn fr:HG6 .
+
+fr:HG-B614 a fr:Room;
+  fr:locatedIn fr:HG6 .
+
+fr:HG-B615 a fr:Room;
+  fr:locatedIn fr:HG6 .
+
+fr:HG-D616 a fr:Room;
+  fr:locatedIn fr:HG6 .
+
+fr:HG-A617 a fr:Room;
+  fr:locatedIn fr:HG6 .
+
+fr:HG-A618 a fr:Room;
+  fr:locatedIn fr:HG6 .
+
+fr:HG-A619 a fr:Room;
+  fr:locatedIn fr:HG6 .
+
+fr:HG7 a fr:Floor;
+  fr:locatedIn fr:VU_Main_building .
+
+fr:HG-A701 a fr:Room;
+  fr:locatedIn fr:HG7 .
+
+fr:HG-A702 a fr:Room;
+  fr:locatedIn fr:HG7 .
+
+fr:HG-D703 a fr:Room;
+  fr:locatedIn fr:HG7 .
+
+fr:HG-A704 a fr:Room;
+  fr:locatedIn fr:HG7 .
+
+fr:HG-A705 a fr:Room;
+  fr:locatedIn fr:HG7 .
+
+fr:HG-C706 a fr:Room;
+  fr:locatedIn fr:HG7 .
+
+fr:HG-B707 a fr:Room;
+  fr:locatedIn fr:HG7 .
+
+fr:HG-A708 a fr:Room;
+  fr:locatedIn fr:HG7 .
+
+fr:HG-D709 a fr:Room;
+  fr:locatedIn fr:HG7 .
+
+fr:HG-C710 a fr:Room;
+  fr:locatedIn fr:HG7 .
+
+fr:HG-B711 a fr:Room;
+  fr:locatedIn fr:HG7 .
+
+fr:HG-B712 a fr:Room;
+  fr:locatedIn fr:HG7 .
+
+fr:HG-C713 a fr:Room;
+  fr:locatedIn fr:HG7 .
+
+fr:HG-D714 a fr:Room;
+  fr:locatedIn fr:HG7 .
+
+fr:HG-B715 a fr:Room;
+  fr:locatedIn fr:HG7 .
+
+fr:HG-B716 a fr:Room;
+  fr:locatedIn fr:HG7 .
+
+fr:HG-B717 a fr:Room;
+  fr:locatedIn fr:HG7 .
+
+fr:HG8 a fr:Floor;
+  fr:locatedIn fr:VU_Main_building .
+
+fr:HG-A801 a fr:Room;
+  fr:locatedIn fr:HG8 .
+
+fr:HG-C802 a fr:Room;
+  fr:locatedIn fr:HG8 .
+
+fr:HG-C803 a fr:Room;
+  fr:locatedIn fr:HG8 .
+
+fr:HG-D804 a fr:Room;
+  fr:locatedIn fr:HG8 .
+
+fr:HG-D805 a fr:Room;
+  fr:locatedIn fr:HG8 .
+
+fr:HG-C806 a fr:Room;
+  fr:locatedIn fr:HG8 .
+
+fr:HG-D807 a fr:Room;
+  fr:locatedIn fr:HG8 .
+
+fr:HG-B808 a fr:Room;
+  fr:locatedIn fr:HG8 .
+
+fr:HG-B809 a fr:Room;
+  fr:locatedIn fr:HG8 .
+
+fr:HG-D810 a fr:Room;
+  fr:locatedIn fr:HG8 .
+
+fr:HG9 a fr:Floor;
+  fr:locatedIn fr:VU_Main_building .
+
+fr:HG-D901 a fr:Room;
+  fr:locatedIn fr:HG9 .
+
+fr:HG-C902 a fr:Room;
+  fr:locatedIn fr:HG9 .
+
+fr:HG-C903 a fr:Room;
+  fr:locatedIn fr:HG9 .
+
+fr:HG-D904 a fr:Room;
+  fr:locatedIn fr:HG9 .
+
+fr:HG-B905 a fr:Room;
+  fr:locatedIn fr:HG9 .
+
+fr:HG-A906 a fr:Room;
+  fr:locatedIn fr:HG9 .
+
+fr:HG-D907 a fr:Room;
+  fr:locatedIn fr:HG9 .
+
+fr:HG-C908 a fr:Room;
+  fr:locatedIn fr:HG9 .
+
+fr:HG-C909 a fr:Room;
+  fr:locatedIn fr:HG9 .
+
+fr:HG-D910 a fr:Room;
+  fr:locatedIn fr:HG9 .
+
+fr:HG-C911 a fr:Room;
+  fr:locatedIn fr:HG9 .
+
+fr:HG-B912 a fr:Room;
+  fr:locatedIn fr:HG9 .
+
+fr:HG-C913 a fr:Room;
+  fr:locatedIn fr:HG9 .
+
+fr:HG-A914 a fr:Room;
+  fr:locatedIn fr:HG9 .
+
+fr:HG-A915 a fr:Room;
+  fr:locatedIn fr:HG9 .
+
+fr:HG-B916 a fr:Room;
+  fr:locatedIn fr:HG9 .
+
+fr:HG-C917 a fr:Room;
+  fr:locatedIn fr:HG9 .
+
+fr:HG-C918 a fr:Room;
+  fr:locatedIn fr:HG9 .
+
+fr:HG-D919 a fr:Room;
+  fr:locatedIn fr:HG9 .
+
+fr:HG-A920 a fr:Room;
+  fr:locatedIn fr:HG9 .
+
+fr:HG10 a fr:Floor;
+  fr:locatedIn fr:VU_Main_building .
+
+fr:HG-D1001 a fr:Room;
+  fr:locatedIn fr:HG10 .
+
+fr:HG-C1002 a fr:Room;
+  fr:locatedIn fr:HG10 .
+
+fr:HG-A1003 a fr:Room;
+  fr:locatedIn fr:HG10 .
+
+fr:HG-D1004 a fr:Room;
+  fr:locatedIn fr:HG10 .
+
+fr:HG-C1005 a fr:Room;
+  fr:locatedIn fr:HG10 .
+
+fr:HG-B1006 a fr:Room;
+  fr:locatedIn fr:HG10 .
+
+fr:HG-A1007 a fr:Room;
+  fr:locatedIn fr:HG10 .
+
+fr:HG-C1008 a fr:Room;
+  fr:locatedIn fr:HG10 .
+
+fr:HG-B1009 a fr:Room;
+  fr:locatedIn fr:HG10 .
+
+fr:HG-D1010 a fr:Room;
+  fr:locatedIn fr:HG10 .
+
+fr:HG-D1011 a fr:Room;
+  fr:locatedIn fr:HG10 .
+
+fr:HG-D1012 a fr:Room;
+  fr:locatedIn fr:HG10 .
+
+fr:HG-B1013 a fr:Room;
+  fr:locatedIn fr:HG10 .
+
+fr:HG-B1014 a fr:Room;
+  fr:locatedIn fr:HG10 .
+
+fr:HG-D1015 a fr:Room;
+  fr:locatedIn fr:HG10 .
+
+fr:HG-D1016 a fr:Room;
+  fr:locatedIn fr:HG10 .
+
+fr:HG-B1017 a fr:Room;
+  fr:locatedIn fr:HG10 .
+
+fr:HG11 a fr:Floor;
+  fr:locatedIn fr:VU_Main_building .
+
+fr:HG-A1101 a fr:Room;
+  fr:locatedIn fr:HG11 .
+
+fr:HG-D1102 a fr:Room;
+  fr:locatedIn fr:HG11 .
+
+fr:HG-B1103 a fr:Room;
+  fr:locatedIn fr:HG11 .
+
+fr:HG-C1104 a fr:Room;
+  fr:locatedIn fr:HG11 .
+
+fr:HG-C1105 a fr:Room;
+  fr:locatedIn fr:HG11 .
+
+fr:HG-C1106 a fr:Room;
+  fr:locatedIn fr:HG11 .
+
+fr:HG-D1107 a fr:Room;
+  fr:locatedIn fr:HG11 .
+
+fr:HG-B1108 a fr:Room;
+  fr:locatedIn fr:HG11 .
+
+fr:HG-A1109 a fr:Room;
+  fr:locatedIn fr:HG11 .
+
+fr:HG-B1110 a fr:Room;
+  fr:locatedIn fr:HG11 .
+
+fr:HG-B1111 a fr:Room;
+  fr:locatedIn fr:HG11 .
+
+fr:HG-C1112 a fr:Room;
+  fr:locatedIn fr:HG11 .
+
+fr:HG-A1113 a fr:Room;
+  fr:locatedIn fr:HG11 .
+
+fr:HG-D1114 a fr:Room;
+  fr:locatedIn fr:HG11 .
+
+fr:HG12 a fr:Floor;
+  fr:locatedIn fr:VU_Main_building .
+
+fr:HG-D1201 a fr:Room;
+  fr:locatedIn fr:HG12 .
+
+fr:HG-C1202 a fr:Room;
+  fr:locatedIn fr:HG12 .
+
+fr:HG-D1203 a fr:Room;
+  fr:locatedIn fr:HG12 .
+
+fr:HG-B1204 a fr:Room;
+  fr:locatedIn fr:HG12 .
+
+fr:HG-C1205 a fr:Room;
+  fr:locatedIn fr:HG12 .
+
+fr:HG-A1206 a fr:Room;
+  fr:locatedIn fr:HG12 .
+
+fr:HG-B1207 a fr:Room;
+  fr:locatedIn fr:HG12 .
+
+fr:HG-A1208 a fr:Room;
+  fr:locatedIn fr:HG12 .
+
+fr:HG-A1209 a fr:Room;
+  fr:locatedIn fr:HG12 .
+
+fr:HG-B1210 a fr:Room;
+  fr:locatedIn fr:HG12 .
+
+fr:HG-A1211 a fr:Room;
+  fr:locatedIn fr:HG12 .
+
+fr:HG-C1212 a fr:Room;
+  fr:locatedIn fr:HG12 .
+
+fr:HG-C1213 a fr:Room;
+  fr:locatedIn fr:HG12 .
+
+fr:HG-B1214 a fr:Room;
+  fr:locatedIn fr:HG12 .
+
+fr:HG-D1215 a fr:Room;
+  fr:locatedIn fr:HG12 .
+
+fr:HG-A1216 a fr:Room;
+  fr:locatedIn fr:HG12 .
+
+fr:HG-B1217 a fr:Room;
+  fr:locatedIn fr:HG12 .
+
+fr:HG-A1218 a fr:Room;
+  fr:locatedIn fr:HG12 .
+
+fr:HG-B1219 a fr:Room;
+  fr:locatedIn fr:HG12 .
+
+fr:HG13 a fr:Floor;
+  fr:locatedIn fr:VU_Main_building .
+
+fr:HG-D1301 a fr:Room;
+  fr:locatedIn fr:HG13 .
+
+fr:HG-B1302 a fr:Room;
+  fr:locatedIn fr:HG13 .
+
+fr:HG-C1303 a fr:Room;
+  fr:locatedIn fr:HG13 .
+
+fr:HG-D1304 a fr:Room;
+  fr:locatedIn fr:HG13 .
+
+fr:HG-C1305 a fr:Room;
+  fr:locatedIn fr:HG13 .
+
+fr:HG-D1306 a fr:Room;
+  fr:locatedIn fr:HG13 .
+
+fr:HG-C1307 a fr:Room;
+  fr:locatedIn fr:HG13 .
+
+fr:HG-D1308 a fr:Room;
+  fr:locatedIn fr:HG13 .
+
+fr:HG-A1309 a fr:Room;
+  fr:locatedIn fr:HG13 .
+
+fr:HG-C1310 a fr:Room;
+  fr:locatedIn fr:HG13 .
+
+fr:HG14 a fr:Floor;
+  fr:locatedIn fr:VU_Main_building .
+
+fr:HG-B1401 a fr:Room;
+  fr:locatedIn fr:HG14 .
+
+fr:HG-A1402 a fr:Room;
+  fr:locatedIn fr:HG14 .
+
+fr:HG-C1403 a fr:Room;
+  fr:locatedIn fr:HG14 .
+
+fr:HG-D1404 a fr:Room;
+  fr:locatedIn fr:HG14 .
+
+fr:HG-A1405 a fr:Room;
+  fr:locatedIn fr:HG14 .
+
+fr:HG-D1406 a fr:Room;
+  fr:locatedIn fr:HG14 .
+
+fr:HG-B1407 a fr:Room;
+  fr:locatedIn fr:HG14 .
+
+fr:HG-B1408 a fr:Room;
+  fr:locatedIn fr:HG14 .
+
+fr:HG-C1409 a fr:Room;
+  fr:locatedIn fr:HG14 .
+
+fr:HG-D1410 a fr:Room;
+  fr:locatedIn fr:HG14 .
+
+fr:HG-A1411 a fr:Room;
+  fr:locatedIn fr:HG14 .
+
+fr:W%26N_building fr:hasBuildingCode "WN"^^<http://www.w3.org/2001/XMLSchemastring> .
+
+fr:WN0 a fr:Floor;
+  fr:locatedIn fr:W%26N_building .
+
+fr:WN-B001 a fr:Room;
+  fr:locatedIn fr:WN0 .
+
+fr:WN-D002 a fr:Room;
+  fr:locatedIn fr:WN0 .
+
+fr:WN-D003 a fr:Room;
+  fr:locatedIn fr:WN0 .
+
+fr:WN-B004 a fr:Room;
+  fr:locatedIn fr:WN0 .
+
+fr:WN-A005 a fr:Room;
+  fr:locatedIn fr:WN0 .
+
+fr:WN-B006 a fr:Room;
+  fr:locatedIn fr:WN0 .
+
+fr:WN-D007 a fr:Room;
+  fr:locatedIn fr:WN0 .
+
+fr:WN-A008 a fr:Room;
+  fr:locatedIn fr:WN0 .
+
+fr:WN-B009 a fr:Room;
+  fr:locatedIn fr:WN0 .
+
+fr:WN-D010 a fr:Room;
+  fr:locatedIn fr:WN0 .
+
+fr:WN-D011 a fr:Room;
+  fr:locatedIn fr:WN0 .
+
+fr:WN1 a fr:Floor;
+  fr:locatedIn fr:W%26N_building .
+
+fr:WN-C101 a fr:Room;
+  fr:locatedIn fr:WN1 .
+
+fr:WN-C102 a fr:Room;
+  fr:locatedIn fr:WN1 .
+
+fr:WN-B103 a fr:Room;
+  fr:locatedIn fr:WN1 .
+
+fr:WN-A104 a fr:Room;
+  fr:locatedIn fr:WN1 .
+
+fr:WN-A105 a fr:Room;
+  fr:locatedIn fr:WN1 .
+
+fr:WN-C106 a fr:Room;
+  fr:locatedIn fr:WN1 .
+
+fr:WN-D107 a fr:Room;
+  fr:locatedIn fr:WN1 .
+
+fr:WN-C108 a fr:Room;
+  fr:locatedIn fr:WN1 .
+
+fr:WN-B109 a fr:Room;
+  fr:locatedIn fr:WN1 .
+
+fr:WN-C110 a fr:Room;
+  fr:locatedIn fr:WN1 .
+
+fr:WN-A111 a fr:Room;
+  fr:locatedIn fr:WN1 .
+
+fr:WN-B112 a fr:Room;
+  fr:locatedIn fr:WN1 .
+
+fr:WN-A113 a fr:Room;
+  fr:locatedIn fr:WN1 .
+
+fr:WN-B114 a fr:Room;
+  fr:locatedIn fr:WN1 .
+
+fr:WN-D115 a fr:Room;
+  fr:locatedIn fr:WN1 .
+
+fr:WN-C116 a fr:Room;
+  fr:locatedIn fr:WN1 .
+
+fr:WN-A117 a fr:Room;
+  fr:locatedIn fr:WN1 .
+
+fr:WN-B118 a fr:Room;
+  fr:locatedIn fr:WN1 .
+
+fr:WN-C119 a fr:Room;
+  fr:locatedIn fr:WN1 .
+
+fr:WN-A120 a fr:Room;
+  fr:locatedIn fr:WN1 .
+
+fr:WN2 a fr:Floor;
+  fr:locatedIn fr:W%26N_building .
+
+fr:WN-B201 a fr:Room;
+  fr:locatedIn fr:WN2 .
+
+fr:WN-A202 a fr:Room;
+  fr:locatedIn fr:WN2 .
+
+fr:WN-A203 a fr:Room;
+  fr:locatedIn fr:WN2 .
+
+fr:WN-D204 a fr:Room;
+  fr:locatedIn fr:WN2 .
+
+fr:WN-B205 a fr:Room;
+  fr:locatedIn fr:WN2 .
+
+fr:WN-C206 a fr:Room;
+  fr:locatedIn fr:WN2 .
+
+fr:WN-A207 a fr:Room;
+  fr:locatedIn fr:WN2 .
+
+fr:WN-B208 a fr:Room;
+  fr:locatedIn fr:WN2 .
+
+fr:WN-B209 a fr:Room;
+  fr:locatedIn fr:WN2 .
+
+fr:WN-D210 a fr:Room;
+  fr:locatedIn fr:WN2 .
+
+fr:WN-A211 a fr:Room;
+  fr:locatedIn fr:WN2 .
+
+fr:WN-C212 a fr:Room;
+  fr:locatedIn fr:WN2 .
+
+fr:WN-A213 a fr:Room;
+  fr:locatedIn fr:WN2 .
+
+fr:WN-A214 a fr:Room;
+  fr:locatedIn fr:WN2 .
+
+fr:WN-C215 a fr:Room;
+  fr:locatedIn fr:WN2 .
+
+fr:WN-B216 a fr:Room;
+  fr:locatedIn fr:WN2 .
+
+fr:WN3 a fr:Floor;
+  fr:locatedIn fr:W%26N_building .
+
+fr:WN-A301 a fr:Room;
+  fr:locatedIn fr:WN3 .
+
+fr:WN-B302 a fr:Room;
+  fr:locatedIn fr:WN3 .
+
+fr:WN-D303 a fr:Room;
+  fr:locatedIn fr:WN3 .
+
+fr:WN-B304 a fr:Room;
+  fr:locatedIn fr:WN3 .
+
+fr:WN-C305 a fr:Room;
+  fr:locatedIn fr:WN3 .
+
+fr:WN-C306 a fr:Room;
+  fr:locatedIn fr:WN3 .
+
+fr:WN-D307 a fr:Room;
+  fr:locatedIn fr:WN3 .
+
+fr:WN-B308 a fr:Room;
+  fr:locatedIn fr:WN3 .
+
+fr:WN-A309 a fr:Room;
+  fr:locatedIn fr:WN3 .
+
+fr:WN-D310 a fr:Room;
+  fr:locatedIn fr:WN3 .
+
+fr:WN-C311 a fr:Room;
+  fr:locatedIn fr:WN3 .
+
+fr:WN-B312 a fr:Room;
+  fr:locatedIn fr:WN3 .
+
+fr:WN-C313 a fr:Room;
+  fr:locatedIn fr:WN3 .
+
+fr:WN-A314 a fr:Room;
+  fr:locatedIn fr:WN3 .
+
+fr:WN-D315 a fr:Room;
+  fr:locatedIn fr:WN3 .
+
+fr:WN-D316 a fr:Room;
+  fr:locatedIn fr:WN3 .
+
+fr:WN-C317 a fr:Room;
+  fr:locatedIn fr:WN3 .
+
+fr:WN-D318 a fr:Room;
+  fr:locatedIn fr:WN3 .
+
+fr:WN4 a fr:Floor;
+  fr:locatedIn fr:W%26N_building .
+
+fr:WN-B401 a fr:Room;
+  fr:locatedIn fr:WN4 .
+
+fr:WN-C402 a fr:Room;
+  fr:locatedIn fr:WN4 .
+
+fr:WN-C403 a fr:Room;
+  fr:locatedIn fr:WN4 .
+
+fr:WN-D404 a fr:Room;
+  fr:locatedIn fr:WN4 .
+
+fr:WN-C405 a fr:Room;
+  fr:locatedIn fr:WN4 .
+
+fr:WN-B406 a fr:Room;
+  fr:locatedIn fr:WN4 .
+
+fr:WN-A407 a fr:Room;
+  fr:locatedIn fr:WN4 .
+
+fr:WN-B408 a fr:Room;
+  fr:locatedIn fr:WN4 .
+
+fr:WN-D409 a fr:Room;
+  fr:locatedIn fr:WN4 .
+
+fr:WN-C410 a fr:Room;
+  fr:locatedIn fr:WN4 .
+
+fr:WN-C411 a fr:Room;
+  fr:locatedIn fr:WN4 .
+
+fr:WN-C412 a fr:Room;
+  fr:locatedIn fr:WN4 .
+
+fr:WN-D413 a fr:Room;
+  fr:locatedIn fr:WN4 .
+
+fr:WN5 a fr:Floor;
+  fr:locatedIn fr:W%26N_building .
+
+fr:WN-D501 a fr:Room;
+  fr:locatedIn fr:WN5 .
+
+fr:WN-B502 a fr:Room;
+  fr:locatedIn fr:WN5 .
+
+fr:WN-A503 a fr:Room;
+  fr:locatedIn fr:WN5 .
+
+fr:WN-C504 a fr:Room;
+  fr:locatedIn fr:WN5 .
+
+fr:WN-B505 a fr:Room;
+  fr:locatedIn fr:WN5 .
+
+fr:WN-C506 a fr:Room;
+  fr:locatedIn fr:WN5 .
+
+fr:WN-A507 a fr:Room;
+  fr:locatedIn fr:WN5 .
+
+fr:WN-D508 a fr:Room;
+  fr:locatedIn fr:WN5 .
+
+fr:WN-B509 a fr:Room;
+  fr:locatedIn fr:WN5 .
+
+fr:WN-D510 a fr:Room;
+  fr:locatedIn fr:WN5 .
+
+fr:WN6 a fr:Floor;
+  fr:locatedIn fr:W%26N_building .
+
+fr:WN-B601 a fr:Room;
+  fr:locatedIn fr:WN6 .
+
+fr:WN-C602 a fr:Room;
+  fr:locatedIn fr:WN6 .
+
+fr:WN-C603 a fr:Room;
+  fr:locatedIn fr:WN6 .
+
+fr:WN-D604 a fr:Room;
+  fr:locatedIn fr:WN6 .
+
+fr:WN-C605 a fr:Room;
+  fr:locatedIn fr:WN6 .
+
+fr:WN-A606 a fr:Room;
+  fr:locatedIn fr:WN6 .
+
+fr:WN-A607 a fr:Room;
+  fr:locatedIn fr:WN6 .
+
+fr:WN-A608 a fr:Room;
+  fr:locatedIn fr:WN6 .
+
+fr:WN-A609 a fr:Room;
+  fr:locatedIn fr:WN6 .
+
+fr:WN-B610 a fr:Room;
+  fr:locatedIn fr:WN6 .
+
+fr:WN-B611 a fr:Room;
+  fr:locatedIn fr:WN6 .
+
+fr:WN-A612 a fr:Room;
+  fr:locatedIn fr:WN6 .
+
+fr:WN-B613 a fr:Room;
+  fr:locatedIn fr:WN6 .
+
+fr:WN-A614 a fr:Room;
+  fr:locatedIn fr:WN6 .
+
+fr:WN-D615 a fr:Room;
+  fr:locatedIn fr:WN6 .
+
+fr:WN-B616 a fr:Room;
+  fr:locatedIn fr:WN6 .
+
+fr:WN-A617 a fr:Room;
+  fr:locatedIn fr:WN6 .
+
+fr:WN-A618 a fr:Room;
+  fr:locatedIn fr:WN6 .
+
+fr:WN7 a fr:Floor;
+  fr:locatedIn fr:W%26N_building .
+
+fr:WN-D701 a fr:Room;
+  fr:locatedIn fr:WN7 .
+
+fr:WN-D702 a fr:Room;
+  fr:locatedIn fr:WN7 .
+
+fr:WN-C703 a fr:Room;
+  fr:locatedIn fr:WN7 .
+
+fr:WN-A704 a fr:Room;
+  fr:locatedIn fr:WN7 .
+
+fr:WN-C705 a fr:Room;
+  fr:locatedIn fr:WN7 .
+
+fr:WN-B706 a fr:Room;
+  fr:locatedIn fr:WN7 .
+
+fr:WN-A707 a fr:Room;
+  fr:locatedIn fr:WN7 .
+
+fr:WN-A708 a fr:Room;
+  fr:locatedIn fr:WN7 .
+
+fr:WN-B709 a fr:Room;
+  fr:locatedIn fr:WN7 .
+
+fr:WN-D710 a fr:Room;
+  fr:locatedIn fr:WN7 .
+
+fr:WN-A711 a fr:Room;
+  fr:locatedIn fr:WN7 .
+
+fr:WN-D712 a fr:Room;
+  fr:locatedIn fr:WN7 .
+
+fr:WN-A713 a fr:Room;
+  fr:locatedIn fr:WN7 .
+
+fr:WN-C714 a fr:Room;
+  fr:locatedIn fr:WN7 .
+
+fr:WN-D715 a fr:Room;
+  fr:locatedIn fr:WN7 .
+
+fr:WN-C716 a fr:Room;
+  fr:locatedIn fr:WN7 .
+
+fr:WN-A717 a fr:Room;
+  fr:locatedIn fr:WN7 .
+
+fr:WN-C718 a fr:Room;
+  fr:locatedIn fr:WN7 .
+
+fr:WN-A719 a fr:Room;
+  fr:locatedIn fr:WN7 .
+
+fr:WN8 a fr:Floor;
+  fr:locatedIn fr:W%26N_building .
+
+fr:WN-C801 a fr:Room;
+  fr:locatedIn fr:WN8 .
+
+fr:WN-A802 a fr:Room;
+  fr:locatedIn fr:WN8 .
+
+fr:WN-B803 a fr:Room;
+  fr:locatedIn fr:WN8 .
+
+fr:WN-A804 a fr:Room;
+  fr:locatedIn fr:WN8 .
+
+fr:WN-A805 a fr:Room;
+  fr:locatedIn fr:WN8 .
+
+fr:WN-B806 a fr:Room;
+  fr:locatedIn fr:WN8 .
+
+fr:WN-D807 a fr:Room;
+  fr:locatedIn fr:WN8 .
+
+fr:WN-B808 a fr:Room;
+  fr:locatedIn fr:WN8 .
+
+fr:WN-B809 a fr:Room;
+  fr:locatedIn fr:WN8 .
+
+fr:WN-B810 a fr:Room;
+  fr:locatedIn fr:WN8 .
+
+fr:WN-B811 a fr:Room;
+  fr:locatedIn fr:WN8 .
+
+fr:WN9 a fr:Floor;
+  fr:locatedIn fr:W%26N_building .
+
+fr:WN-D901 a fr:Room;
+  fr:locatedIn fr:WN9 .
+
+fr:WN-A902 a fr:Room;
+  fr:locatedIn fr:WN9 .
+
+fr:WN-C903 a fr:Room;
+  fr:locatedIn fr:WN9 .
+
+fr:WN-D904 a fr:Room;
+  fr:locatedIn fr:WN9 .
+
+fr:WN-D905 a fr:Room;
+  fr:locatedIn fr:WN9 .
+
+fr:WN-A906 a fr:Room;
+  fr:locatedIn fr:WN9 .
+
+fr:WN-B907 a fr:Room;
+  fr:locatedIn fr:WN9 .
+
+fr:WN-B908 a fr:Room;
+  fr:locatedIn fr:WN9 .
+
+fr:WN-D909 a fr:Room;
+  fr:locatedIn fr:WN9 .
+
+fr:WN-C910 a fr:Room;
+  fr:locatedIn fr:WN9 .
+
+fr:WN-B911 a fr:Room;
+  fr:locatedIn fr:WN9 .
+
+fr:WN-D912 a fr:Room;
+  fr:locatedIn fr:WN9 .
+
+fr:WN-C913 a fr:Room;
+  fr:locatedIn fr:WN9 .
+
+fr:WN-C914 a fr:Room;
+  fr:locatedIn fr:WN9 .
+
+fr:WN-C915 a fr:Room;
+  fr:locatedIn fr:WN9 .
+
+fr:WN-C916 a fr:Room;
+  fr:locatedIn fr:WN9 .
+
+fr:WN-D917 a fr:Room;
+  fr:locatedIn fr:WN9 .
+
+fr:WN-D918 a fr:Room;
+  fr:locatedIn fr:WN9 .
+
+fr:WN10 a fr:Floor;
+  fr:locatedIn fr:W%26N_building .
+
+fr:WN-B1001 a fr:Room;
+  fr:locatedIn fr:WN10 .
+
+fr:WN-B1002 a fr:Room;
+  fr:locatedIn fr:WN10 .
+
+fr:WN-D1003 a fr:Room;
+  fr:locatedIn fr:WN10 .
+
+fr:WN-C1004 a fr:Room;
+  fr:locatedIn fr:WN10 .
+
+fr:WN-C1005 a fr:Room;
+  fr:locatedIn fr:WN10 .
+
+fr:WN-D1006 a fr:Room;
+  fr:locatedIn fr:WN10 .
+
+fr:WN-D1007 a fr:Room;
+  fr:locatedIn fr:WN10 .
+
+fr:WN-D1008 a fr:Room;
+  fr:locatedIn fr:WN10 .
+
+fr:WN-A1009 a fr:Room;
+  fr:locatedIn fr:WN10 .
+
+fr:WN-A1010 a fr:Room;
+  fr:locatedIn fr:WN10 .
+
+fr:WN-C1011 a fr:Room;
+  fr:locatedIn fr:WN10 .
+
+fr:WN-A1012 a fr:Room;
+  fr:locatedIn fr:WN10 .
+
+fr:WN-B1013 a fr:Room;
+  fr:locatedIn fr:WN10 .
+
+fr:WN-C1014 a fr:Room;
+  fr:locatedIn fr:WN10 .
+
+fr:WN-A1015 a fr:Room;
+  fr:locatedIn fr:WN10 .
+
+fr:New_university_building fr:hasBuildingCode "NU"^^<http://www.w3.org/2001/XMLSchemastring> .
+
+fr:NU0 a fr:Floor;
+  fr:locatedIn fr:New_university_building .
+
+fr:NU-B001 a fr:Room;
+  fr:locatedIn fr:NU0 .
+
+fr:NU-B002 a fr:Room;
+  fr:locatedIn fr:NU0 .
+
+fr:NU-C003 a fr:Room;
+  fr:locatedIn fr:NU0 .
+
+fr:NU-A004 a fr:Room;
+  fr:locatedIn fr:NU0 .
+
+fr:NU-C005 a fr:Room;
+  fr:locatedIn fr:NU0 .
+
+fr:NU-B006 a fr:Room;
+  fr:locatedIn fr:NU0 .
+
+fr:NU-A007 a fr:Room;
+  fr:locatedIn fr:NU0 .
+
+fr:NU-A008 a fr:Room;
+  fr:locatedIn fr:NU0 .
+
+fr:NU-D009 a fr:Room;
+  fr:locatedIn fr:NU0 .
+
+fr:NU-C010 a fr:Room;
+  fr:locatedIn fr:NU0 .
+
+fr:NU-B011 a fr:Room;
+  fr:locatedIn fr:NU0 .
+
+fr:NU-B012 a fr:Room;
+  fr:locatedIn fr:NU0 .
+
+fr:NU-C013 a fr:Room;
+  fr:locatedIn fr:NU0 .
+
+fr:NU-C014 a fr:Room;
+  fr:locatedIn fr:NU0 .
+
+fr:NU1 a fr:Floor;
+  fr:locatedIn fr:New_university_building .
+
+fr:NU-B101 a fr:Room;
+  fr:locatedIn fr:NU1 .
+
+fr:NU-B102 a fr:Room;
+  fr:locatedIn fr:NU1 .
+
+fr:NU-C103 a fr:Room;
+  fr:locatedIn fr:NU1 .
+
+fr:NU-C104 a fr:Room;
+  fr:locatedIn fr:NU1 .
+
+fr:NU-A105 a fr:Room;
+  fr:locatedIn fr:NU1 .
+
+fr:NU-D106 a fr:Room;
+  fr:locatedIn fr:NU1 .
+
+fr:NU-B107 a fr:Room;
+  fr:locatedIn fr:NU1 .
+
+fr:NU-A108 a fr:Room;
+  fr:locatedIn fr:NU1 .
+
+fr:NU-C109 a fr:Room;
+  fr:locatedIn fr:NU1 .
+
+fr:NU-D110 a fr:Room;
+  fr:locatedIn fr:NU1 .
+
+fr:NU-B111 a fr:Room;
+  fr:locatedIn fr:NU1 .
+
+fr:NU-D112 a fr:Room;
+  fr:locatedIn fr:NU1 .
+
+fr:NU-A113 a fr:Room;
+  fr:locatedIn fr:NU1 .
+
+fr:NU-C114 a fr:Room;
+  fr:locatedIn fr:NU1 .
+
+fr:NU-A115 a fr:Room;
+  fr:locatedIn fr:NU1 .
+
+fr:NU-D116 a fr:Room;
+  fr:locatedIn fr:NU1 .
+
+fr:NU-A117 a fr:Room;
+  fr:locatedIn fr:NU1 .
+
+fr:NU-A118 a fr:Room;
+  fr:locatedIn fr:NU1 .
+
+fr:NU-C119 a fr:Room;
+  fr:locatedIn fr:NU1 .
+
+fr:NU2 a fr:Floor;
+  fr:locatedIn fr:New_university_building .
+
+fr:NU-D201 a fr:Room;
+  fr:locatedIn fr:NU2 .
+
+fr:NU-D202 a fr:Room;
+  fr:locatedIn fr:NU2 .
+
+fr:NU-A203 a fr:Room;
+  fr:locatedIn fr:NU2 .
+
+fr:NU-B204 a fr:Room;
+  fr:locatedIn fr:NU2 .
+
+fr:NU-A205 a fr:Room;
+  fr:locatedIn fr:NU2 .
+
+fr:NU-D206 a fr:Room;
+  fr:locatedIn fr:NU2 .
+
+fr:NU-A207 a fr:Room;
+  fr:locatedIn fr:NU2 .
+
+fr:NU-C208 a fr:Room;
+  fr:locatedIn fr:NU2 .
+
+fr:NU-A209 a fr:Room;
+  fr:locatedIn fr:NU2 .
+
+fr:NU-C210 a fr:Room;
+  fr:locatedIn fr:NU2 .
+
+fr:NU-B211 a fr:Room;
+  fr:locatedIn fr:NU2 .
+
+fr:NU-C212 a fr:Room;
+  fr:locatedIn fr:NU2 .
+
+fr:NU-B213 a fr:Room;
+  fr:locatedIn fr:NU2 .
+
+fr:NU-B214 a fr:Room;
+  fr:locatedIn fr:NU2 .
+
+fr:NU-A215 a fr:Room;
+  fr:locatedIn fr:NU2 .
+
+fr:NU3 a fr:Floor;
+  fr:locatedIn fr:New_university_building .
+
+fr:NU-D301 a fr:Room;
+  fr:locatedIn fr:NU3 .
+
+fr:NU-D302 a fr:Room;
+  fr:locatedIn fr:NU3 .
+
+fr:NU-A303 a fr:Room;
+  fr:locatedIn fr:NU3 .
+
+fr:NU-B304 a fr:Room;
+  fr:locatedIn fr:NU3 .
+
+fr:NU-D305 a fr:Room;
+  fr:locatedIn fr:NU3 .
+
+fr:NU-C306 a fr:Room;
+  fr:locatedIn fr:NU3 .
+
+fr:NU-D307 a fr:Room;
+  fr:locatedIn fr:NU3 .
+
+fr:NU-B308 a fr:Room;
+  fr:locatedIn fr:NU3 .
+
+fr:NU-B309 a fr:Room;
+  fr:locatedIn fr:NU3 .
+
+fr:NU-C310 a fr:Room;
+  fr:locatedIn fr:NU3 .
+
+fr:NU-A311 a fr:Room;
+  fr:locatedIn fr:NU3 .
+
+fr:NU-D312 a fr:Room;
+  fr:locatedIn fr:NU3 .
+
+fr:NU-A313 a fr:Room;
+  fr:locatedIn fr:NU3 .
+
+fr:NU-D314 a fr:Room;
+  fr:locatedIn fr:NU3 .
+
+fr:NU-C315 a fr:Room;
+  fr:locatedIn fr:NU3 .
+
+fr:NU-A316 a fr:Room;
+  fr:locatedIn fr:NU3 .
+
+fr:NU-D317 a fr:Room;
+  fr:locatedIn fr:NU3 .
+
+fr:NU-D318 a fr:Room;
+  fr:locatedIn fr:NU3 .
+
+fr:NU-B319 a fr:Room;
+  fr:locatedIn fr:NU3 .
+
+fr:NU-B320 a fr:Room;
+  fr:locatedIn fr:NU3 .
+
+fr:NU4 a fr:Floor;
+  fr:locatedIn fr:New_university_building .
+
+fr:NU-B401 a fr:Room;
+  fr:locatedIn fr:NU4 .
+
+fr:NU-D402 a fr:Room;
+  fr:locatedIn fr:NU4 .
+
+fr:NU-D403 a fr:Room;
+  fr:locatedIn fr:NU4 .
+
+fr:NU-B404 a fr:Room;
+  fr:locatedIn fr:NU4 .
+
+fr:NU-B405 a fr:Room;
+  fr:locatedIn fr:NU4 .
+
+fr:NU-B406 a fr:Room;
+  fr:locatedIn fr:NU4 .
+
+fr:NU-A407 a fr:Room;
+  fr:locatedIn fr:NU4 .
+
+fr:NU-C408 fr:locatedIn fr:NU4 .
+
+fr:NU4 a fr:Floor;
+  fr:locatedIn fr:New_university_building .
+
+fr:NU-C408 a fr:Room .
+
+fr:New_university_building fr:hasBuildingCode "NU"^^<http://www.w3.org/2001/XMLSchemastring> .
+
+fr:NU-D409 a fr:Room;
+  fr:locatedIn fr:NU4 .
+
+fr:NU-C410 a fr:Room;
+  fr:locatedIn fr:NU4 .
+
+fr:NU-A411 a fr:Room;
+  fr:locatedIn fr:NU4 .
+
+fr:NU-A412 a fr:Room;
+  fr:locatedIn fr:NU4 .
+
+fr:NU-D413 a fr:Room;
+  fr:locatedIn fr:NU4 .
+
+fr:NU-D414 a fr:Room;
+  fr:locatedIn fr:NU4 .
+
+fr:NU-C415 a fr:Room;
+  fr:locatedIn fr:NU4 .
+
+fr:NU-C416 a fr:Room;
+  fr:locatedIn fr:NU4 .
+
+fr:NU-B417 a fr:Room;
+  fr:locatedIn fr:NU4 .
+
+fr:NU5 a fr:Floor;
+  fr:locatedIn fr:New_university_building .
+
+fr:NU-C501 a fr:Room;
+  fr:locatedIn fr:NU5 .
+
+fr:NU-A502 a fr:Room;
+  fr:locatedIn fr:NU5 .
+
+fr:NU-C503 a fr:Room;
+  fr:locatedIn fr:NU5 .
+
+fr:NU-B504 a fr:Room;
+  fr:locatedIn fr:NU5 .
+
+fr:NU-C505 a fr:Room;
+  fr:locatedIn fr:NU5 .
+
+fr:NU-D506 a fr:Room;
+  fr:locatedIn fr:NU5 .
+
+fr:NU-B507 a fr:Room;
+  fr:locatedIn fr:NU5 .
+
+fr:NU-D508 a fr:Room;
+  fr:locatedIn fr:NU5 .
+
+fr:NU-A509 a fr:Room;
+  fr:locatedIn fr:NU5 .
+
+fr:NU-B510 a fr:Room;
+  fr:locatedIn fr:NU5 .
+
+fr:NU-B511 a fr:Room;
+  fr:locatedIn fr:NU5 .
+
+fr:NU-C512 a fr:Room;
+  fr:locatedIn fr:NU5 .
+
+fr:NU-B513 a fr:Room;
+  fr:locatedIn fr:NU5 .
+
+fr:NU-A514 a fr:Room;
+  fr:locatedIn fr:NU5 .
+
+fr:NU-A515 a fr:Room;
+  fr:locatedIn fr:NU5 .
+
+fr:NU6 a fr:Floor;
+  fr:locatedIn fr:New_university_building .
+
+fr:NU-B601 a fr:Room;
+  fr:locatedIn fr:NU6 .
+
+fr:NU-B602 a fr:Room;
+  fr:locatedIn fr:NU6 .
+
+fr:NU-C603 a fr:Room;
+  fr:locatedIn fr:NU6 .
+
+fr:NU-A604 a fr:Room;
+  fr:locatedIn fr:NU6 .
+
+fr:NU-C605 a fr:Room;
+  fr:locatedIn fr:NU6 .
+
+fr:NU-A606 a fr:Room;
+  fr:locatedIn fr:NU6 .
+
+fr:NU-C607 a fr:Room;
+  fr:locatedIn fr:NU6 .
+
+fr:NU-D608 a fr:Room;
+  fr:locatedIn fr:NU6 .
+
+fr:NU-D609 a fr:Room;
+  fr:locatedIn fr:NU6 .
+
+fr:NU-A610 a fr:Room;
+  fr:locatedIn fr:NU6 .
+
+fr:NU7 a fr:Floor;
+  fr:locatedIn fr:New_university_building .
+
+fr:NU-B701 a fr:Room;
+  fr:locatedIn fr:NU7 .
+
+fr:NU-B702 a fr:Room;
+  fr:locatedIn fr:NU7 .
+
+fr:NU-B703 a fr:Room;
+  fr:locatedIn fr:NU7 .
+
+fr:NU-C704 a fr:Room;
+  fr:locatedIn fr:NU7 .
+
+fr:NU-D705 a fr:Room;
+  fr:locatedIn fr:NU7 .
+
+fr:NU-B706 a fr:Room;
+  fr:locatedIn fr:NU7 .
+
+fr:NU-A707 a fr:Room;
+  fr:locatedIn fr:NU7 .
+
+fr:NU-D708 a fr:Room;
+  fr:locatedIn fr:NU7 .
+
+fr:NU-A709 a fr:Room;
+  fr:locatedIn fr:NU7 .
+
+fr:NU-C710 a fr:Room;
+  fr:locatedIn fr:NU7 .
+
+fr:NU-B711 a fr:Room;
+  fr:locatedIn fr:NU7 .
+
+fr:NU-A712 a fr:Room;
+  fr:locatedIn fr:NU7 .
+
+fr:NU-C713 a fr:Room;
+  fr:locatedIn fr:NU7 .
+
+fr:NU-B714 a fr:Room;
+  fr:locatedIn fr:NU7 .
+
+fr:NU-C715 a fr:Room;
+  fr:locatedIn fr:NU7 .
+
+fr:NU8 a fr:Floor;
+  fr:locatedIn fr:New_university_building .
+
+fr:NU-D801 a fr:Room;
+  fr:locatedIn fr:NU8 .
+
+fr:NU-A802 a fr:Room;
+  fr:locatedIn fr:NU8 .
+
+fr:NU-A803 a fr:Room;
+  fr:locatedIn fr:NU8 .
+
+fr:NU-D804 a fr:Room;
+  fr:locatedIn fr:NU8 .
+
+fr:NU-C805 a fr:Room;
+  fr:locatedIn fr:NU8 .
+
+fr:NU-C806 a fr:Room;
+  fr:locatedIn fr:NU8 .
+
+fr:NU-A807 a fr:Room;
+  fr:locatedIn fr:NU8 .
+
+fr:NU-A808 a fr:Room;
+  fr:locatedIn fr:NU8 .
+
+fr:NU-C809 a fr:Room;
+  fr:locatedIn fr:NU8 .
+
+fr:NU-D810 a fr:Room;
+  fr:locatedIn fr:NU8 .
+
+fr:NU9 a fr:Floor;
+  fr:locatedIn fr:New_university_building .
+
+fr:NU-D901 a fr:Room;
+  fr:locatedIn fr:NU9 .
+
+fr:NU-A902 a fr:Room;
+  fr:locatedIn fr:NU9 .
+
+fr:NU-C903 a fr:Room;
+  fr:locatedIn fr:NU9 .
+
+fr:NU-D904 a fr:Room;
+  fr:locatedIn fr:NU9 .
+
+fr:NU-A905 a fr:Room;
+  fr:locatedIn fr:NU9 .
+
+fr:NU-B906 a fr:Room;
+  fr:locatedIn fr:NU9 .
+
+fr:NU-B907 a fr:Room;
+  fr:locatedIn fr:NU9 .
+
+fr:NU-D908 a fr:Room;
+  fr:locatedIn fr:NU9 .
+
+fr:NU-A909 a fr:Room;
+  fr:locatedIn fr:NU9 .
+
+fr:NU-A910 a fr:Room;
+  fr:locatedIn fr:NU9 .
+
+fr:NU-B911 a fr:Room;
+  fr:locatedIn fr:NU9 .
+
+fr:NU-C912 a fr:Room;
+  fr:locatedIn fr:NU9 .
+
+fr:NU-C913 a fr:Room;
+  fr:locatedIn fr:NU9 .
+
+fr:NU10 a fr:Floor;
+  fr:locatedIn fr:New_university_building .
+
+fr:NU-D1001 a fr:Room;
+  fr:locatedIn fr:NU10 .
+
+fr:NU-B1002 a fr:Room;
+  fr:locatedIn fr:NU10 .
+
+fr:NU-A1003 a fr:Room;
+  fr:locatedIn fr:NU10 .
+
+fr:NU-C1004 a fr:Room;
+  fr:locatedIn fr:NU10 .
+
+fr:NU-C1005 a fr:Room;
+  fr:locatedIn fr:NU10 .
+
+fr:NU-C1006 a fr:Room;
+  fr:locatedIn fr:NU10 .
+
+fr:NU-C1007 a fr:Room;
+  fr:locatedIn fr:NU10 .
+
+fr:NU-B1008 a fr:Room;
+  fr:locatedIn fr:NU10 .
+
+fr:NU-C1009 a fr:Room;
+  fr:locatedIn fr:NU10 .
+
+fr:NU-A1010 a fr:Room;
+  fr:locatedIn fr:NU10 .
+
+fr:NU-C1011 a fr:Room;
+  fr:locatedIn fr:NU10 .
+
+fr:NU-D1012 a fr:Room;
+  fr:locatedIn fr:NU10 .
+
+fr:NU-A1013 a fr:Room;
+  fr:locatedIn fr:NU10 .
+
+fr:NU-C1014 a fr:Room;
+  fr:locatedIn fr:NU10 .
+
+fr:NU-B1015 a fr:Room;
+  fr:locatedIn fr:NU10 .
+
+fr:NU-B1016 a fr:Room;
+  fr:locatedIn fr:NU10 .
+
+fr:NU-C1017 a fr:Room;
+  fr:locatedIn fr:NU10 .
+
+fr:NU11 a fr:Floor;
+  fr:locatedIn fr:New_university_building .
+
+fr:NU-B1101 a fr:Room;
+  fr:locatedIn fr:NU11 .
+
+fr:NU-A1102 a fr:Room;
+  fr:locatedIn fr:NU11 .
+
+fr:NU-D1103 a fr:Room;
+  fr:locatedIn fr:NU11 .
+
+fr:NU-B1104 a fr:Room;
+  fr:locatedIn fr:NU11 .
+
+fr:NU-D1105 a fr:Room;
+  fr:locatedIn fr:NU11 .
+
+fr:NU-B1106 a fr:Room;
+  fr:locatedIn fr:NU11 .
+
+fr:NU-B1107 a fr:Room;
+  fr:locatedIn fr:NU11 .
+
+fr:NU-D1108 a fr:Room;
+  fr:locatedIn fr:NU11 .
+
+fr:NU-C1109 a fr:Room;
+  fr:locatedIn fr:NU11 .
+
+fr:NU-C1110 a fr:Room;
+  fr:locatedIn fr:NU11 .
+
+fr:NU-D1111 a fr:Room;
+  fr:locatedIn fr:NU11 .
+
+fr:NU-B1112 a fr:Room;
+  fr:locatedIn fr:NU11 .
+
+fr:NU-B1113 a fr:Room;
+  fr:locatedIn fr:NU11 .
+
+fr:NU-B1114 a fr:Room;
+  fr:locatedIn fr:NU11 .
+
+fr:NU-B1115 a fr:Room;
+  fr:locatedIn fr:NU11 .
+
+fr:NU-B1116 a fr:Room;
+  fr:locatedIn fr:NU11 .
+
+fr:NU12 a fr:Floor;
+  fr:locatedIn fr:New_university_building .
+
+fr:NU-B1201 a fr:Room;
+  fr:locatedIn fr:NU12 .
+
+fr:NU-D1202 a fr:Room;
+  fr:locatedIn fr:NU12 .
+
+fr:NU-B1203 a fr:Room;
+  fr:locatedIn fr:NU12 .
+
+fr:NU-B1204 a fr:Room;
+  fr:locatedIn fr:NU12 .
+
+fr:NU-C1205 a fr:Room;
+  fr:locatedIn fr:NU12 .
+
+fr:NU-A1206 a fr:Room;
+  fr:locatedIn fr:NU12 .
+
+fr:NU-A1207 a fr:Room;
+  fr:locatedIn fr:NU12 .
+
+fr:NU-B1208 a fr:Room;
+  fr:locatedIn fr:NU12 .
+
+fr:NU-C1209 a fr:Room;
+  fr:locatedIn fr:NU12 .
+
+fr:NU-B1210 a fr:Room;
+  fr:locatedIn fr:NU12 .
+
+fr:NU-A1211 a fr:Room;
+  fr:locatedIn fr:NU12 .
+
+fr:NU-C1212 a fr:Room;
+  fr:locatedIn fr:NU12 .
+
+fr:NU-D1213 a fr:Room;
+  fr:locatedIn fr:NU12 .
+
+fr:NU-D1214 a fr:Room;
+  fr:locatedIn fr:NU12 .
+
+fr:NU13 a fr:Floor;
+  fr:locatedIn fr:New_university_building .
+
+fr:NU-D1301 a fr:Room;
+  fr:locatedIn fr:NU13 .
+
+fr:NU-C1302 a fr:Room;
+  fr:locatedIn fr:NU13 .
+
+fr:NU-B1303 a fr:Room;
+  fr:locatedIn fr:NU13 .
+
+fr:NU-B1304 a fr:Room;
+  fr:locatedIn fr:NU13 .
+
+fr:NU-A1305 a fr:Room;
+  fr:locatedIn fr:NU13 .
+
+fr:NU-B1306 a fr:Room;
+  fr:locatedIn fr:NU13 .
+
+fr:NU-B1307 a fr:Room;
+  fr:locatedIn fr:NU13 .
+
+fr:NU-A1308 a fr:Room;
+  fr:locatedIn fr:NU13 .
+
+fr:NU-C1309 a fr:Room;
+  fr:locatedIn fr:NU13 .
+
+fr:NU-B1310 a fr:Room;
+  fr:locatedIn fr:NU13 .
+
+fr:NU-B1311 a fr:Room;
+  fr:locatedIn fr:NU13 .
+
+fr:NU-B1312 a fr:Room;
+  fr:locatedIn fr:NU13 .
+
+fr:NU-A1313 a fr:Room;
+  fr:locatedIn fr:NU13 .
+
+fr:NU-C1314 a fr:Room;
+  fr:locatedIn fr:NU13 .
+
+fr:Initium fr:hasBuildingCode "IN"^^<http://www.w3.org/2001/XMLSchemastring> .
+
+fr:IN0 a fr:Floor;
+  fr:locatedIn fr:Initium .
+
+fr:IN-D001 a fr:Room;
+  fr:locatedIn fr:IN0 .
+
+fr:IN-B002 a fr:Room;
+  fr:locatedIn fr:IN0 .
+
+fr:IN-D003 a fr:Room;
+  fr:locatedIn fr:IN0 .
+
+fr:IN-C004 a fr:Room;
+  fr:locatedIn fr:IN0 .
+
+fr:IN-B005 a fr:Room;
+  fr:locatedIn fr:IN0 .
+
+fr:IN-D006 a fr:Room;
+  fr:locatedIn fr:IN0 .
+
+fr:IN-D007 a fr:Room;
+  fr:locatedIn fr:IN0 .
+
+fr:IN-D008 a fr:Room;
+  fr:locatedIn fr:IN0 .
+
+fr:IN-B009 a fr:Room;
+  fr:locatedIn fr:IN0 .
+
+fr:IN-B010 a fr:Room;
+  fr:locatedIn fr:IN0 .
+
+fr:IN-B011 a fr:Room;
+  fr:locatedIn fr:IN0 .
+
+fr:IN1 a fr:Floor;
+  fr:locatedIn fr:Initium .
+
+fr:IN-A101 a fr:Room;
+  fr:locatedIn fr:IN1 .
+
+fr:IN-D102 a fr:Room;
+  fr:locatedIn fr:IN1 .
+
+fr:IN-A103 a fr:Room;
+  fr:locatedIn fr:IN1 .
+
+fr:IN-C104 a fr:Room;
+  fr:locatedIn fr:IN1 .
+
+fr:IN-D105 a fr:Room;
+  fr:locatedIn fr:IN1 .
+
+fr:IN-B106 a fr:Room;
+  fr:locatedIn fr:IN1 .
+
+fr:IN-B107 a fr:Room;
+  fr:locatedIn fr:IN1 .
+
+fr:IN-B108 a fr:Room;
+  fr:locatedIn fr:IN1 .
+
+fr:IN-A109 a fr:Room;
+  fr:locatedIn fr:IN1 .
+
+fr:IN-B110 a fr:Room;
+  fr:locatedIn fr:IN1 .
+
+fr:IN-D111 a fr:Room;
+  fr:locatedIn fr:IN1 .
+
+fr:IN-D112 a fr:Room;
+  fr:locatedIn fr:IN1 .
+
+fr:IN-C113 a fr:Room;
+  fr:locatedIn fr:IN1 .
+
+fr:IN2 a fr:Floor;
+  fr:locatedIn fr:Initium .
+
+fr:IN-B201 a fr:Room;
+  fr:locatedIn fr:IN2 .
+
+fr:IN-D202 a fr:Room;
+  fr:locatedIn fr:IN2 .
+
+fr:IN-D203 a fr:Room;
+  fr:locatedIn fr:IN2 .
+
+fr:IN-A204 a fr:Room;
+  fr:locatedIn fr:IN2 .
+
+fr:IN-D205 a fr:Room;
+  fr:locatedIn fr:IN2 .
+
+fr:IN-C206 a fr:Room;
+  fr:locatedIn fr:IN2 .
+
+fr:IN-D207 a fr:Room;
+  fr:locatedIn fr:IN2 .
+
+fr:IN-A208 a fr:Room;
+  fr:locatedIn fr:IN2 .
+
+fr:IN-A209 a fr:Room;
+  fr:locatedIn fr:IN2 .
+
+fr:IN-D210 a fr:Room;
+  fr:locatedIn fr:IN2 .
+
+fr:IN-D211 a fr:Room;
+  fr:locatedIn fr:IN2 .
+
+fr:IN-A212 a fr:Room;
+  fr:locatedIn fr:IN2 .
+
+fr:IN-B213 a fr:Room;
+  fr:locatedIn fr:IN2 .
+
+fr:IN-D214 a fr:Room;
+  fr:locatedIn fr:IN2 .
+
+fr:IN-A215 a fr:Room;
+  fr:locatedIn fr:IN2 .
+
+fr:IN-D216 a fr:Room;
+  fr:locatedIn fr:IN2 .
+
+fr:IN-A217 a fr:Room;
+  fr:locatedIn fr:IN2 .
+
+fr:IN3 a fr:Floor;
+  fr:locatedIn fr:Initium .
+
+fr:IN-C301 a fr:Room;
+  fr:locatedIn fr:IN3 .
+
+fr:IN-D302 a fr:Room;
+  fr:locatedIn fr:IN3 .
+
+fr:IN-D303 a fr:Room;
+  fr:locatedIn fr:IN3 .
+
+fr:IN-C304 a fr:Room;
+  fr:locatedIn fr:IN3 .
+
+fr:IN-C305 a fr:Room;
+  fr:locatedIn fr:IN3 .
+
+fr:IN-D306 a fr:Room;
+  fr:locatedIn fr:IN3 .
+
+fr:IN-B307 a fr:Room;
+  fr:locatedIn fr:IN3 .
+
+fr:IN-D308 a fr:Room;
+  fr:locatedIn fr:IN3 .
+
+fr:IN-C309 a fr:Room;
+  fr:locatedIn fr:IN3 .
+
+fr:IN-A310 a fr:Room;
+  fr:locatedIn fr:IN3 .
+
+fr:IN-B311 a fr:Room;
+  fr:locatedIn fr:IN3 .
+
+fr:IN-D312 a fr:Room;
+  fr:locatedIn fr:IN3 .
+
+fr:IN-D313 a fr:Room;
+  fr:locatedIn fr:IN3 .
+
+fr:IN4 a fr:Floor;
+  fr:locatedIn fr:Initium .
+
+fr:IN-A401 a fr:Room;
+  fr:locatedIn fr:IN4 .
+
+fr:IN-B402 a fr:Room;
+  fr:locatedIn fr:IN4 .
+
+fr:IN-B403 a fr:Room;
+  fr:locatedIn fr:IN4 .
+
+fr:IN-D404 a fr:Room;
+  fr:locatedIn fr:IN4 .
+
+fr:IN-D405 a fr:Room;
+  fr:locatedIn fr:IN4 .
+
+fr:IN-C406 a fr:Room;
+  fr:locatedIn fr:IN4 .
+
+fr:IN-D407 a fr:Room;
+  fr:locatedIn fr:IN4 .
+
+fr:IN-A408 a fr:Room;
+  fr:locatedIn fr:IN4 .
+
+fr:IN-B409 a fr:Room;
+  fr:locatedIn fr:IN4 .
+
+fr:IN-D410 a fr:Room;
+  fr:locatedIn fr:IN4 .
+
+fr:IN-B411 a fr:Room;
+  fr:locatedIn fr:IN4 .
+
+fr:MF_building fr:hasBuildingCode "MF"^^<http://www.w3.org/2001/XMLSchemastring> .
+
+fr:MF0 a fr:Floor;
+  fr:locatedIn fr:MF_building .
+
+fr:MF-A001 a fr:Room;
+  fr:locatedIn fr:MF0 .
+
+fr:MF-C002 a fr:Room;
+  fr:locatedIn fr:MF0 .
+
+fr:MF-C003 a fr:Room;
+  fr:locatedIn fr:MF0 .
+
+fr:MF-B004 a fr:Room;
+  fr:locatedIn fr:MF0 .
+
+fr:MF-A005 a fr:Room;
+  fr:locatedIn fr:MF0 .
+
+fr:MF-A006 a fr:Room;
+  fr:locatedIn fr:MF0 .
+
+fr:MF-A007 a fr:Room;
+  fr:locatedIn fr:MF0 .
+
+fr:MF-D008 a fr:Room;
+  fr:locatedIn fr:MF0 .
+
+fr:MF-C009 a fr:Room;
+  fr:locatedIn fr:MF0 .
+
+fr:MF-A010 a fr:Room;
+  fr:locatedIn fr:MF0 .
+
+fr:MF-D011 a fr:Room;
+  fr:locatedIn fr:MF0 .
+
+fr:MF-B012 a fr:Room;
+  fr:locatedIn fr:MF0 .
+
+fr:MF-D013 a fr:Room;
+  fr:locatedIn fr:MF0 .
+
+fr:MF-D014 a fr:Room;
+  fr:locatedIn fr:MF0 .
+
+fr:MF-A015 a fr:Room;
+  fr:locatedIn fr:MF0 .
+
+fr:MF-B016 a fr:Room;
+  fr:locatedIn fr:MF0 .
+
+fr:MF-C017 a fr:Room;
+  fr:locatedIn fr:MF0 .
+
+fr:MF1 a fr:Floor;
+  fr:locatedIn fr:MF_building .
+
+fr:MF-B101 a fr:Room;
+  fr:locatedIn fr:MF1 .
+
+fr:MF-B102 a fr:Room;
+  fr:locatedIn fr:MF1 .
+
+fr:MF-B103 a fr:Room;
+  fr:locatedIn fr:MF1 .
+
+fr:MF-B104 a fr:Room;
+  fr:locatedIn fr:MF1 .
+
+fr:MF-A105 a fr:Room;
+  fr:locatedIn fr:MF1 .
+
+fr:MF-D106 a fr:Room;
+  fr:locatedIn fr:MF1 .
+
+fr:MF-C107 a fr:Room;
+  fr:locatedIn fr:MF1 .
+
+fr:MF-C108 a fr:Room;
+  fr:locatedIn fr:MF1 .
+
+fr:MF-D109 a fr:Room;
+  fr:locatedIn fr:MF1 .
+
+fr:MF-C110 a fr:Room;
+  fr:locatedIn fr:MF1 .
+
+fr:MF-B111 a fr:Room;
+  fr:locatedIn fr:MF1 .
+
+fr:MF-A112 a fr:Room;
+  fr:locatedIn fr:MF1 .
+
+fr:MF-B113 a fr:Room;
+  fr:locatedIn fr:MF1 .
+
+fr:MF-B114 a fr:Room;
+  fr:locatedIn fr:MF1 .
+
+fr:MF-A115 a fr:Room;
+  fr:locatedIn fr:MF1 .
+
+fr:MF-C116 a fr:Room;
+  fr:locatedIn fr:MF1 .
+
+fr:MF-A117 a fr:Room;
+  fr:locatedIn fr:MF1 .
+
+fr:MF-D118 a fr:Room;
+  fr:locatedIn fr:MF1 .
+
+fr:MF-D119 a fr:Room;
+  fr:locatedIn fr:MF1 .
+
+fr:MF2 a fr:Floor;
+  fr:locatedIn fr:MF_building .
+
+fr:MF-A201 a fr:Room;
+  fr:locatedIn fr:MF2 .
+
+fr:MF-D202 a fr:Room;
+  fr:locatedIn fr:MF2 .
+
+fr:MF-B203 a fr:Room;
+  fr:locatedIn fr:MF2 .
+
+fr:MF-B204 a fr:Room;
+  fr:locatedIn fr:MF2 .
+
+fr:MF-D205 a fr:Room;
+  fr:locatedIn fr:MF2 .
+
+fr:MF-D206 a fr:Room;
+  fr:locatedIn fr:MF2 .
+
+fr:MF-D207 a fr:Room;
+  fr:locatedIn fr:MF2 .
+
+fr:MF-D208 a fr:Room;
+  fr:locatedIn fr:MF2 .
+
+fr:MF-A209 a fr:Room;
+  fr:locatedIn fr:MF2 .
+
+fr:MF-A210 a fr:Room;
+  fr:locatedIn fr:MF2 .
+
+fr:MF-B211 a fr:Room;
+  fr:locatedIn fr:MF2 .
+
+fr:MF-C212 a fr:Room;
+  fr:locatedIn fr:MF2 .
+
+fr:MF-B213 a fr:Room;
+  fr:locatedIn fr:MF2 .
+
+fr:MF-A214 a fr:Room;
+  fr:locatedIn fr:MF2 .
+
+fr:MF-B215 a fr:Room;
+  fr:locatedIn fr:MF2 .
+
+fr:MF-B216 a fr:Room;
+  fr:locatedIn fr:MF2 .
+
+fr:MF-A217 a fr:Room;
+  fr:locatedIn fr:MF2 .
+
+fr:MF3 a fr:Floor;
+  fr:locatedIn fr:MF_building .
+
+fr:MF-C301 a fr:Room;
+  fr:locatedIn fr:MF3 .
+
+fr:MF-A302 a fr:Room;
+  fr:locatedIn fr:MF3 .
+
+fr:MF-B303 a fr:Room;
+  fr:locatedIn fr:MF3 .
+
+fr:MF-A304 a fr:Room;
+  fr:locatedIn fr:MF3 .
+
+fr:MF-C305 a fr:Room;
+  fr:locatedIn fr:MF3 .
+
+fr:MF-C306 a fr:Room;
+  fr:locatedIn fr:MF3 .
+
+fr:MF-A307 a fr:Room;
+  fr:locatedIn fr:MF3 .
+
+fr:MF-A308 a fr:Room;
+  fr:locatedIn fr:MF3 .
+
+fr:MF-A309 a fr:Room;
+  fr:locatedIn fr:MF3 .
+
+fr:MF-D310 a fr:Room;
+  fr:locatedIn fr:MF3 .
+
+fr:MF-B311 a fr:Room;
+  fr:locatedIn fr:MF3 .
+
+fr:MF-B312 a fr:Room;
+  fr:locatedIn fr:MF3 .
+
+fr:MF-C313 a fr:Room;
+  fr:locatedIn fr:MF3 .
+
+fr:MF-B314 a fr:Room;
+  fr:locatedIn fr:MF3 .
+
+fr:MF-D315 a fr:Room;
+  fr:locatedIn fr:MF3 .
+
+fr:MF-C316 a fr:Room;
+  fr:locatedIn fr:MF3 .
+
+fr:MF-A317 a fr:Room;
+  fr:locatedIn fr:MF3 .
+
+fr:MF-A318 a fr:Room;
+  fr:locatedIn fr:MF3 .
+
+fr:MF-C319 a fr:Room;
+  fr:locatedIn fr:MF3 .
+
+fr:MF-C320 a fr:Room;
+  fr:locatedIn fr:MF3 .
+
+fr:MF4 a fr:Floor;
+  fr:locatedIn fr:MF_building .
+
+fr:MF-D401 a fr:Room;
+  fr:locatedIn fr:MF4 .
+
+fr:MF-A402 a fr:Room;
+  fr:locatedIn fr:MF4 .
+
+fr:MF-D403 a fr:Room;
+  fr:locatedIn fr:MF4 .
+
+fr:MF-A404 a fr:Room;
+  fr:locatedIn fr:MF4 .
+
+fr:MF-C405 a fr:Room;
+  fr:locatedIn fr:MF4 .
+
+fr:MF-D406 a fr:Room;
+  fr:locatedIn fr:MF4 .
+
+fr:MF-B407 a fr:Room;
+  fr:locatedIn fr:MF4 .
+
+fr:MF-A408 a fr:Room;
+  fr:locatedIn fr:MF4 .
+
+fr:MF-C409 a fr:Room;
+  fr:locatedIn fr:MF4 .
+
+fr:MF-C410 a fr:Room;
+  fr:locatedIn fr:MF4 .
+
+fr:MF-D411 a fr:Room;
+  fr:locatedIn fr:MF4 .
+
+fr:MF-B412 a fr:Room;
+  fr:locatedIn fr:MF4 .
+
+fr:MF-B413 a fr:Room;
+  fr:locatedIn fr:MF4 .
+
+fr:MF-A414 a fr:Room;
+  fr:locatedIn fr:MF4 .
+
+fr:MF-A415 a fr:Room;
+  fr:locatedIn fr:MF4 .
+
+fr:MF5 a fr:Floor;
+  fr:locatedIn fr:MF_building .
+
+fr:MF-A501 a fr:Room;
+  fr:locatedIn fr:MF5 .
+
+fr:MF-D502 a fr:Room;
+  fr:locatedIn fr:MF5 .
+
+fr:MF-C503 a fr:Room;
+  fr:locatedIn fr:MF5 .
+
+fr:MF-D504 a fr:Room;
+  fr:locatedIn fr:MF5 .
+
+fr:MF-C505 a fr:Room;
+  fr:locatedIn fr:MF5 .
+
+fr:MF-C506 a fr:Room;
+  fr:locatedIn fr:MF5 .
+
+fr:MF-C507 a fr:Room;
+  fr:locatedIn fr:MF5 .
+
+fr:MF-B508 a fr:Room;
+  fr:locatedIn fr:MF5 .
+
+fr:MF-D509 a fr:Room;
+  fr:locatedIn fr:MF5 .
+
+fr:MF-D510 a fr:Room;
+  fr:locatedIn fr:MF5 .
+
+fr:MF-D511 a fr:Room;
+  fr:locatedIn fr:MF5 .
+
+fr:MF-B512 a fr:Room;
+  fr:locatedIn fr:MF5 .
+
+fr:MF-B513 a fr:Room;
+  fr:locatedIn fr:MF5 .
+
+fr:MF-C514 a fr:Room;
+  fr:locatedIn fr:MF5 .
+
+fr:MF-B515 a fr:Room;
+  fr:locatedIn fr:MF5 .
+
+fr:MF-A516 a fr:Room;
+  fr:locatedIn fr:MF5 .
+
+fr:MF-A517 a fr:Room;
+  fr:locatedIn fr:MF5 .
+
+fr:MF-A518 a fr:Room;
+  fr:locatedIn fr:MF5 .
+
+fr:MF-D519 a fr:Room;
+  fr:locatedIn fr:MF5 .
+
+fr:MF6 a fr:Floor;
+  fr:locatedIn fr:MF_building .
+
+fr:MF-A601 a fr:Room;
+  fr:locatedIn fr:MF6 .
+
+fr:MF-B602 a fr:Room;
+  fr:locatedIn fr:MF6 .
+
+fr:MF-D603 a fr:Room;
+  fr:locatedIn fr:MF6 .
+
+fr:MF-D604 a fr:Room;
+  fr:locatedIn fr:MF6 .
+
+fr:MF-A605 a fr:Room;
+  fr:locatedIn fr:MF6 .
+
+fr:MF-C606 a fr:Room;
+  fr:locatedIn fr:MF6 .
+
+fr:MF-C607 a fr:Room;
+  fr:locatedIn fr:MF6 .
+
+fr:MF-B608 a fr:Room;
+  fr:locatedIn fr:MF6 .
+
+fr:MF-A609 a fr:Room;
+  fr:locatedIn fr:MF6 .
+
+fr:MF-B610 a fr:Room;
+  fr:locatedIn fr:MF6 .
+
+fr:MF-C611 a fr:Room;
+  fr:locatedIn fr:MF6 .
+
+fr:MF-C612 a fr:Room;
+  fr:locatedIn fr:MF6 .
+
+fr:MF-A613 a fr:Room;
+  fr:locatedIn fr:MF6 .
+
+fr:MF-C614 a fr:Room;
+  fr:locatedIn fr:MF6 .
+
+fr:MF-C615 a fr:Room;
+  fr:locatedIn fr:MF6 .
+
+fr:MF-C616 a fr:Room;
+  fr:locatedIn fr:MF6 .
+
+fr:MF-A617 a fr:Room;
+  fr:locatedIn fr:MF6 .
+
+fr:MF-A618 a fr:Room;
+  fr:locatedIn fr:MF6 .
+
+fr:MF-C619 a fr:Room;
+  fr:locatedIn fr:MF6 .
+
+fr:MF-C620 a fr:Room;
+  fr:locatedIn fr:MF6 .
+
+fr:MF7 a fr:Floor;
+  fr:locatedIn fr:MF_building .
+
+fr:MF-A701 a fr:Room;
+  fr:locatedIn fr:MF7 .
+
+fr:MF-B702 a fr:Room;
+  fr:locatedIn fr:MF7 .
+
+fr:MF-B703 a fr:Room;
+  fr:locatedIn fr:MF7 .
+
+fr:MF-C704 a fr:Room;
+  fr:locatedIn fr:MF7 .
+
+fr:MF-C705 a fr:Room;
+  fr:locatedIn fr:MF7 .
+
+fr:MF-D706 a fr:Room;
+  fr:locatedIn fr:MF7 .
+
+fr:MF-D707 a fr:Room;
+  fr:locatedIn fr:MF7 .
+
+fr:MF-A708 a fr:Room;
+  fr:locatedIn fr:MF7 .
+
+fr:MF-B709 a fr:Room;
+  fr:locatedIn fr:MF7 .
+
+fr:MF-D710 a fr:Room;
+  fr:locatedIn fr:MF7 .
+
+fr:MF-B711 a fr:Room;
+  fr:locatedIn fr:MF7 .
+
+fr:MF-D712 a fr:Room;
+  fr:locatedIn fr:MF7 .
+
+fr:MF-C713 a fr:Room;
+  fr:locatedIn fr:MF7 .
+
+fr:MF-D714 a fr:Room;
+  fr:locatedIn fr:MF7 .
+
+fr:MF-D715 a fr:Room;
+  fr:locatedIn fr:MF7 .
+
+fr:MF-A716 a fr:Room;
+  fr:locatedIn fr:MF7 .
+
+fr:MF8 a fr:Floor;
+  fr:locatedIn fr:MF_building .
+
+fr:MF-C801 a fr:Room;
+  fr:locatedIn fr:MF8 .
+
+fr:MF-C802 a fr:Room;
+  fr:locatedIn fr:MF8 .
+
+fr:MF-A803 a fr:Room;
+  fr:locatedIn fr:MF8 .
+
+fr:MF-B804 a fr:Room;
+  fr:locatedIn fr:MF8 .
+
+fr:MF-C805 a fr:Room;
+  fr:locatedIn fr:MF8 .
+
+fr:MF-C806 a fr:Room;
+  fr:locatedIn fr:MF8 .
+
+fr:MF-A807 a fr:Room;
+  fr:locatedIn fr:MF8 .
+
+fr:MF-B808 a fr:Room;
+  fr:locatedIn fr:MF8 .
+
+fr:MF-C809 a fr:Room;
+  fr:locatedIn fr:MF8 .
+
+fr:MF-A810 a fr:Room;
+  fr:locatedIn fr:MF8 .
+
+fr:MF-C811 a fr:Room;
+  fr:locatedIn fr:MF8 .
+
+fr:MF-D812 a fr:Room;
+  fr:locatedIn fr:MF8 .
+
+fr:MF-B813 a fr:Room;
+  fr:locatedIn fr:MF8 .
+
+fr:MF-D814 a fr:Room;
+  fr:locatedIn fr:MF8 .
+
+fr:MF-B815 a fr:Room;
+  fr:locatedIn fr:MF8 .
+
+fr:MF-A816 a fr:Room;
+  fr:locatedIn fr:MF8 .
+
+fr:MF-C817 a fr:Room;
+  fr:locatedIn fr:MF8 .
+
+fr:MF-C818 a fr:Room;
+  fr:locatedIn fr:MF8 .
+
+fr:O2_Lab_building fr:hasBuildingCode "OU"^^<http://www.w3.org/2001/XMLSchemastring> .
+
+fr:OU0 a fr:Floor;
+  fr:locatedIn fr:O2_Lab_building .
+
+fr:OU-C001 a fr:Room;
+  fr:locatedIn fr:OU0 .
+
+fr:OU-D002 a fr:Room;
+  fr:locatedIn fr:OU0 .
+
+fr:OU-A003 a fr:Room;
+  fr:locatedIn fr:OU0 .
+
+fr:OU-D004 a fr:Room;
+  fr:locatedIn fr:OU0 .
+
+fr:OU-B005 a fr:Room;
+  fr:locatedIn fr:OU0 .
+
+fr:OU-C006 a fr:Room;
+  fr:locatedIn fr:OU0 .
+
+fr:OU-D007 a fr:Room;
+  fr:locatedIn fr:OU0 .
+
+fr:OU-C008 a fr:Room;
+  fr:locatedIn fr:OU0 .
+
+fr:OU-B009 a fr:Room;
+  fr:locatedIn fr:OU0 .
+
+fr:OU-C010 a fr:Room;
+  fr:locatedIn fr:OU0 .
+
+fr:OU1 a fr:Floor;
+  fr:locatedIn fr:O2_Lab_building .
+
+fr:OU-A101 a fr:Room;
+  fr:locatedIn fr:OU1 .
+
+fr:OU-C102 a fr:Room;
+  fr:locatedIn fr:OU1 .
+
+fr:OU-A103 a fr:Room;
+  fr:locatedIn fr:OU1 .
+
+fr:OU-B104 a fr:Room;
+  fr:locatedIn fr:OU1 .
+
+fr:OU-A105 a fr:Room;
+  fr:locatedIn fr:OU1 .
+
+fr:OU-D106 a fr:Room;
+  fr:locatedIn fr:OU1 .
+
+fr:OU-A107 a fr:Room;
+  fr:locatedIn fr:OU1 .
+
+fr:OU-D108 a fr:Room;
+  fr:locatedIn fr:OU1 .
+
+fr:OU-B109 a fr:Room;
+  fr:locatedIn fr:OU1 .
+
+fr:OU-B110 a fr:Room;
+  fr:locatedIn fr:OU1 .
+
+fr:OU-C111 a fr:Room;
+  fr:locatedIn fr:OU1 .
+
+fr:OU-D112 a fr:Room;
+  fr:locatedIn fr:OU1 .
+
+fr:OU2 a fr:Floor;
+  fr:locatedIn fr:O2_Lab_building .
+
+fr:OU-C201 a fr:Room;
+  fr:locatedIn fr:OU2 .
+
+fr:OU-C202 a fr:Room;
+  fr:locatedIn fr:OU2 .
+
+fr:OU-B203 a fr:Room;
+  fr:locatedIn fr:OU2 .
+
+fr:OU-A204 a fr:Room;
+  fr:locatedIn fr:OU2 .
+
+fr:OU-B205 a fr:Room;
+  fr:locatedIn fr:OU2 .
+
+fr:OU-B206 a fr:Room;
+  fr:locatedIn fr:OU2 .
+
+fr:OU-A207 a fr:Room;
+  fr:locatedIn fr:OU2 .
+
+fr:OU-D208 a fr:Room;
+  fr:locatedIn fr:OU2 .
+
+fr:OU-D209 a fr:Room;
+  fr:locatedIn fr:OU2 .
+
+fr:OU-A210 a fr:Room;
+  fr:locatedIn fr:OU2 .
+
+fr:OU-A211 a fr:Room;
+  fr:locatedIn fr:OU2 .
+
+fr:OU-C212 a fr:Room;
+  fr:locatedIn fr:OU2 .
+
+fr:OU-A213 a fr:Room;
+  fr:locatedIn fr:OU2 .
+
+fr:OU-A214 a fr:Room;
+  fr:locatedIn fr:OU2 .
+
+fr:OU-C215 a fr:Room;
+  fr:locatedIn fr:OU2 .
+
+fr:OU-D216 a fr:Room;
+  fr:locatedIn fr:OU2 .
+
+fr:OU-A217 a fr:Room;
+  fr:locatedIn fr:OU2 .
+
+fr:OU-A218 a fr:Room;
+  fr:locatedIn fr:OU2 .
+
+fr:OU3 a fr:Floor;
+  fr:locatedIn fr:O2_Lab_building .
+
+fr:OU-C301 a fr:Room;
+  fr:locatedIn fr:OU3 .
+
+fr:OU-A302 a fr:Room;
+  fr:locatedIn fr:OU3 .
+
+fr:OU-C303 a fr:Room;
+  fr:locatedIn fr:OU3 .
+
+fr:OU-B304 a fr:Room;
+  fr:locatedIn fr:OU3 .
+
+fr:OU-C305 a fr:Room;
+  fr:locatedIn fr:OU3 .
+
+fr:OU-B306 a fr:Room;
+  fr:locatedIn fr:OU3 .
+
+fr:OU-B307 a fr:Room;
+  fr:locatedIn fr:OU3 .
+
+fr:OU-C308 a fr:Room;
+  fr:locatedIn fr:OU3 .
+
+fr:OU-C309 a fr:Room;
+  fr:locatedIn fr:OU3 .
+
+fr:OU-C310 a fr:Room;
+  fr:locatedIn fr:OU3 .
+
+fr:OU-D311 a fr:Room;
+  fr:locatedIn fr:OU3 .
+
+fr:OU-A312 a fr:Room;
+  fr:locatedIn fr:OU3 .
+
+fr:OU-C313 a fr:Room;
+  fr:locatedIn fr:OU3 .
+
+fr:OU-B314 a fr:Room;
+  fr:locatedIn fr:OU3 .
+
+fr:OU-B315 a fr:Room;
+  fr:locatedIn fr:OU3 .
+
+fr:OU-C316 a fr:Room;
+  fr:locatedIn fr:OU3 .
+
+fr:OU-A317 a fr:Room;
+  fr:locatedIn fr:OU3 .
+
+fr:OU-A318 a fr:Room;
+  fr:locatedIn fr:OU3 .
+
+fr:OU4 a fr:Floor;
+  fr:locatedIn fr:O2_Lab_building .
+
+fr:OU-A401 a fr:Room;
+  fr:locatedIn fr:OU4 .
+
+fr:OU-B402 a fr:Room;
+  fr:locatedIn fr:OU4 .
+
+fr:OU-C403 a fr:Room;
+  fr:locatedIn fr:OU4 .
+
+fr:OU-C404 a fr:Room;
+  fr:locatedIn fr:OU4 .
+
+fr:OU-C405 a fr:Room;
+  fr:locatedIn fr:OU4 .
+
+fr:OU-B406 a fr:Room;
+  fr:locatedIn fr:OU4 .
+
+fr:OU-C407 a fr:Room;
+  fr:locatedIn fr:OU4 .
+
+fr:OU-B408 a fr:Room;
+  fr:locatedIn fr:OU4 .
+
+fr:OU-B409 a fr:Room;
+  fr:locatedIn fr:OU4 .
+
+fr:OU-A410 a fr:Room;
+  fr:locatedIn fr:OU4 .
+
+fr:OU-C411 a fr:Room;
+  fr:locatedIn fr:OU4 .
+
+fr:OU-C412 a fr:Room;
+  fr:locatedIn fr:OU4 .
+
+fr:OU-D413 a fr:Room;
+  fr:locatedIn fr:OU4 .
+
+fr:OU-A414 a fr:Room;
+  fr:locatedIn fr:OU4 .
+
+fr:OU-B415 a fr:Room;
+  fr:locatedIn fr:OU4 .
+
+fr:OU-A416 a fr:Room;
+  fr:locatedIn fr:OU4 .
+
+fr:OU-D417 a fr:Room;
+  fr:locatedIn fr:OU4 .
+
+fr:OU-A418 a fr:Room;
+  fr:locatedIn fr:OU4 .
+
+fr:OU-A419 a fr:Room;
+  fr:locatedIn fr:OU4 .
+
+fr:OU5 a fr:Floor;
+  fr:locatedIn fr:O2_Lab_building .
+
+fr:OU-A501 a fr:Room;
+  fr:locatedIn fr:OU5 .
+
+fr:OU-A502 a fr:Room;
+  fr:locatedIn fr:OU5 .
+
+fr:OU-D503 a fr:Room;
+  fr:locatedIn fr:OU5 .
+
+fr:OU-D504 a fr:Room;
+  fr:locatedIn fr:OU5 .
+
+fr:OU-B505 a fr:Room;
+  fr:locatedIn fr:OU5 .
+
+fr:OU-D506 a fr:Room;
+  fr:locatedIn fr:OU5 .
+
+fr:OU-C507 a fr:Room;
+  fr:locatedIn fr:OU5 .
+
+fr:OU-C508 a fr:Room;
+  fr:locatedIn fr:OU5 .
+
+fr:OU-C509 a fr:Room;
+  fr:locatedIn fr:OU5 .
+
+fr:OU-B510 a fr:Room;
+  fr:locatedIn fr:OU5 .
+
+fr:OU-A511 a fr:Room;
+  fr:locatedIn fr:OU5 .
+
+fr:OU-D512 a fr:Room;
+  fr:locatedIn fr:OU5 .
+
+fr:OU-B513 a fr:Room;
+  fr:locatedIn fr:OU5 .
+
+fr:OU-A514 a fr:Room;
+  fr:locatedIn fr:OU5 .
+
+fr:OU-D515 a fr:Room;
+  fr:locatedIn fr:OU5 .
+
+fr:OU-A516 a fr:Room;
+  fr:locatedIn fr:OU5 .
+
+fr:OU6 a fr:Floor;
+  fr:locatedIn fr:O2_Lab_building .
+
+fr:OU-C601 a fr:Room;
+  fr:locatedIn fr:OU6 .
+
+fr:OU-D602 a fr:Room;
+  fr:locatedIn fr:OU6 .
+
+fr:OU-D603 a fr:Room;
+  fr:locatedIn fr:OU6 .
+
+fr:OU-B604 a fr:Room;
+  fr:locatedIn fr:OU6 .
+
+fr:OU-B605 a fr:Room;
+  fr:locatedIn fr:OU6 .
+
+fr:OU-B606 a fr:Room;
+  fr:locatedIn fr:OU6 .
+
+fr:OU-C607 a fr:Room;
+  fr:locatedIn fr:OU6 .
+
+fr:OU-C608 a fr:Room;
+  fr:locatedIn fr:OU6 .
+
+fr:OU-D609 a fr:Room;
+  fr:locatedIn fr:OU6 .
+
+fr:OU-B610 a fr:Room;
+  fr:locatedIn fr:OU6 .
+
+fr:OU-C611 a fr:Room;
+  fr:locatedIn fr:OU6 .
+
+fr:OU-C612 a fr:Room;
+  fr:locatedIn fr:OU6 .
+
+fr:OU-D613 a fr:Room;
+  fr:locatedIn fr:OU6 .
+
+fr:OU-D614 a fr:Room;
+  fr:locatedIn fr:OU6 .
+
+fr:OU-A615 fr:locatedIn fr:OU6 .
+
+fr:OU6 a fr:Floor;
+  fr:locatedIn fr:O2_Lab_building .
+
+fr:OU-A615 a fr:Room .
+
+fr:O2_Lab_building fr:hasBuildingCode "OU"^^<http://www.w3.org/2001/XMLSchemastring> .
+
+fr:OU-A616 a fr:Room;
+  fr:locatedIn fr:OU6 .
+
+fr:OU-D617 a fr:Room;
+  fr:locatedIn fr:OU6 .
+
+fr:OU7 a fr:Floor;
+  fr:locatedIn fr:O2_Lab_building .
+
+fr:OU-C701 a fr:Room;
+  fr:locatedIn fr:OU7 .
+
+fr:OU-D702 a fr:Room;
+  fr:locatedIn fr:OU7 .
+
+fr:OU-D703 a fr:Room;
+  fr:locatedIn fr:OU7 .
+
+fr:OU-B704 a fr:Room;
+  fr:locatedIn fr:OU7 .
+
+fr:OU-C705 a fr:Room;
+  fr:locatedIn fr:OU7 .
+
+fr:OU-C706 a fr:Room;
+  fr:locatedIn fr:OU7 .
+
+fr:OU-B707 a fr:Room;
+  fr:locatedIn fr:OU7 .
+
+fr:OU-A708 a fr:Room;
+  fr:locatedIn fr:OU7 .
+
+fr:OU-D709 a fr:Room;
+  fr:locatedIn fr:OU7 .
+
+fr:OU-A710 a fr:Room;
+  fr:locatedIn fr:OU7 .
+
+fr:OU-C711 a fr:Room;
+  fr:locatedIn fr:OU7 .
+
+fr:Transitorium fr:hasBuildingCode "TR"^^<http://www.w3.org/2001/XMLSchemastring> .
+
+fr:TR0 a fr:Floor;
+  fr:locatedIn fr:Transitorium .
+
+fr:TR-A001 a fr:Room;
+  fr:locatedIn fr:TR0 .
+
+fr:TR-C002 a fr:Room;
+  fr:locatedIn fr:TR0 .
+
+fr:TR-D003 a fr:Room;
+  fr:locatedIn fr:TR0 .
+
+fr:TR-D004 a fr:Room;
+  fr:locatedIn fr:TR0 .
+
+fr:TR-D005 a fr:Room;
+  fr:locatedIn fr:TR0 .
+
+fr:TR-B006 a fr:Room;
+  fr:locatedIn fr:TR0 .
+
+fr:TR-B007 a fr:Room;
+  fr:locatedIn fr:TR0 .
+
+fr:TR-B008 a fr:Room;
+  fr:locatedIn fr:TR0 .
+
+fr:TR-D009 a fr:Room;
+  fr:locatedIn fr:TR0 .
+
+fr:TR-D010 a fr:Room;
+  fr:locatedIn fr:TR0 .
+
+fr:TR-A011 a fr:Room;
+  fr:locatedIn fr:TR0 .
+
+fr:TR-C012 a fr:Room;
+  fr:locatedIn fr:TR0 .
+
+fr:TR-B013 a fr:Room;
+  fr:locatedIn fr:TR0 .
+
+fr:TR-D014 a fr:Room;
+  fr:locatedIn fr:TR0 .
+
+fr:TR-D015 a fr:Room;
+  fr:locatedIn fr:TR0 .
+
+fr:TR-C016 a fr:Room;
+  fr:locatedIn fr:TR0 .
+
+fr:TR-B017 a fr:Room;
+  fr:locatedIn fr:TR0 .
+
+fr:TR-B018 a fr:Room;
+  fr:locatedIn fr:TR0 .
+
+fr:TR1 a fr:Floor;
+  fr:locatedIn fr:Transitorium .
+
+fr:TR-A101 a fr:Room;
+  fr:locatedIn fr:TR1 .
+
+fr:TR-D102 a fr:Room;
+  fr:locatedIn fr:TR1 .
+
+fr:TR-A103 a fr:Room;
+  fr:locatedIn fr:TR1 .
+
+fr:TR-D104 a fr:Room;
+  fr:locatedIn fr:TR1 .
+
+fr:TR-C105 a fr:Room;
+  fr:locatedIn fr:TR1 .
+
+fr:TR-A106 a fr:Room;
+  fr:locatedIn fr:TR1 .
+
+fr:TR-D107 a fr:Room;
+  fr:locatedIn fr:TR1 .
+
+fr:TR-B108 a fr:Room;
+  fr:locatedIn fr:TR1 .
+
+fr:TR-C109 a fr:Room;
+  fr:locatedIn fr:TR1 .
+
+fr:TR-D110 a fr:Room;
+  fr:locatedIn fr:TR1 .
+
+fr:TR-A111 a fr:Room;
+  fr:locatedIn fr:TR1 .
+
+fr:TR-A112 a fr:Room;
+  fr:locatedIn fr:TR1 .
+
+fr:TR-D113 a fr:Room;
+  fr:locatedIn fr:TR1 .
+
+fr:TR-C114 a fr:Room;
+  fr:locatedIn fr:TR1 .
+
+fr:TR-D115 a fr:Room;
+  fr:locatedIn fr:TR1 .
+
+fr:TR-A116 a fr:Room;
+  fr:locatedIn fr:TR1 .
+
+fr:TR-A117 a fr:Room;
+  fr:locatedIn fr:TR1 .
+
+fr:TR-B118 a fr:Room;
+  fr:locatedIn fr:TR1 .
+
+fr:TR-B119 a fr:Room;
+  fr:locatedIn fr:TR1 .
+
+fr:TR-A120 a fr:Room;
+  fr:locatedIn fr:TR1 .
+
+fr:TR2 a fr:Floor;
+  fr:locatedIn fr:Transitorium .
+
+fr:TR-B201 a fr:Room;
+  fr:locatedIn fr:TR2 .
+
+fr:TR-D202 a fr:Room;
+  fr:locatedIn fr:TR2 .
+
+fr:TR-C203 a fr:Room;
+  fr:locatedIn fr:TR2 .
+
+fr:TR-D204 a fr:Room;
+  fr:locatedIn fr:TR2 .
+
+fr:TR-D205 a fr:Room;
+  fr:locatedIn fr:TR2 .
+
+fr:TR-B206 a fr:Room;
+  fr:locatedIn fr:TR2 .
+
+fr:TR-B207 a fr:Room;
+  fr:locatedIn fr:TR2 .
+
+fr:TR-C208 a fr:Room;
+  fr:locatedIn fr:TR2 .
+
+fr:TR-C209 a fr:Room;
+  fr:locatedIn fr:TR2 .
+
+fr:TR-C210 a fr:Room;
+  fr:locatedIn fr:TR2 .
+
+fr:TR-D211 a fr:Room;
+  fr:locatedIn fr:TR2 .
+
+fr:TR-C212 a fr:Room;
+  fr:locatedIn fr:TR2 .
+
+fr:TR3 a fr:Floor;
+  fr:locatedIn fr:Transitorium .
+
+fr:TR-A301 a fr:Room;
+  fr:locatedIn fr:TR3 .
+
+fr:TR-D302 a fr:Room;
+  fr:locatedIn fr:TR3 .
+
+fr:TR-B303 a fr:Room;
+  fr:locatedIn fr:TR3 .
+
+fr:TR-C304 a fr:Room;
+  fr:locatedIn fr:TR3 .
+
+fr:TR-A305 a fr:Room;
+  fr:locatedIn fr:TR3 .
+
+fr:TR-C306 a fr:Room;
+  fr:locatedIn fr:TR3 .
+
+fr:TR-A307 a fr:Room;
+  fr:locatedIn fr:TR3 .
+
+fr:TR-A308 a fr:Room;
+  fr:locatedIn fr:TR3 .
+
+fr:TR-C309 a fr:Room;
+  fr:locatedIn fr:TR3 .
+
+fr:TR-A310 a fr:Room;
+  fr:locatedIn fr:TR3 .
+
+fr:TR-C311 a fr:Room;
+  fr:locatedIn fr:TR3 .
+
+fr:TR4 a fr:Floor;
+  fr:locatedIn fr:Transitorium .
+
+fr:TR-B401 a fr:Room;
+  fr:locatedIn fr:TR4 .
+
+fr:TR-D402 a fr:Room;
+  fr:locatedIn fr:TR4 .
+
+fr:TR-D403 a fr:Room;
+  fr:locatedIn fr:TR4 .
+
+fr:TR-C404 a fr:Room;
+  fr:locatedIn fr:TR4 .
+
+fr:TR-D405 a fr:Room;
+  fr:locatedIn fr:TR4 .
+
+fr:TR-D406 a fr:Room;
+  fr:locatedIn fr:TR4 .
+
+fr:TR-D407 a fr:Room;
+  fr:locatedIn fr:TR4 .
+
+fr:TR-D408 a fr:Room;
+  fr:locatedIn fr:TR4 .
+
+fr:TR-B409 a fr:Room;
+  fr:locatedIn fr:TR4 .
+
+fr:TR-B410 a fr:Room;
+  fr:locatedIn fr:TR4 .
+
+fr:ACTA fr:hasBuildingCode "AC"^^<http://www.w3.org/2001/XMLSchemastring> .
+
+fr:AC0 a fr:Floor;
+  fr:locatedIn fr:ACTA .
+
+fr:AC-B001 a fr:Room;
+  fr:locatedIn fr:AC0 .
+
+fr:AC-B002 a fr:Room;
+  fr:locatedIn fr:AC0 .
+
+fr:AC-D003 a fr:Room;
+  fr:locatedIn fr:AC0 .
+
+fr:AC-C004 a fr:Room;
+  fr:locatedIn fr:AC0 .
+
+fr:AC-D005 a fr:Room;
+  fr:locatedIn fr:AC0 .
+
+fr:AC-B006 a fr:Room;
+  fr:locatedIn fr:AC0 .
+
+fr:AC-C007 a fr:Room;
+  fr:locatedIn fr:AC0 .
+
+fr:AC-B008 a fr:Room;
+  fr:locatedIn fr:AC0 .
+
+fr:AC-B009 a fr:Room;
+  fr:locatedIn fr:AC0 .
+
+fr:AC-A010 a fr:Room;
+  fr:locatedIn fr:AC0 .
+
+fr:AC-A011 a fr:Room;
+  fr:locatedIn fr:AC0 .
+
+fr:AC-A012 a fr:Room;
+  fr:locatedIn fr:AC0 .
+
+fr:AC-B013 a fr:Room;
+  fr:locatedIn fr:AC0 .
+
+fr:AC-D014 a fr:Room;
+  fr:locatedIn fr:AC0 .
+
+fr:AC-D015 a fr:Room;
+  fr:locatedIn fr:AC0 .
+
+fr:AC-B016 a fr:Room;
+  fr:locatedIn fr:AC0 .
+
+fr:AC-A017 a fr:Room;
+  fr:locatedIn fr:AC0 .
+
+fr:AC1 a fr:Floor;
+  fr:locatedIn fr:ACTA .
+
+fr:AC-D101 a fr:Room;
+  fr:locatedIn fr:AC1 .
+
+fr:AC-D102 a fr:Room;
+  fr:locatedIn fr:AC1 .
+
+fr:AC-D103 a fr:Room;
+  fr:locatedIn fr:AC1 .
+
+fr:AC-B104 a fr:Room;
+  fr:locatedIn fr:AC1 .
+
+fr:AC-D105 a fr:Room;
+  fr:locatedIn fr:AC1 .
+
+fr:AC-D106 a fr:Room;
+  fr:locatedIn fr:AC1 .
+
+fr:AC-D107 a fr:Room;
+  fr:locatedIn fr:AC1 .
+
+fr:AC-D108 a fr:Room;
+  fr:locatedIn fr:AC1 .
+
+fr:AC-C109 a fr:Room;
+  fr:locatedIn fr:AC1 .
+
+fr:AC-B110 a fr:Room;
+  fr:locatedIn fr:AC1 .
+
+fr:AC-B111 a fr:Room;
+  fr:locatedIn fr:AC1 .
+
+fr:AC-D112 a fr:Room;
+  fr:locatedIn fr:AC1 .
+
+fr:AC2 a fr:Floor;
+  fr:locatedIn fr:ACTA .
+
+fr:AC-A201 a fr:Room;
+  fr:locatedIn fr:AC2 .
+
+fr:AC-D202 a fr:Room;
+  fr:locatedIn fr:AC2 .
+
+fr:AC-B203 a fr:Room;
+  fr:locatedIn fr:AC2 .
+
+fr:AC-C204 a fr:Room;
+  fr:locatedIn fr:AC2 .
+
+fr:AC-D205 a fr:Room;
+  fr:locatedIn fr:AC2 .
+
+fr:AC-C206 a fr:Room;
+  fr:locatedIn fr:AC2 .
+
+fr:AC-A207 a fr:Room;
+  fr:locatedIn fr:AC2 .
+
+fr:AC-A208 a fr:Room;
+  fr:locatedIn fr:AC2 .
+
+fr:AC-D209 a fr:Room;
+  fr:locatedIn fr:AC2 .
+
+fr:AC-C210 a fr:Room;
+  fr:locatedIn fr:AC2 .
+
+fr:AC-A211 a fr:Room;
+  fr:locatedIn fr:AC2 .
+
+fr:AC-D212 a fr:Room;
+  fr:locatedIn fr:AC2 .
+
+fr:AC-A213 a fr:Room;
+  fr:locatedIn fr:AC2 .
+
+fr:AC-B214 a fr:Room;
+  fr:locatedIn fr:AC2 .
+
+fr:AC-C215 a fr:Room;
+  fr:locatedIn fr:AC2 .
+
+fr:AC-D216 a fr:Room;
+  fr:locatedIn fr:AC2 .
+
+fr:AC-A217 a fr:Room;
+  fr:locatedIn fr:AC2 .
+
+fr:AC-A218 a fr:Room;
+  fr:locatedIn fr:AC2 .
+
+fr:AC-B219 a fr:Room;
+  fr:locatedIn fr:AC2 .
+
+fr:AC3 a fr:Floor;
+  fr:locatedIn fr:ACTA .
+
+fr:AC-A301 a fr:Room;
+  fr:locatedIn fr:AC3 .
+
+fr:AC-C302 a fr:Room;
+  fr:locatedIn fr:AC3 .
+
+fr:AC-A303 a fr:Room;
+  fr:locatedIn fr:AC3 .
+
+fr:AC-C304 a fr:Room;
+  fr:locatedIn fr:AC3 .
+
+fr:AC-A305 a fr:Room;
+  fr:locatedIn fr:AC3 .
+
+fr:AC-D306 a fr:Room;
+  fr:locatedIn fr:AC3 .
+
+fr:AC-D307 a fr:Room;
+  fr:locatedIn fr:AC3 .
+
+fr:AC-D308 a fr:Room;
+  fr:locatedIn fr:AC3 .
+
+fr:AC-C309 a fr:Room;
+  fr:locatedIn fr:AC3 .
+
+fr:AC-D310 a fr:Room;
+  fr:locatedIn fr:AC3 .
+
+fr:AC-C311 a fr:Room;
+  fr:locatedIn fr:AC3 .
+
+fr:AC-C312 a fr:Room;
+  fr:locatedIn fr:AC3 .
+
+fr:AC-C313 a fr:Room;
+  fr:locatedIn fr:AC3 .
+
+fr:AC-B314 a fr:Room;
+  fr:locatedIn fr:AC3 .
+
+fr:AC-A315 a fr:Room;
+  fr:locatedIn fr:AC3 .
+
+fr:AC-C316 a fr:Room;
+  fr:locatedIn fr:AC3 .
+
+fr:AC-C317 a fr:Room;
+  fr:locatedIn fr:AC3 .
+
+fr:OZW_building fr:hasBuildingCode "OZ"^^<http://www.w3.org/2001/XMLSchemastring> .
+
+fr:OZ0 a fr:Floor;
+  fr:locatedIn fr:OZW_building .
+
+fr:OZ-D001 a fr:Room;
+  fr:locatedIn fr:OZ0 .
+
+fr:OZ-B002 a fr:Room;
+  fr:locatedIn fr:OZ0 .
+
+fr:OZ-A003 a fr:Room;
+  fr:locatedIn fr:OZ0 .
+
+fr:OZ-C004 a fr:Room;
+  fr:locatedIn fr:OZ0 .
+
+fr:OZ-A005 a fr:Room;
+  fr:locatedIn fr:OZ0 .
+
+fr:OZ-C006 a fr:Room;
+  fr:locatedIn fr:OZ0 .
+
+fr:OZ-D007 a fr:Room;
+  fr:locatedIn fr:OZ0 .
+
+fr:OZ-A008 a fr:Room;
+  fr:locatedIn fr:OZ0 .
+
+fr:OZ-B009 a fr:Room;
+  fr:locatedIn fr:OZ0 .
+
+fr:OZ-A010 a fr:Room;
+  fr:locatedIn fr:OZ0 .
+
+fr:OZ1 a fr:Floor;
+  fr:locatedIn fr:OZW_building .
+
+fr:OZ-C101 a fr:Room;
+  fr:locatedIn fr:OZ1 .
+
+fr:OZ-B102 a fr:Room;
+  fr:locatedIn fr:OZ1 .
+
+fr:OZ-C103 a fr:Room;
+  fr:locatedIn fr:OZ1 .
+
+fr:OZ-C104 a fr:Room;
+  fr:locatedIn fr:OZ1 .
+
+fr:OZ-C105 a fr:Room;
+  fr:locatedIn fr:OZ1 .
+
+fr:OZ-A106 a fr:Room;
+  fr:locatedIn fr:OZ1 .
+
+fr:OZ-A107 a fr:Room;
+  fr:locatedIn fr:OZ1 .
+
+fr:OZ-B108 a fr:Room;
+  fr:locatedIn fr:OZ1 .
+
+fr:OZ-B109 a fr:Room;
+  fr:locatedIn fr:OZ1 .
+
+fr:OZ-D110 a fr:Room;
+  fr:locatedIn fr:OZ1 .
+
+fr:OZ-C111 a fr:Room;
+  fr:locatedIn fr:OZ1 .
+
+fr:OZ-B112 a fr:Room;
+  fr:locatedIn fr:OZ1 .
+
+fr:OZ-C113 a fr:Room;
+  fr:locatedIn fr:OZ1 .
+
+fr:OZ-B114 a fr:Room;
+  fr:locatedIn fr:OZ1 .
+
+fr:OZ2 a fr:Floor;
+  fr:locatedIn fr:OZW_building .
+
+fr:OZ-B201 a fr:Room;
+  fr:locatedIn fr:OZ2 .
+
+fr:OZ-A202 a fr:Room;
+  fr:locatedIn fr:OZ2 .
+
+fr:OZ-C203 a fr:Room;
+  fr:locatedIn fr:OZ2 .
+
+fr:OZ-A204 a fr:Room;
+  fr:locatedIn fr:OZ2 .
+
+fr:OZ-B205 a fr:Room;
+  fr:locatedIn fr:OZ2 .
+
+fr:OZ-B206 a fr:Room;
+  fr:locatedIn fr:OZ2 .
+
+fr:OZ-D207 a fr:Room;
+  fr:locatedIn fr:OZ2 .
+
+fr:OZ-D208 a fr:Room;
+  fr:locatedIn fr:OZ2 .
+
+fr:OZ-D209 a fr:Room;
+  fr:locatedIn fr:OZ2 .
+
+fr:OZ-B210 a fr:Room;
+  fr:locatedIn fr:OZ2 .
+
+fr:OZ-D211 a fr:Room;
+  fr:locatedIn fr:OZ2 .
+
+fr:OZ-B212 a fr:Room;
+  fr:locatedIn fr:OZ2 .
+
+fr:OZ-B213 a fr:Room;
+  fr:locatedIn fr:OZ2 .
+
+fr:OZ-C214 a fr:Room;
+  fr:locatedIn fr:OZ2 .
+
+fr:OZ-A215 a fr:Room;
+  fr:locatedIn fr:OZ2 .
+
+fr:OZ-C216 a fr:Room;
+  fr:locatedIn fr:OZ2 .
+
+fr:OZ-A217 a fr:Room;
+  fr:locatedIn fr:OZ2 .
+
+fr:OZ3 a fr:Floor;
+  fr:locatedIn fr:OZW_building .
+
+fr:OZ-B301 a fr:Room;
+  fr:locatedIn fr:OZ3 .
+
+fr:OZ-D302 a fr:Room;
+  fr:locatedIn fr:OZ3 .
+
+fr:OZ-D303 a fr:Room;
+  fr:locatedIn fr:OZ3 .
+
+fr:OZ-D304 a fr:Room;
+  fr:locatedIn fr:OZ3 .
+
+fr:OZ-C305 a fr:Room;
+  fr:locatedIn fr:OZ3 .
+
+fr:OZ-D306 a fr:Room;
+  fr:locatedIn fr:OZ3 .
+
+fr:OZ-B307 a fr:Room;
+  fr:locatedIn fr:OZ3 .
+
+fr:OZ-D308 a fr:Room;
+  fr:locatedIn fr:OZ3 .
+
+fr:OZ-D309 a fr:Room;
+  fr:locatedIn fr:OZ3 .
+
+fr:OZ-D310 a fr:Room;
+  fr:locatedIn fr:OZ3 .
+
+fr:OZ4 a fr:Floor;
+  fr:locatedIn fr:OZW_building .
+
+fr:OZ-B401 a fr:Room;
+  fr:locatedIn fr:OZ4 .
+
+fr:OZ-D402 a fr:Room;
+  fr:locatedIn fr:OZ4 .
+
+fr:OZ-A403 a fr:Room;
+  fr:locatedIn fr:OZ4 .
+
+fr:OZ-C404 a fr:Room;
+  fr:locatedIn fr:OZ4 .
+
+fr:OZ-D405 a fr:Room;
+  fr:locatedIn fr:OZ4 .
+
+fr:OZ-D406 a fr:Room;
+  fr:locatedIn fr:OZ4 .
+
+fr:OZ-C407 a fr:Room;
+  fr:locatedIn fr:OZ4 .
+
+fr:OZ-A408 a fr:Room;
+  fr:locatedIn fr:OZ4 .
+
+fr:OZ-A409 a fr:Room;
+  fr:locatedIn fr:OZ4 .
+
+fr:OZ-C410 a fr:Room;
+  fr:locatedIn fr:OZ4 .
+
+fr:OZ-D411 a fr:Room;
+  fr:locatedIn fr:OZ4 .
+
+fr:OZ-C412 a fr:Room;
+  fr:locatedIn fr:OZ4 .
+
+fr:OZ-C413 a fr:Room;
+  fr:locatedIn fr:OZ4 .
+
+fr:OZ-C414 a fr:Room;
+  fr:locatedIn fr:OZ4 .
+
+fr:OZ5 a fr:Floor;
+  fr:locatedIn fr:OZW_building .
+
+fr:OZ-A501 a fr:Room;
+  fr:locatedIn fr:OZ5 .
+
+fr:OZ-C502 a fr:Room;
+  fr:locatedIn fr:OZ5 .
+
+fr:OZ-D503 a fr:Room;
+  fr:locatedIn fr:OZ5 .
+
+fr:OZ-D504 a fr:Room;
+  fr:locatedIn fr:OZ5 .
+
+fr:OZ-B505 a fr:Room;
+  fr:locatedIn fr:OZ5 .
+
+fr:OZ-B506 a fr:Room;
+  fr:locatedIn fr:OZ5 .
+
+fr:OZ-C507 a fr:Room;
+  fr:locatedIn fr:OZ5 .
+
+fr:OZ-B508 a fr:Room;
+  fr:locatedIn fr:OZ5 .
+
+fr:OZ-C509 a fr:Room;
+  fr:locatedIn fr:OZ5 .
+
+fr:OZ-A510 a fr:Room;
+  fr:locatedIn fr:OZ5 .
+
+fr:OZ-A511 a fr:Room;
+  fr:locatedIn fr:OZ5 .
+
+fr:OZ-A512 a fr:Room;
+  fr:locatedIn fr:OZ5 .
+
+fr:OZ-A513 a fr:Room;
+  fr:locatedIn fr:OZ5 .
+
+fr:OZ-D514 a fr:Room;
+  fr:locatedIn fr:OZ5 .
+
+fr:OZ6 a fr:Floor;
+  fr:locatedIn fr:OZW_building .
+
+fr:OZ-A601 a fr:Room;
+  fr:locatedIn fr:OZ6 .
+
+fr:OZ-D602 a fr:Room;
+  fr:locatedIn fr:OZ6 .
+
+fr:OZ-C603 a fr:Room;
+  fr:locatedIn fr:OZ6 .
+
+fr:OZ-B604 a fr:Room;
+  fr:locatedIn fr:OZ6 .
+
+fr:OZ-C605 a fr:Room;
+  fr:locatedIn fr:OZ6 .
+
+fr:OZ-C606 a fr:Room;
+  fr:locatedIn fr:OZ6 .
+
+fr:OZ-B607 a fr:Room;
+  fr:locatedIn fr:OZ6 .
+
+fr:OZ-A608 a fr:Room;
+  fr:locatedIn fr:OZ6 .
+
+fr:OZ-A609 a fr:Room;
+  fr:locatedIn fr:OZ6 .
+
+fr:OZ-A610 a fr:Room;
+  fr:locatedIn fr:OZ6 .
+
+fr:OZ-A611 a fr:Room;
+  fr:locatedIn fr:OZ6 .
+
+fr:OZ7 a fr:Floor;
+  fr:locatedIn fr:OZW_building .
+
+fr:OZ-B701 a fr:Room;
+  fr:locatedIn fr:OZ7 .
+
+fr:OZ-A702 a fr:Room;
+  fr:locatedIn fr:OZ7 .
+
+fr:OZ-A703 a fr:Room;
+  fr:locatedIn fr:OZ7 .
+
+fr:OZ-A704 a fr:Room;
+  fr:locatedIn fr:OZ7 .
+
+fr:OZ-B705 a fr:Room;
+  fr:locatedIn fr:OZ7 .
+
+fr:OZ-D706 a fr:Room;
+  fr:locatedIn fr:OZ7 .
+
+fr:OZ-B707 a fr:Room;
+  fr:locatedIn fr:OZ7 .
+
+fr:OZ-A708 a fr:Room;
+  fr:locatedIn fr:OZ7 .
+
+fr:OZ-B709 a fr:Room;
+  fr:locatedIn fr:OZ7 .
+
+fr:OZ-C710 a fr:Room;
+  fr:locatedIn fr:OZ7 .
+
+fr:OZ-C711 a fr:Room;
+  fr:locatedIn fr:OZ7 .
+
+fr:OZ-D712 a fr:Room;
+  fr:locatedIn fr:OZ7 .
+
+fr:OZ-A713 a fr:Room;
+  fr:locatedIn fr:OZ7 .
+
+fr:OZ-D714 a fr:Room;
+  fr:locatedIn fr:OZ7 .
+
+fr:OZ-C715 a fr:Room;
+  fr:locatedIn fr:OZ7 .
+
+fr:OZ-D716 a fr:Room;
+  fr:locatedIn fr:OZ7 .
+
+fr:OZ-C717 a fr:Room;
+  fr:locatedIn fr:OZ7 .
+
+fr:OZ-C718 a fr:Room;
+  fr:locatedIn fr:OZ7 .
+
+fr:OZ-B719 a fr:Room;
+  fr:locatedIn fr:OZ7 .
+
+fr:OZ8 a fr:Floor;
+  fr:locatedIn fr:OZW_building .
+
+fr:OZ-C801 a fr:Room;
+  fr:locatedIn fr:OZ8 .
+
+fr:OZ-A802 a fr:Room;
+  fr:locatedIn fr:OZ8 .
+
+fr:OZ-D803 a fr:Room;
+  fr:locatedIn fr:OZ8 .
+
+fr:OZ-D804 a fr:Room;
+  fr:locatedIn fr:OZ8 .
+
+fr:OZ-C805 a fr:Room;
+  fr:locatedIn fr:OZ8 .
+
+fr:OZ-A806 a fr:Room;
+  fr:locatedIn fr:OZ8 .
+
+fr:OZ-C807 a fr:Room;
+  fr:locatedIn fr:OZ8 .
+
+fr:OZ-C808 a fr:Room;
+  fr:locatedIn fr:OZ8 .
+
+fr:OZ-B809 a fr:Room;
+  fr:locatedIn fr:OZ8 .
+
+fr:OZ-D810 a fr:Room;
+  fr:locatedIn fr:OZ8 .
+
+fr:OZ-A811 a fr:Room;
+  fr:locatedIn fr:OZ8 .
+
+fr:BelleVUe fr:hasBuildingCode "BV"^^<http://www.w3.org/2001/XMLSchemastring> .
+
+fr:BV0 a fr:Floor;
+  fr:locatedIn fr:BelleVUe .
+
+fr:BV-B001 a fr:Room;
+  fr:locatedIn fr:BV0 .
+
+fr:BV-D002 a fr:Room;
+  fr:locatedIn fr:BV0 .
+
+fr:BV-B003 a fr:Room;
+  fr:locatedIn fr:BV0 .
+
+fr:BV-D004 a fr:Room;
+  fr:locatedIn fr:BV0 .
+
+fr:BV-A005 a fr:Room;
+  fr:locatedIn fr:BV0 .
+
+fr:BV-B006 a fr:Room;
+  fr:locatedIn fr:BV0 .
+
+fr:BV-D007 a fr:Room;
+  fr:locatedIn fr:BV0 .
+
+fr:BV-B008 a fr:Room;
+  fr:locatedIn fr:BV0 .
+
+fr:BV-A009 a fr:Room;
+  fr:locatedIn fr:BV0 .
+
+fr:BV-D010 a fr:Room;
+  fr:locatedIn fr:BV0 .
+
+fr:BV-C011 a fr:Room;
+  fr:locatedIn fr:BV0 .
+
+fr:BV-A012 a fr:Room;
+  fr:locatedIn fr:BV0 .
+
+fr:BV-A013 a fr:Room;
+  fr:locatedIn fr:BV0 .
+
+fr:BV-A014 a fr:Room;
+  fr:locatedIn fr:BV0 .
+
+fr:BV-A015 a fr:Room;
+  fr:locatedIn fr:BV0 .
+
+fr:BV-C016 a fr:Room;
+  fr:locatedIn fr:BV0 .
+
+fr:BV-D017 a fr:Room;
+  fr:locatedIn fr:BV0 .
+
+fr:BV1 a fr:Floor;
+  fr:locatedIn fr:BelleVUe .
+
+fr:BV-D101 a fr:Room;
+  fr:locatedIn fr:BV1 .
+
+fr:BV-B102 a fr:Room;
+  fr:locatedIn fr:BV1 .
+
+fr:BV-A103 a fr:Room;
+  fr:locatedIn fr:BV1 .
+
+fr:BV-A104 a fr:Room;
+  fr:locatedIn fr:BV1 .
+
+fr:BV-D105 a fr:Room;
+  fr:locatedIn fr:BV1 .
+
+fr:BV-C106 a fr:Room;
+  fr:locatedIn fr:BV1 .
+
+fr:BV-B107 a fr:Room;
+  fr:locatedIn fr:BV1 .
+
+fr:BV-C108 a fr:Room;
+  fr:locatedIn fr:BV1 .
+
+fr:BV-D109 a fr:Room;
+  fr:locatedIn fr:BV1 .
+
+fr:BV-A110 a fr:Room;
+  fr:locatedIn fr:BV1 .
+
+fr:BV2 a fr:Floor;
+  fr:locatedIn fr:BelleVUe .
+
+fr:BV-D201 a fr:Room;
+  fr:locatedIn fr:BV2 .
+
+fr:BV-D202 a fr:Room;
+  fr:locatedIn fr:BV2 .
+
+fr:BV-D203 a fr:Room;
+  fr:locatedIn fr:BV2 .
+
+fr:BV-D204 a fr:Room;
+  fr:locatedIn fr:BV2 .
+
+fr:BV-A205 a fr:Room;
+  fr:locatedIn fr:BV2 .
+
+fr:BV-B206 a fr:Room;
+  fr:locatedIn fr:BV2 .
+
+fr:BV-A207 a fr:Room;
+  fr:locatedIn fr:BV2 .
+
+fr:BV-D208 a fr:Room;
+  fr:locatedIn fr:BV2 .
+
+fr:BV-D209 a fr:Room;
+  fr:locatedIn fr:BV2 .
+
+fr:BV-A210 a fr:Room;
+  fr:locatedIn fr:BV2 .
+
+fr:BV-C211 a fr:Room;
+  fr:locatedIn fr:BV2 .
+
+fr:BV-C212 a fr:Room;
+  fr:locatedIn fr:BV2 .
+
+fr:BV-C213 a fr:Room;
+  fr:locatedIn fr:BV2 .
+
+fr:BV-D214 a fr:Room;
+  fr:locatedIn fr:BV2 .
+
+fr:BV-A215 a fr:Room;
+  fr:locatedIn fr:BV2 .
+
+fr:BV-A216 a fr:Room;
+  fr:locatedIn fr:BV2 .
+
+fr:BV-C217 a fr:Room;
+  fr:locatedIn fr:BV2 .
+
+fr:BV-C218 a fr:Room;
+  fr:locatedIn fr:BV2 .
+
+fr:Kinderrijk_Day_care_centre fr:hasBuildingCode "KD"^^<http://www.w3.org/2001/XMLSchemastring> .
+
+fr:KD0 a fr:Floor;
+  fr:locatedIn fr:Kinderrijk_Day_care_centre .
+
+fr:KD-D001 a fr:Room;
+  fr:locatedIn fr:KD0 .
+
+fr:KD-C002 a fr:Room;
+  fr:locatedIn fr:KD0 .
+
+fr:KD-B003 a fr:Room;
+  fr:locatedIn fr:KD0 .
+
+fr:KD-B004 a fr:Room;
+  fr:locatedIn fr:KD0 .
+
+fr:KD-A005 a fr:Room;
+  fr:locatedIn fr:KD0 .
+
+fr:KD-D006 a fr:Room;
+  fr:locatedIn fr:KD0 .
+
+fr:KD-B007 a fr:Room;
+  fr:locatedIn fr:KD0 .
+
+fr:KD-C008 a fr:Room;
+  fr:locatedIn fr:KD0 .
+
+fr:KD-D009 a fr:Room;
+  fr:locatedIn fr:KD0 .
+
+fr:KD-A010 a fr:Room;
+  fr:locatedIn fr:KD0 .
+
+fr:KD-C011 a fr:Room;
+  fr:locatedIn fr:KD0 .
+
+fr:VU_StartHub fr:hasBuildingCode "VH"^^<http://www.w3.org/2001/XMLSchemastring> .
+
+fr:VH0 a fr:Floor;
+  fr:locatedIn fr:VU_StartHub .
+
+fr:VH-A001 a fr:Room;
+  fr:locatedIn fr:VH0 .
+
+fr:VH-D002 a fr:Room;
+  fr:locatedIn fr:VH0 .
+
+fr:VH-B003 a fr:Room;
+  fr:locatedIn fr:VH0 .
+
+fr:VH-B004 a fr:Room;
+  fr:locatedIn fr:VH0 .
+
+fr:VH-A005 a fr:Room;
+  fr:locatedIn fr:VH0 .
+
+fr:VH-B006 a fr:Room;
+  fr:locatedIn fr:VH0 .
+
+fr:VH-A007 a fr:Room;
+  fr:locatedIn fr:VH0 .
+
+fr:VH-B008 a fr:Room;
+  fr:locatedIn fr:VH0 .
+
+fr:VH-D009 a fr:Room;
+  fr:locatedIn fr:VH0 .
+
+fr:VH-D010 a fr:Room;
+  fr:locatedIn fr:VH0 .
+
+fr:VH-A011 a fr:Room;
+  fr:locatedIn fr:VH0 .
+
+fr:VH-C012 a fr:Room;
+  fr:locatedIn fr:VH0 .
+
+fr:VH-D013 a fr:Room;
+  fr:locatedIn fr:VH0 .
+
+fr:VH-D014 a fr:Room;
+  fr:locatedIn fr:VH0 .
+
+fr:VH-A015 a fr:Room;
+  fr:locatedIn fr:VH0 .
+
+fr:VH-A016 a fr:Room;
+  fr:locatedIn fr:VH0 .
+
+fr:VH-C017 a fr:Room;
+  fr:locatedIn fr:VH0 .
+
+fr:VH1 a fr:Floor;
+  fr:locatedIn fr:VU_StartHub .
+
+fr:VH-C101 a fr:Room;
+  fr:locatedIn fr:VH1 .
+
+fr:VH-A102 a fr:Room;
+  fr:locatedIn fr:VH1 .
+
+fr:VH-D103 a fr:Room;
+  fr:locatedIn fr:VH1 .
+
+fr:VH-A104 a fr:Room;
+  fr:locatedIn fr:VH1 .
+
+fr:VH-B105 a fr:Room;
+  fr:locatedIn fr:VH1 .
+
+fr:VH-D106 a fr:Room;
+  fr:locatedIn fr:VH1 .
+
+fr:VH-B107 a fr:Room;
+  fr:locatedIn fr:VH1 .
+
+fr:VH-B108 a fr:Room;
+  fr:locatedIn fr:VH1 .
+
+fr:VH-A109 a fr:Room;
+  fr:locatedIn fr:VH1 .
+
+fr:VH-A110 a fr:Room;
+  fr:locatedIn fr:VH1 .
+
+fr:Symphonie_building fr:hasBuildingCode "SY"^^<http://www.w3.org/2001/XMLSchemastring> .
+
+fr:SY0 a fr:Floor;
+  fr:locatedIn fr:Symphonie_building .
+
+fr:SY-D001 a fr:Room;
+  fr:locatedIn fr:SY0 .
+
+fr:SY-A002 a fr:Room;
+  fr:locatedIn fr:SY0 .
+
+fr:SY-D003 a fr:Room;
+  fr:locatedIn fr:SY0 .
+
+fr:SY-A004 a fr:Room;
+  fr:locatedIn fr:SY0 .
+
+fr:SY-B005 a fr:Room;
+  fr:locatedIn fr:SY0 .
+
+fr:SY-B006 a fr:Room;
+  fr:locatedIn fr:SY0 .
+
+fr:SY-A007 a fr:Room;
+  fr:locatedIn fr:SY0 .
+
+fr:SY-B008 a fr:Room;
+  fr:locatedIn fr:SY0 .
+
+fr:SY-A009 a fr:Room;
+  fr:locatedIn fr:SY0 .
+
+fr:SY-C010 a fr:Room;
+  fr:locatedIn fr:SY0 .
+
+fr:SY-A011 a fr:Room;
+  fr:locatedIn fr:SY0 .
+
+fr:SY-D012 a fr:Room;
+  fr:locatedIn fr:SY0 .
+
+fr:SY1 a fr:Floor;
+  fr:locatedIn fr:Symphonie_building .
+
+fr:SY-B101 a fr:Room;
+  fr:locatedIn fr:SY1 .
+
+fr:SY-A102 a fr:Room;
+  fr:locatedIn fr:SY1 .
+
+fr:SY-A103 a fr:Room;
+  fr:locatedIn fr:SY1 .
+
+fr:SY-A104 a fr:Room;
+  fr:locatedIn fr:SY1 .
+
+fr:SY-D105 a fr:Room;
+  fr:locatedIn fr:SY1 .
+
+fr:SY-B106 a fr:Room;
+  fr:locatedIn fr:SY1 .
+
+fr:SY-A107 a fr:Room;
+  fr:locatedIn fr:SY1 .
+
+fr:SY-B108 a fr:Room;
+  fr:locatedIn fr:SY1 .
+
+fr:SY-D109 a fr:Room;
+  fr:locatedIn fr:SY1 .
+
+fr:SY-C110 a fr:Room;
+  fr:locatedIn fr:SY1 .
+
+fr:SY-D111 a fr:Room;
+  fr:locatedIn fr:SY1 .
+
+fr:SY-C112 a fr:Room;
+  fr:locatedIn fr:SY1 .
+
+fr:SY-A113 a fr:Room;
+  fr:locatedIn fr:SY1 .
+
+fr:SY-B114 a fr:Room;
+  fr:locatedIn fr:SY1 .
+
+fr:SY-C115 a fr:Room;
+  fr:locatedIn fr:SY1 .
+
+fr:SY-B116 a fr:Room;
+  fr:locatedIn fr:SY1 .
+
+fr:SY-A117 a fr:Room;
+  fr:locatedIn fr:SY1 .
+
+fr:SY-B118 a fr:Room;
+  fr:locatedIn fr:SY1 .
+
+fr:SY-C119 a fr:Room;
+  fr:locatedIn fr:SY1 .
+
+fr:SY2 a fr:Floor;
+  fr:locatedIn fr:Symphonie_building .
+
+fr:SY-A201 a fr:Room;
+  fr:locatedIn fr:SY2 .
+
+fr:SY-C202 a fr:Room;
+  fr:locatedIn fr:SY2 .
+
+fr:SY-B203 a fr:Room;
+  fr:locatedIn fr:SY2 .
+
+fr:SY-D204 a fr:Room;
+  fr:locatedIn fr:SY2 .
+
+fr:SY-B205 a fr:Room;
+  fr:locatedIn fr:SY2 .
+
+fr:SY-C206 a fr:Room;
+  fr:locatedIn fr:SY2 .
+
+fr:SY-B207 a fr:Room;
+  fr:locatedIn fr:SY2 .
+
+fr:SY-D208 a fr:Room;
+  fr:locatedIn fr:SY2 .
+
+fr:SY-B209 a fr:Room;
+  fr:locatedIn fr:SY2 .
+
+fr:SY-A210 a fr:Room;
+  fr:locatedIn fr:SY2 .
+
+fr:SY-B211 a fr:Room;
+  fr:locatedIn fr:SY2 .
+
+fr:SY3 a fr:Floor;
+  fr:locatedIn fr:Symphonie_building .
+
+fr:SY-D301 a fr:Room;
+  fr:locatedIn fr:SY3 .
+
+fr:SY-B302 a fr:Room;
+  fr:locatedIn fr:SY3 .
+
+fr:SY-A303 a fr:Room;
+  fr:locatedIn fr:SY3 .
+
+fr:SY-D304 a fr:Room;
+  fr:locatedIn fr:SY3 .
+
+fr:SY-A305 a fr:Room;
+  fr:locatedIn fr:SY3 .
+
+fr:SY-A306 a fr:Room;
+  fr:locatedIn fr:SY3 .
+
+fr:SY-A307 a fr:Room;
+  fr:locatedIn fr:SY3 .
+
+fr:SY-B308 a fr:Room;
+  fr:locatedIn fr:SY3 .
+
+fr:SY-A309 a fr:Room;
+  fr:locatedIn fr:SY3 .
+
+fr:SY-C310 a fr:Room;
+  fr:locatedIn fr:SY3 .
+
+fr:SY-D311 a fr:Room;
+  fr:locatedIn fr:SY3 .
+
+fr:VU_Sports_Centre_Uilenstede fr:hasBuildingCode "SC"^^<http://www.w3.org/2001/XMLSchemastring> .
+
+fr:SC0 a fr:Floor;
+  fr:locatedIn fr:VU_Sports_Centre_Uilenstede .
+
+fr:SC-B001 a fr:Room;
+  fr:locatedIn fr:SC0 .
+
+fr:SC-B002 a fr:Room;
+  fr:locatedIn fr:SC0 .
+
+fr:SC-B003 a fr:Room;
+  fr:locatedIn fr:SC0 .
+
+fr:SC-C004 a fr:Room;
+  fr:locatedIn fr:SC0 .
+
+fr:SC-D005 a fr:Room;
+  fr:locatedIn fr:SC0 .
+
+fr:SC-D006 a fr:Room;
+  fr:locatedIn fr:SC0 .
+
+fr:SC-B007 a fr:Room;
+  fr:locatedIn fr:SC0 .
+
+fr:SC-B008 a fr:Room;
+  fr:locatedIn fr:SC0 .
+
+fr:SC-A009 a fr:Room;
+  fr:locatedIn fr:SC0 .
+
+fr:SC-B010 a fr:Room;
+  fr:locatedIn fr:SC0 .
+
+fr:SC-D011 a fr:Room;
+  fr:locatedIn fr:SC0 .
+
+fr:SC-A012 a fr:Room;
+  fr:locatedIn fr:SC0 .
+
+fr:SC-C013 a fr:Room;
+  fr:locatedIn fr:SC0 .
+
+fr:SC-C014 a fr:Room;
+  fr:locatedIn fr:SC0 .
+
+fr:SC-D015 a fr:Room;
+  fr:locatedIn fr:SC0 .
+
+fr:SC-A016 a fr:Room;
+  fr:locatedIn fr:SC0 .
+
+fr:SC-B017 a fr:Room;
+  fr:locatedIn fr:SC0 .
+
+fr:SC1 a fr:Floor;
+  fr:locatedIn fr:VU_Sports_Centre_Uilenstede .
+
+fr:SC-A101 a fr:Room;
+  fr:locatedIn fr:SC1 .
+
+fr:SC-A102 a fr:Room;
+  fr:locatedIn fr:SC1 .
+
+fr:SC-C103 a fr:Room;
+  fr:locatedIn fr:SC1 .
+
+fr:SC-B104 a fr:Room;
+  fr:locatedIn fr:SC1 .
+
+fr:SC-D105 a fr:Room;
+  fr:locatedIn fr:SC1 .
+
+fr:SC-B106 a fr:Room;
+  fr:locatedIn fr:SC1 .
+
+fr:SC-C107 a fr:Room;
+  fr:locatedIn fr:SC1 .
+
+fr:SC-A108 a fr:Room;
+  fr:locatedIn fr:SC1 .
+
+fr:SC-B109 a fr:Room;
+  fr:locatedIn fr:SC1 .
+
+fr:SC-A110 a fr:Room;
+  fr:locatedIn fr:SC1 .
+
+fr:SC-B111 a fr:Room;
+  fr:locatedIn fr:SC1 .
+
+fr:SC-D112 a fr:Room;
+  fr:locatedIn fr:SC1 .
+
+fr:SC-D113 a fr:Room;
+  fr:locatedIn fr:SC1 .
+
+fr:SC2 a fr:Floor;
+  fr:locatedIn fr:VU_Sports_Centre_Uilenstede .
+
+fr:SC-B201 a fr:Room;
+  fr:locatedIn fr:SC2 .
+
+fr:SC-A202 a fr:Room;
+  fr:locatedIn fr:SC2 .
+
+fr:SC-A203 a fr:Room;
+  fr:locatedIn fr:SC2 .
+
+fr:SC-C204 a fr:Room;
+  fr:locatedIn fr:SC2 .
+
+fr:SC-C205 a fr:Room;
+  fr:locatedIn fr:SC2 .
+
+fr:SC-B206 a fr:Room;
+  fr:locatedIn fr:SC2 .
+
+fr:SC-D207 a fr:Room;
+  fr:locatedIn fr:SC2 .
+
+fr:SC-C208 a fr:Room;
+  fr:locatedIn fr:SC2 .
+
+fr:SC-C209 a fr:Room;
+  fr:locatedIn fr:SC2 .
+
+fr:SC-D210 a fr:Room;
+  fr:locatedIn fr:SC2 .
+
+fr:SC-A211 a fr:Room;
+  fr:locatedIn fr:SC2 .
+
+fr:SC-A212 a fr:Room;
+  fr:locatedIn fr:SC2 .
+
+fr:SC3 a fr:Floor;
+  fr:locatedIn fr:VU_Sports_Centre_Uilenstede .
+
+fr:SC-B301 a fr:Room;
+  fr:locatedIn fr:SC3 .
+
+fr:SC-B302 a fr:Room;
+  fr:locatedIn fr:SC3 .
+
+fr:SC-A303 a fr:Room;
+  fr:locatedIn fr:SC3 .
+
+fr:SC-D304 a fr:Room;
+  fr:locatedIn fr:SC3 .
+
+fr:SC-A305 a fr:Room;
+  fr:locatedIn fr:SC3 .
+
+fr:SC-A306 a fr:Room;
+  fr:locatedIn fr:SC3 .
+
+fr:SC-B307 a fr:Room;
+  fr:locatedIn fr:SC3 .
+
+fr:SC-D308 a fr:Room;
+  fr:locatedIn fr:SC3 .
+
+fr:SC-C309 a fr:Room;
+  fr:locatedIn fr:SC3 .
+
+fr:SC-D310 a fr:Room;
+  fr:locatedIn fr:SC3 .
+
+fr:SC4 a fr:Floor;
+  fr:locatedIn fr:VU_Sports_Centre_Uilenstede .
+
+fr:SC-C401 a fr:Room;
+  fr:locatedIn fr:SC4 .
+
+fr:SC-B402 a fr:Room;
+  fr:locatedIn fr:SC4 .
+
+fr:SC-A403 a fr:Room;
+  fr:locatedIn fr:SC4 .
+
+fr:VU_Sports_Centre_Uilenstede fr:hasBuildingCode "SC"^^<http://www.w3.org/2001/XMLSchemastring> .
+
+fr:SC4 a fr:Floor;
+  fr:locatedIn fr:VU_Sports_Centre_Uilenstede .
+
+fr:SC-C404 a fr:Room;
+  fr:locatedIn fr:SC4 .
+
+fr:SC-B405 a fr:Room;
+  fr:locatedIn fr:SC4 .
+
+fr:SC-A406 a fr:Room;
+  fr:locatedIn fr:SC4 .
+
+fr:SC-B407 a fr:Room;
+  fr:locatedIn fr:SC4 .
+
+fr:SC-D408 a fr:Room;
+  fr:locatedIn fr:SC4 .
+
+fr:SC-B409 a fr:Room;
+  fr:locatedIn fr:SC4 .
+
+fr:SC-D410 a fr:Room;
+  fr:locatedIn fr:SC4 .
+
+fr:SC-B411 a fr:Room;
+  fr:locatedIn fr:SC4 .
+
+fr:SC-A412 a fr:Room;
+  fr:locatedIn fr:SC4 .
+
+fr:SC-D413 a fr:Room;
+  fr:locatedIn fr:SC4 .
+
+fr:TenT fr:hasBuildingCode "TT"^^<http://www.w3.org/2001/XMLSchemastring> .
+
+fr:TT0 a fr:Floor;
+  fr:locatedIn fr:TenT .
+
+fr:TT-D001 a fr:Room;
+  fr:locatedIn fr:TT0 .
+
+fr:TT-A002 a fr:Room;
+  fr:locatedIn fr:TT0 .
+
+fr:TT-D003 a fr:Room;
+  fr:locatedIn fr:TT0 .
+
+fr:TT-B004 a fr:Room;
+  fr:locatedIn fr:TT0 .
+
+fr:TT-B005 a fr:Room;
+  fr:locatedIn fr:TT0 .
+
+fr:TT-D006 a fr:Room;
+  fr:locatedIn fr:TT0 .
+
+fr:TT-B007 a fr:Room;
+  fr:locatedIn fr:TT0 .
+
+fr:TT-D008 a fr:Room;
+  fr:locatedIn fr:TT0 .
+
+fr:TT-C009 a fr:Room;
+  fr:locatedIn fr:TT0 .
+
+fr:TT-B010 a fr:Room;
+  fr:locatedIn fr:TT0 .
+
+fr:TT-D011 a fr:Room;
+  fr:locatedIn fr:TT0 .
+
+fr:TT-B012 a fr:Room;
+  fr:locatedIn fr:TT0 .
+
+fr:TT-C013 a fr:Room;
+  fr:locatedIn fr:TT0 .
+
+fr:TT-C014 a fr:Room;
+  fr:locatedIn fr:TT0 .
+
+fr:TT-B015 a fr:Room;
+  fr:locatedIn fr:TT0 .
+
+fr:TT-C016 a fr:Room;
+  fr:locatedIn fr:TT0 .
+
+fr:TT-B017 a fr:Room;
+  fr:locatedIn fr:TT0 .
+
+fr:TT-A018 a fr:Room;
+  fr:locatedIn fr:TT0 .
+
+fr:TT-A019 a fr:Room;
+  fr:locatedIn fr:TT0 .
