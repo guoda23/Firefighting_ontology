@@ -137,9 +137,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/firefighting/accidentOccuranceTime -->
+    <!-- http://www.semanticweb.org/firefighting/accidentStart -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/firefighting/accidentOccuranceTime">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/firefighting/accidentStart">
         <rdfs:subPropertyOf rdf:resource="https://www.w3.org/TR/owl-time/#time:hasBeginning"/>
     </owl:DatatypeProperty>
     
@@ -159,6 +159,12 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/firefighting/endShift">
         <rdfs:subPropertyOf rdf:resource="https://www.w3.org/TR/owl-time/#time:hasEnd"/>
     </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/firefighting/hasBuildingCode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/firefighting/hasBuildingCode"/>
     
 
 
