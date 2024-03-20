@@ -2,9 +2,9 @@
 @prefix fr: <http://www.semanticweb.org/firefighting/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-fr:VU_Main_building fr:hasBuildingCode "HG"^^<http://www.w3.org/2001/XMLSchemastring> .
+fr:VU_Main_building fr:hasBuildingCode "HG" .
 
 fr:HG0 a fr:Floor;
   fr:locatedIn fr:VU_Main_building .
@@ -720,7 +720,7 @@ fr:HG-D1410 a fr:Room;
 fr:HG-A1411 a fr:Room;
   fr:locatedIn fr:HG14 .
 
-fr:W%26N_building fr:hasBuildingCode "WN"^^<http://www.w3.org/2001/XMLSchemastring> .
+fr:W%26N_building fr:hasBuildingCode "WN" .
 
 fr:WN0 a fr:Floor;
   fr:locatedIn fr:W%26N_building .
@@ -1262,7 +1262,7 @@ fr:WN-C1014 a fr:Room;
 fr:WN-A1015 a fr:Room;
   fr:locatedIn fr:WN10 .
 
-fr:New_university_building fr:hasBuildingCode "NU"^^<http://www.w3.org/2001/XMLSchemastring> .
+fr:New_university_building fr:hasBuildingCode "NU" .
 
 fr:NU0 a fr:Floor;
   fr:locatedIn fr:New_university_building .
@@ -1511,7 +1511,7 @@ fr:NU4 a fr:Floor;
 
 fr:NU-C408 a fr:Room .
 
-fr:New_university_building fr:hasBuildingCode "NU"^^<http://www.w3.org/2001/XMLSchemastring> .
+fr:New_university_building fr:hasBuildingCode "NU" .
 
 fr:NU-D409 a fr:Room;
   fr:locatedIn fr:NU4 .
@@ -1939,7 +1939,7 @@ fr:NU-A1313 a fr:Room;
 fr:NU-C1314 a fr:Room;
   fr:locatedIn fr:NU13 .
 
-fr:Initium fr:hasBuildingCode "IN"^^<http://www.w3.org/2001/XMLSchemastring> .
+fr:Initium fr:hasBuildingCode "IN" .
 
 fr:IN0 a fr:Floor;
   fr:locatedIn fr:Initium .
@@ -2151,7 +2151,7 @@ fr:IN-D410 a fr:Room;
 fr:IN-B411 a fr:Room;
   fr:locatedIn fr:IN4 .
 
-fr:MF_building fr:hasBuildingCode "MF"^^<http://www.w3.org/2001/XMLSchemastring> .
+fr:MF_building fr:hasBuildingCode "MF" .
 
 fr:MF0 a fr:Floor;
   fr:locatedIn fr:MF_building .
@@ -2663,7 +2663,7 @@ fr:MF-C817 a fr:Room;
 fr:MF-C818 a fr:Room;
   fr:locatedIn fr:MF8 .
 
-fr:O2_Lab_building fr:hasBuildingCode "OU"^^<http://www.w3.org/2001/XMLSchemastring> .
+fr:O2_Lab_building fr:hasBuildingCode "OU" .
 
 fr:OU0 a fr:Floor;
   fr:locatedIn fr:O2_Lab_building .
@@ -3014,7 +3014,7 @@ fr:OU6 a fr:Floor;
 
 fr:OU-A615 a fr:Room .
 
-fr:O2_Lab_building fr:hasBuildingCode "OU"^^<http://www.w3.org/2001/XMLSchemastring> .
+fr:O2_Lab_building fr:hasBuildingCode "OU" .
 
 fr:OU-A616 a fr:Room;
   fr:locatedIn fr:OU6 .
@@ -3058,7 +3058,7 @@ fr:OU-A710 a fr:Room;
 fr:OU-C711 a fr:Room;
   fr:locatedIn fr:OU7 .
 
-fr:Transitorium fr:hasBuildingCode "TR"^^<http://www.w3.org/2001/XMLSchemastring> .
+fr:Transitorium fr:hasBuildingCode "TR" .
 
 fr:TR0 a fr:Floor;
   fr:locatedIn fr:Transitorium .
@@ -3288,7 +3288,7 @@ fr:TR-B409 a fr:Room;
 fr:TR-B410 a fr:Room;
   fr:locatedIn fr:TR4 .
 
-fr:ACTA fr:hasBuildingCode "AC"^^<http://www.w3.org/2001/XMLSchemastring> .
+fr:ACTA fr:hasBuildingCode "AC" .
 
 fr:AC0 a fr:Floor;
   fr:locatedIn fr:ACTA .
@@ -3497,7 +3497,7 @@ fr:AC-C316 a fr:Room;
 fr:AC-C317 a fr:Room;
   fr:locatedIn fr:AC3 .
 
-fr:OZW_building fr:hasBuildingCode "OZ"^^<http://www.w3.org/2001/XMLSchemastring> .
+fr:OZW_building fr:hasBuildingCode "OZ" .
 
 fr:OZ0 a fr:Floor;
   fr:locatedIn fr:OZW_building .
@@ -3886,7 +3886,7 @@ fr:OZ-D810 a fr:Room;
 fr:OZ-A811 a fr:Room;
   fr:locatedIn fr:OZ8 .
 
-fr:BelleVUe fr:hasBuildingCode "BV"^^<http://www.w3.org/2001/XMLSchemastring> .
+fr:BelleVUe fr:hasBuildingCode "BV" .
 
 fr:BV0 a fr:Floor;
   fr:locatedIn fr:BelleVUe .
@@ -4032,7 +4032,7 @@ fr:BV-C217 a fr:Room;
 fr:BV-C218 a fr:Room;
   fr:locatedIn fr:BV2 .
 
-fr:Kinderrijk_Day_care_centre fr:hasBuildingCode "KD"^^<http://www.w3.org/2001/XMLSchemastring> .
+fr:Kinderrijk_Day_care_centre fr:hasBuildingCode "KD" .
 
 fr:KD0 a fr:Floor;
   fr:locatedIn fr:Kinderrijk_Day_care_centre .
@@ -4070,7 +4070,7 @@ fr:KD-A010 a fr:Room;
 fr:KD-C011 a fr:Room;
   fr:locatedIn fr:KD0 .
 
-fr:VU_StartHub fr:hasBuildingCode "VH"^^<http://www.w3.org/2001/XMLSchemastring> .
+fr:VU_StartHub fr:hasBuildingCode "VH" .
 
 fr:VH0 a fr:Floor;
   fr:locatedIn fr:VU_StartHub .
@@ -4159,7 +4159,7 @@ fr:VH-A109 a fr:Room;
 fr:VH-A110 a fr:Room;
   fr:locatedIn fr:VH1 .
 
-fr:Symphonie_building fr:hasBuildingCode "SY"^^<http://www.w3.org/2001/XMLSchemastring> .
+fr:Symphonie_building fr:hasBuildingCode "SY" .
 
 fr:SY0 a fr:Floor;
   fr:locatedIn fr:Symphonie_building .
@@ -4332,7 +4332,7 @@ fr:SY-C310 a fr:Room;
 fr:SY-D311 a fr:Room;
   fr:locatedIn fr:SY3 .
 
-fr:VU_Sports_Centre_Uilenstede fr:hasBuildingCode "SC"^^<http://www.w3.org/2001/XMLSchemastring> .
+fr:VU_Sports_Centre_Uilenstede fr:hasBuildingCode "SC" .
 
 fr:SC0 a fr:Floor;
   fr:locatedIn fr:VU_Sports_Centre_Uilenstede .
@@ -4514,7 +4514,7 @@ fr:SC-B402 a fr:Room;
 fr:SC-A403 a fr:Room;
   fr:locatedIn fr:SC4 .
 
-fr:VU_Sports_Centre_Uilenstede fr:hasBuildingCode "SC"^^<http://www.w3.org/2001/XMLSchemastring> .
+fr:VU_Sports_Centre_Uilenstede fr:hasBuildingCode "SC" .
 
 fr:SC4 a fr:Floor;
   fr:locatedIn fr:VU_Sports_Centre_Uilenstede .
@@ -4549,7 +4549,7 @@ fr:SC-A412 a fr:Room;
 fr:SC-D413 a fr:Room;
   fr:locatedIn fr:SC4 .
 
-fr:TenT fr:hasBuildingCode "TT"^^<http://www.w3.org/2001/XMLSchemastring> .
+fr:TenT fr:hasBuildingCode "TT" .
 
 fr:TT0 a fr:Floor;
   fr:locatedIn fr:TenT .
