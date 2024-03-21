@@ -47,6 +47,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/firefighting/accidentOnDay -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/firefighting/accidentOnDay">
+        <rdfs:subPropertyOf rdf:resource="https://www.w3.org/TR/owl-time/#time:dayOfWeek"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/firefighting/entrance -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/firefighting/entrance">
