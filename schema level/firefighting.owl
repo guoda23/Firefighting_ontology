@@ -393,8 +393,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/firefighting/MF_building">
         <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/Building"/>
-        <firefighting:closingTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22:00 Friday</firefighting:closingTime>
-        <firefighting:openingTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7:00 Monday</firefighting:openingTime>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medical Faculty building (MF)</rdfs:label>
     </owl:NamedIndividual>
     
@@ -458,8 +456,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/firefighting/VU_Main_building">
         <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/Building"/>
-        <firefighting:closingTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23:00 Sunday</firefighting:closingTime>
-        <firefighting:openingTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7:00 Monday</firefighting:openingTime>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VU Main building</rdfs:label>
     </owl:NamedIndividual>
     
