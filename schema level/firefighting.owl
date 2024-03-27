@@ -1,13 +1,18 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.semanticweb.org/firefighting#"
      xml:base="http://www.semanticweb.org/firefighting"
+     xmlns:oeg="http://vocab.firegraph.store/oeg#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:sem="http://semanticweb.cs.vu.nl/2009/11/sem/"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:comm="http://vocab.resc.info/communication#"
+     xmlns:foaf="http://xmlns.com/foaf/spec/#term_"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:time="https://www.w3.org/TR/owl-time/#time:"
+     xmlns:wiki="https://www.wikidata.org/wiki/"
+     xmlns:incident="http://vocab.resc.info/incident#"
      xmlns:firefighting="http://www.semanticweb.org/firefighting/">
     <owl:Ontology rdf:about="http://www.semanticweb.org/firefighting"/>
     
@@ -153,10 +158,23 @@
     
 
 
+    <!-- http://vocab.resc.info/incident#incidentRecordStartTimestamp -->
+
+    <owl:DatatypeProperty rdf:about="http://vocab.resc.info/incident#incidentRecordStartTimestamp">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/firefighting/accidentStart"/>
+        <rdfs:subPropertyOf rdf:resource="https://www.w3.org/TR/owl-time/#time:hasBeginning"/>
+        <rdfs:domain rdf:resource="http://vocab.resc.info/incident#IncidentRecord"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/firefighting/accidentStart -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/firefighting/accidentStart">
         <rdfs:subPropertyOf rdf:resource="https://www.w3.org/TR/owl-time/#time:hasBeginning"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/firefighting/Accident"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
     </owl:DatatypeProperty>
     
 
@@ -232,6 +250,61 @@
     
 
 
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/Event -->
+
+    <owl:Class rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/Event">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/firefighting/Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vocab.firegraph.store/oeg#BAGAddress -->
+
+    <owl:Class rdf:about="http://vocab.firegraph.store/oeg#BAGAddress">
+        <rdfs:subClassOf rdf:resource="http://vocab.firegraph.store/oeg#LocationResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vocab.firegraph.store/oeg#LRKPDaycare -->
+
+    <owl:Class rdf:about="http://vocab.firegraph.store/oeg#LRKPDaycare">
+        <rdfs:subClassOf rdf:resource="http://vocab.firegraph.store/oeg#RegistrationResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vocab.firegraph.store/oeg#LocationResource -->
+
+    <owl:Class rdf:about="http://vocab.firegraph.store/oeg#LocationResource">
+        <rdfs:subClassOf rdf:resource="http://vocab.firegraph.store/oeg#Resource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vocab.firegraph.store/oeg#RegistrationResource -->
+
+    <owl:Class rdf:about="http://vocab.firegraph.store/oeg#RegistrationResource">
+        <rdfs:subClassOf rdf:resource="http://vocab.firegraph.store/oeg#Resource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vocab.firegraph.store/oeg#Resource -->
+
+    <owl:Class rdf:about="http://vocab.firegraph.store/oeg#Resource"/>
+    
+
+
+    <!-- http://vocab.resc.info/incident#IncidentRecord -->
+
+    <owl:Class rdf:about="http://vocab.resc.info/incident#IncidentRecord">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/firefighting/Accident"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/firefighting/Event"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/firefighting/Accident -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/firefighting/Accident">
@@ -243,6 +316,7 @@
     <!-- http://www.semanticweb.org/firefighting/BHVer -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/firefighting/BHVer">
+        <owl:equivalentClass rdf:resource="https://www.wikidata.org/wiki/Q832055"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/firefighting/Person"/>
     </owl:Class>
     
@@ -297,14 +371,23 @@
     <!-- http://www.semanticweb.org/firefighting/Floor -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/firefighting/Floor">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/firefighting/Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/firefighting/Building"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/firefighting/locatedIn"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/firefighting/Building"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/firefighting/Location -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/firefighting/Location"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/firefighting/Location">
+        <rdfs:subClassOf rdf:resource="http://vocab.firegraph.store/oeg#LocationResource"/>
+    </owl:Class>
     
 
 
@@ -316,14 +399,23 @@
 
     <!-- http://www.semanticweb.org/firefighting/Person -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/firefighting/Person"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/firefighting/Person">
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/firefighting/Room -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/firefighting/Room">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/firefighting/Location"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/firefighting/Building"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/firefighting/locatedIn"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/firefighting/Building"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -336,9 +428,23 @@
     
 
 
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+    
+
+
     <!-- https://www.w3.org/TR/owl-time/#time:DayOfWeek -->
 
     <owl:Class rdf:about="https://www.w3.org/TR/owl-time/#time:DayOfWeek"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q832055 -->
+
+    <owl:Class rdf:about="https://www.wikidata.org/wiki/Q832055">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/firefighting/Person"/>
+    </owl:Class>
     
 
 
@@ -383,6 +489,7 @@
     <!-- http://www.semanticweb.org/firefighting/Kinderrijk_Day_care_centre -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/firefighting/Kinderrijk_Day_care_centre">
+        <rdf:type rdf:resource="http://vocab.firegraph.store/oeg#LRKPDaycare"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/firefighting/Building"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kinderrijk Day care centre</rdfs:label>
     </owl:NamedIndividual>
