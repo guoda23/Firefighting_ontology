@@ -107,15 +107,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/firefighting/respondTo -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/firefighting/respondTo">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/firefighting/Accident"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://www.semanticweb.org/firefighting/shiftFloor -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/firefighting/shiftFloor">
@@ -210,7 +201,9 @@
 
     <!-- http://www.semanticweb.org/firefighting/hasBuildingCode -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/firefighting/hasBuildingCode"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/firefighting/hasBuildingCode">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/firefighting/Building"/>
+    </owl:DatatypeProperty>
     
 
 
