@@ -17,7 +17,7 @@ fr:AC1 a fr:Floor;
   fr:locatedIn fr:ACTA .
 
 fr:ACTA a fr:Building;
-  fr:hasBuildingCode fr:AC .
+  fr:hasBuildingCode "AC" .
 
 fr:accident_103 a fr:Accident;
   fr:accidentStart "2013-01-11T16:04:09"^^xsd:dateTime;
@@ -31,7 +31,7 @@ fr:NU0 a fr:Floor;
   fr:locatedIn fr:New_university_building .
 
 fr:New_university_building a fr:Building;
-  fr:hasBuildingCode fr:NU .
+  fr:hasBuildingCode "NU" .
 
 fr:accident_104 a fr:Accident;
   fr:accidentStart "2013-01-14T13:31:31"^^xsd:dateTime;
@@ -45,7 +45,7 @@ fr:OZ7 a fr:Floor;
   fr:locatedIn fr:OZW_building .
 
 fr:OZW_building a fr:Building;
-  fr:hasBuildingCode fr:OZ .
+  fr:hasBuildingCode "OZ" .
 
 fr:accident_107 a fr:Accident;
   fr:accidentStart "2013-01-25T11:42:55"^^xsd:dateTime;
@@ -59,7 +59,7 @@ fr:OU1 a fr:Floor;
   fr:locatedIn fr:O2_Lab_building .
 
 fr:O2_Lab_building a fr:Building;
-  fr:hasBuildingCode fr:OU .
+  fr:hasBuildingCode "OU" .
 
 fr:accident_109 a fr:Accident;
   fr:accidentStart "2013-02-04T14:32:49"^^xsd:dateTime;
@@ -73,7 +73,7 @@ fr:WN2 a fr:Floor;
   fr:locatedIn fr:W%26N_building .
 
 fr:W%26N_building a fr:Building;
-  fr:hasBuildingCode fr:WN .
+  fr:hasBuildingCode "WN" .
 
 fr:accident_110 a fr:Accident;
   fr:accidentStart "2013-02-04T19:48:00"^^xsd:dateTime;
@@ -98,7 +98,7 @@ fr:MF8 a fr:Floor;
   fr:locatedIn fr:MF_building .
 
 fr:MF_building a fr:Building;
-  fr:hasBuildingCode fr:MF .
+  fr:hasBuildingCode "MF" .
 
 fr:accident_113 a fr:Accident;
   fr:accidentStart "2013-02-15T17:41:47"^^xsd:dateTime;
@@ -112,7 +112,7 @@ fr:BV0 a fr:Floor;
   fr:locatedIn fr:BelleVUe .
 
 fr:BelleVUe a fr:Building;
-  fr:hasBuildingCode fr:BV .
+  fr:hasBuildingCode "BV" .
 
 fr:accident_114 a fr:Accident;
   fr:accidentStart "2013-02-18T07:21:39"^^xsd:dateTime;
@@ -153,7 +153,7 @@ fr:TR1 a fr:Floor;
   fr:locatedIn fr:Transitorium .
 
 fr:Transitorium a fr:Building;
-  fr:hasBuildingCode fr:TR .
+  fr:hasBuildingCode "TR" .
 
 fr:accident_121 a fr:Accident;
   fr:accidentStart "2013-03-13T20:20:57"^^xsd:dateTime;
@@ -167,7 +167,7 @@ fr:IN4 a fr:Floor;
   fr:locatedIn fr:Initium .
 
 fr:Initium a fr:Building;
-  fr:hasBuildingCode fr:IN .
+  fr:hasBuildingCode "IN" .
 
 fr:accident_122 a fr:Accident;
   fr:accidentStart "2013-03-15T17:07:25"^^xsd:dateTime;
@@ -263,7 +263,7 @@ fr:HG7 a fr:Floor;
   fr:locatedIn fr:VU_Main_building .
 
 fr:VU_Main_building a fr:Building;
-  fr:hasBuildingCode fr:HG .
+  fr:hasBuildingCode "HG" .
 
 fr:accident_139 a fr:Accident;
   fr:accidentStart "2013-07-24T13:10:40"^^xsd:dateTime;
@@ -386,7 +386,7 @@ fr:SC3 a fr:Floor;
   fr:locatedIn fr:VU_Sports_Centre_Uilenstede .
 
 fr:VU_Sports_Centre_Uilenstede a fr:Building;
-  fr:hasBuildingCode fr:SC .
+  fr:hasBuildingCode "SC" .
 
 fr:accident_160 a fr:Accident;
   fr:accidentStart "2013-11-10T11:19:18"^^xsd:dateTime;
@@ -539,7 +539,7 @@ fr:TT0 a fr:Floor;
   fr:locatedIn fr:TenT .
 
 fr:TenT a fr:Building;
-  fr:hasBuildingCode fr:TT .
+  fr:hasBuildingCode "TT" .
 
 fr:accident_186 a fr:Accident;
   fr:accidentStart "2014-02-27T08:14:38"^^xsd:dateTime;
@@ -613,7 +613,7 @@ fr:KD0 a fr:Floor;
   fr:locatedIn fr:Kinderrijk_Day_care_centre .
 
 fr:Kinderrijk_Day_care_centre a fr:Building;
-  fr:hasBuildingCode fr:KD .
+  fr:hasBuildingCode "KD" .
 
 fr:accident_194 a fr:Accident;
   fr:accidentStart "2014-04-10T08:41:37"^^xsd:dateTime;
@@ -994,7 +994,7 @@ fr:SY1 a fr:Floor;
   fr:locatedIn fr:Symphonie_building .
 
 fr:Symphonie_building a fr:Building;
-  fr:hasBuildingCode fr:SY .
+  fr:hasBuildingCode "SY" .
 
 fr:accident_311 a fr:Accident;
   fr:accidentStart "2016-10-04T10:30:10"^^xsd:dateTime;
@@ -1369,7 +1369,7 @@ fr:SC3 a fr:Floor;
   fr:locatedIn fr:VU_Sports_Centre_Uilenstede .
 
 fr:VU_Sports_Centre_Uilenstede a fr:Building;
-  fr:hasBuildingCode fr:SC .
+  fr:hasBuildingCode "SC" .
 
 fr:accident_403 a fr:Accident;
   fr:accidentStart "2018-11-09T13:16:46"^^xsd:dateTime;
@@ -1383,7 +1383,7 @@ fr:HG6 a fr:Floor;
   fr:locatedIn fr:VU_Main_building .
 
 fr:VU_Main_building a fr:Building;
-  fr:hasBuildingCode fr:HG .
+  fr:hasBuildingCode "HG" .
 
 fr:accident_404 a fr:Accident;
   fr:accidentStart "2018-11-21T10:29:52"^^xsd:dateTime;
@@ -1397,7 +1397,7 @@ fr:OU4 a fr:Floor;
   fr:locatedIn fr:O2_Lab_building .
 
 fr:O2_Lab_building a fr:Building;
-  fr:hasBuildingCode fr:OU .
+  fr:hasBuildingCode "OU" .
 
 fr:accident_405 a fr:Accident;
   fr:accidentStart "2018-11-24T10:13:18"^^xsd:dateTime;
@@ -1411,7 +1411,7 @@ fr:WN1 a fr:Floor;
   fr:locatedIn fr:W%26N_building .
 
 fr:W%26N_building a fr:Building;
-  fr:hasBuildingCode fr:WN .
+  fr:hasBuildingCode "WN" .
 
 fr:accident_407 a fr:Accident;
   fr:accidentStart "2019-01-03T07:51:36"^^xsd:dateTime;
@@ -1425,7 +1425,7 @@ fr:BV2 a fr:Floor;
   fr:locatedIn fr:BelleVUe .
 
 fr:BelleVUe a fr:Building;
-  fr:hasBuildingCode fr:BV .
+  fr:hasBuildingCode "BV" .
 
 fr:accident_408 a fr:Accident;
   fr:accidentStart "2019-01-08T15:11:44"^^xsd:dateTime;
@@ -1439,7 +1439,7 @@ fr:NU1 a fr:Floor;
   fr:locatedIn fr:New_university_building .
 
 fr:New_university_building a fr:Building;
-  fr:hasBuildingCode fr:NU .
+  fr:hasBuildingCode "NU" .
 
 fr:accident_409 a fr:Accident;
   fr:accidentStart "2019-01-09T13:43:58"^^xsd:dateTime;
@@ -1508,7 +1508,7 @@ fr:MF8 a fr:Floor;
   fr:locatedIn fr:MF_building .
 
 fr:MF_building a fr:Building;
-  fr:hasBuildingCode fr:MF .
+  fr:hasBuildingCode "MF" .
 
 fr:accident_419 a fr:Accident;
   fr:accidentStart "2019-02-13T17:44:21"^^xsd:dateTime;
@@ -1601,7 +1601,7 @@ fr:IN1 a fr:Floor;
   fr:locatedIn fr:Initium .
 
 fr:Initium a fr:Building;
-  fr:hasBuildingCode fr:IN .
+  fr:hasBuildingCode "IN" .
 
 fr:accident_433 a fr:Accident;
   fr:accidentStart "2019-05-09T17:43:26"^^xsd:dateTime;
@@ -1615,7 +1615,7 @@ fr:SY1 a fr:Floor;
   fr:locatedIn fr:Symphonie_building .
 
 fr:Symphonie_building a fr:Building;
-  fr:hasBuildingCode fr:SY .
+  fr:hasBuildingCode "SY" .
 
 fr:accident_434 a fr:Accident;
   fr:accidentStart "2019-05-16T14:28:04"^^xsd:dateTime;
@@ -1686,7 +1686,7 @@ fr:AC1 a fr:Floor;
   fr:locatedIn fr:ACTA .
 
 fr:ACTA a fr:Building;
-  fr:hasBuildingCode fr:AC .
+  fr:hasBuildingCode "AC" .
 
 fr:accident_451 a fr:Accident;
   fr:accidentStart "2019-11-23T10:13:18"^^xsd:dateTime;
@@ -1763,7 +1763,7 @@ fr:OZ8 a fr:Floor;
   fr:locatedIn fr:OZW_building .
 
 fr:OZW_building a fr:Building;
-  fr:hasBuildingCode fr:OZ .
+  fr:hasBuildingCode "OZ" .
 
 fr:accident_462 a fr:Accident;
   fr:accidentStart "2020-02-11T21:53:15"^^xsd:dateTime;
@@ -1810,7 +1810,7 @@ fr:KD0 a fr:Floor;
   fr:locatedIn fr:Kinderrijk_Day_care_centre .
 
 fr:Kinderrijk_Day_care_centre a fr:Building;
-  fr:hasBuildingCode fr:KD .
+  fr:hasBuildingCode "KD" .
 
 fr:accident_473 a fr:Accident;
   fr:accidentStart "2020-04-13T22:30:24"^^xsd:dateTime;
@@ -1954,7 +1954,7 @@ fr:TT0 a fr:Floor;
   fr:locatedIn fr:TenT .
 
 fr:TenT a fr:Building;
-  fr:hasBuildingCode fr:TT .
+  fr:hasBuildingCode "TT" .
 
 fr:accident_507 a fr:Accident;
   fr:accidentStart "2021-02-05T07:13:20"^^xsd:dateTime;
@@ -2082,7 +2082,7 @@ fr:TR2 a fr:Floor;
   fr:locatedIn fr:Transitorium .
 
 fr:Transitorium a fr:Building;
-  fr:hasBuildingCode fr:TR .
+  fr:hasBuildingCode "TR" .
 
 fr:accident_540 a fr:Accident;
   fr:accidentStart "2021-10-26T09:31:42"^^xsd:dateTime;
