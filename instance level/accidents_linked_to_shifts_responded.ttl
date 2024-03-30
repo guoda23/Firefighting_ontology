@@ -1,0 +1,209 @@
+@prefix fr: <http://www.semanticweb.org/firefighting/> .
+@prefix time: <https://www.w3.org/TR/owl-time/#time:> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+fr:accident_102 fr:shiftResponded fr:Shift_1462_Friday .
+
+fr:accident_104 fr:shiftResponded fr:Shift_1472_Monday .
+
+fr:accident_107 fr:shiftResponded fr:Shift_1413_Friday .
+
+fr:accident_109 fr:shiftResponded fr:Shift_1132_Monday .
+
+fr:accident_110 fr:shiftResponded fr:Shift_1471_Monday .
+
+fr:accident_111 fr:shiftResponded fr:Shift_1352_Tuesday .
+
+fr:accident_113 fr:shiftResponded fr:Shift_1531_Friday .
+
+fr:accident_115 fr:shiftResponded fr:Shift_1458_Thursday .
+
+fr:accident_120 fr:shiftResponded fr:Shift_1431_Wednesday .
+
+fr:accident_121 fr:shiftResponded fr:Shift_1319_Wednesday .
+
+fr:accident_122 fr:shiftResponded fr:Shift_1533_Friday .
+
+fr:accident_124 fr:shiftResponded fr:Shift_1396_Wednesday .
+
+fr:accident_126 fr:shiftResponded fr:Shift_1487_Wednesday .
+
+fr:accident_128 fr:shiftResponded fr:Shift_1418_Friday .
+
+fr:accident_131 fr:shiftResponded fr:Shift_1426_Tuesday .
+
+fr:accident_134 fr:shiftResponded fr:Shift_1530_Thursday .
+
+fr:accident_138 fr:shiftResponded fr:Shift_1032_Monday .
+
+fr:accident_139 fr:shiftResponded fr:Shift_1358_Wednesday .
+
+fr:accident_140 fr:shiftResponded fr:Shift_1458_Thursday .
+
+fr:accident_144 fr:shiftResponded fr:Shift_1435_Thursday .
+
+fr:accident_146 fr:shiftResponded fr:Shift_1453_Wednesday .
+
+fr:accident_147 fr:shiftResponded fr:Shift_1201_Sunday .
+
+fr:accident_148 fr:shiftResponded fr:Shift_1415_Friday .
+
+fr:accident_150 fr:shiftResponded fr:Shift_1507_Friday .
+
+fr:accident_153 fr:shiftResponded fr:Shift_1387_Monday .
+
+fr:accident_156 fr:shiftResponded fr:Shift_1452_Tuesday .
+
+fr:accident_157 fr:shiftResponded fr:Shift_1577_Tuesday .
+
+fr:accident_160 fr:shiftResponded fr:Shift_1128_Sunday .
+
+fr:accident_161 fr:shiftResponded fr:Shift_1574_Tuesday .
+
+fr:accident_162 fr:shiftResponded fr:Shift_1076_Thursday .
+
+fr:accident_164 fr:shiftResponded fr:Shift_1512_Saturday .
+
+fr:accident_165 fr:shiftResponded fr:Shift_1115_Sunday .
+
+fr:accident_167 fr:shiftResponded fr:Shift_1114_Saturday .
+
+fr:accident_169 fr:shiftResponded fr:Shift_1343_Monday .
+
+fr:accident_171 fr:shiftResponded fr:Shift_1379_Friday .
+
+fr:accident_172 fr:shiftResponded fr:Shift_1112_Saturday .
+
+fr:accident_175 fr:shiftResponded fr:Shift_1452_Tuesday .
+
+fr:accident_176 fr:shiftResponded fr:Shift_1053_Tuesday .
+
+fr:accident_183 fr:shiftResponded fr:Shift_1332_Saturday .
+
+fr:accident_184 fr:shiftResponded fr:Shift_1120_Sunday .
+
+fr:accident_185 fr:shiftResponded fr:Shift_1606_Wednesday .
+
+fr:accident_186 fr:shiftResponded fr:Shift_1406_Thursday .
+
+fr:accident_187 fr:shiftResponded fr:Shift_1599_Sunday .
+
+fr:accident_188 fr:shiftResponded fr:Shift_1102_Saturday .
+
+fr:accident_190 fr:shiftResponded fr:Shift_1316_Wednesday .
+
+fr:accident_191 fr:shiftResponded fr:Shift_1165_Thursday .
+
+fr:accident_192 fr:shiftResponded fr:Shift_1346_Tuesday .
+
+fr:accident_193 fr:shiftResponded fr:Shift_1536_Wednesday .
+
+fr:accident_194 fr:shiftResponded fr:Shift_1528_Thursday .
+
+fr:accident_198 fr:shiftResponded fr:Shift_1157_Wednesday .
+
+fr:accident_201 fr:shiftResponded fr:Shift_1501_Friday .
+
+fr:accident_204 fr:shiftResponded fr:Shift_1531_Friday .
+
+fr:accident_208 fr:shiftResponded fr:Shift_1435_Thursday .
+
+fr:accident_209 fr:shiftResponded fr:Shift_1175_Friday .
+
+fr:accident_211 fr:shiftResponded fr:Shift_1197_Sunday .
+
+fr:accident_224 fr:shiftResponded fr:Shift_1452_Tuesday .
+
+fr:accident_225 fr:shiftResponded fr:Shift_1042_Tuesday .
+
+fr:accident_236 fr:shiftResponded fr:Shift_1492_Thursday .
+
+fr:accident_238 fr:shiftResponded fr:Shift_1425_Tuesday .
+
+fr:accident_239 fr:shiftResponded fr:Shift_1428_Tuesday .
+
+fr:accident_243 fr:shiftResponded fr:Shift_1055_Wednesday .
+
+fr:accident_251 fr:shiftResponded fr:Shift_1488_Wednesday .
+
+fr:accident_255 fr:shiftResponded fr:Shift_1039_Monday .
+
+fr:accident_260 fr:shiftResponded fr:Shift_1396_Wednesday .
+
+fr:accident_262 fr:shiftResponded fr:Shift_1454_Wednesday .
+
+fr:accident_263 fr:shiftResponded fr:Shift_1464_Friday .
+
+fr:accident_270 fr:shiftResponded fr:Shift_1327_Friday .
+
+fr:accident_271 fr:shiftResponded fr:Shift_1381_Monday .
+
+fr:accident_275 fr:shiftResponded fr:Shift_1443_Friday .
+
+fr:accident_280 fr:shiftResponded fr:Shift_1087_Friday .
+
+fr:accident_297 fr:shiftResponded fr:Shift_1338_Monday .
+
+fr:accident_298 fr:shiftResponded fr:Shift_1072_Thursday .
+
+fr:accident_299 fr:shiftResponded fr:Shift_1413_Friday .
+
+fr:accident_303 fr:shiftResponded fr:Shift_1589_Friday .
+
+fr:accident_304 fr:shiftResponded fr:Shift_1198_Sunday .
+
+fr:accident_305 fr:shiftResponded fr:Shift_1160_Wednesday .
+
+fr:accident_309 fr:shiftResponded fr:Shift_1550_Monday .
+
+fr:accident_312 fr:shiftResponded fr:Shift_1320_Thursday .
+
+fr:accident_313 fr:shiftResponded fr:Shift_1368_Thursday .
+
+fr:accident_314 fr:shiftResponded fr:Shift_1454_Wednesday .
+
+fr:accident_315 fr:shiftResponded fr:Shift_1170_Thursday .
+
+fr:accident_323 fr:shiftResponded fr:Shift_1570_Monday .
+
+fr:accident_325 fr:shiftResponded fr:Shift_1588_Thursday .
+
+fr:accident_330 fr:shiftResponded fr:Shift_1119_Sunday .
+
+fr:accident_332 fr:shiftResponded fr:Shift_1153_Wednesday .
+
+fr:accident_336 fr:shiftResponded fr:Shift_1110_Saturday .
+
+fr:accident_339 fr:shiftResponded fr:Shift_1368_Thursday .
+
+fr:accident_346 fr:shiftResponded fr:Shift_1479_Tuesday .
+
+fr:accident_348 fr:shiftResponded fr:Shift_1522_Tuesday .
+
+fr:accident_350 fr:shiftResponded fr:Shift_1196_Sunday .
+
+fr:accident_354 fr:shiftResponded fr:Shift_1580_Wednesday .
+
+fr:accident_361 fr:shiftResponded fr:Shift_1342_Monday .
+
+fr:accident_362 fr:shiftResponded fr:Shift_1144_Tuesday .
+
+fr:accident_363 fr:shiftResponded fr:Shift_1393_Tuesday .
+
+fr:accident_366 fr:shiftResponded fr:Shift_1086_Friday .
+
+fr:accident_369 fr:shiftResponded fr:Shift_1598_Saturday .
+
+fr:accident_370 fr:shiftResponded fr:Shift_1202_Sunday .
+
+fr:accident_379 fr:shiftResponded fr:Shift_1578_Tuesday .
+
+fr:accident_385 fr:shiftResponded fr:Shift_1329_Friday .
+
+fr:accident_386 fr:shiftResponded fr:Shift_1580_Wednesday .
