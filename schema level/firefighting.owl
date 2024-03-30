@@ -378,7 +378,7 @@
     <!-- http://www.semanticweb.org/firefighting/Floor -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/firefighting/Floor">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/firefighting/Building"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/firefighting/Location"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/firefighting/locatedIn"/>
@@ -415,7 +415,7 @@
     <!-- http://www.semanticweb.org/firefighting/Room -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/firefighting/Room">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/firefighting/Building"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/firefighting/Location"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/firefighting/locatedIn"/>
