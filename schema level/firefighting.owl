@@ -73,10 +73,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/firefighting/hasOpeningTime -->
+    <!-- http://www.semanticweb.org/firefighting/hasOpeningTimes -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/firefighting/hasOpeningTime">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/firefighting/hasOpeningTimes">
         <rdfs:range rdf:resource="http://www.semanticweb.org/firefighting/OpeningTimes"/>
     </owl:ObjectProperty>
     
