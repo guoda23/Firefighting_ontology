@@ -73,6 +73,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/firefighting/hasOpeningTime -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/firefighting/hasOpeningTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/firefighting/OpeningTimes"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/firefighting/hasShift -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/firefighting/hasShift">
@@ -95,14 +104,6 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/firefighting/openOnDay">
         <rdfs:subPropertyOf rdf:resource="https://www.w3.org/TR/owl-time/#time:dayOfWeek"/>
         <rdfs:range rdf:resource="https://www.w3.org/TR/owl-time/#time:DayOfWeek"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/firefighting/openingTime -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/firefighting/openingTime">
-        <rdfs:range rdf:resource="http://www.semanticweb.org/firefighting/OpeningTimes"/>
     </owl:ObjectProperty>
     
 

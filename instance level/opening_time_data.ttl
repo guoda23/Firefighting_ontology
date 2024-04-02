@@ -6,7 +6,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 fr:MF_building a fr:Building;
-  fr:openingTime fr:MF_Monday_Opening_Times, fr:MF_Tuesday_Opening_Times, fr:MF_Wednesday_Opening_Times,
+  fr:hasOpeningTimes fr:MF_Monday_Opening_Times, fr:MF_Tuesday_Opening_Times, fr:MF_Wednesday_Opening_Times,
     fr:MF_Thursday_Opening_Times, fr:MF_Friday_Opening_Times .
 
 fr:MF_Monday_Opening_Times a fr:OpeningTimes;
@@ -45,7 +45,7 @@ fr:MF_Friday_Opening_Times a fr:OpeningTimes;
 <https://www.w3.org/TR/owl-time/#time:Friday> a <https://www.w3.org/TR/owl-time/#time:DayOfWeek> .
 
 fr:New_university_building a fr:Building;
-  fr:openingTime fr:NU_Monday_Opening_Times, fr:NU_Tuesday_Opening_Times, fr:NU_Wednesday_Opening_Times,
+  fr:hasOpeningTimes fr:NU_Monday_Opening_Times, fr:NU_Tuesday_Opening_Times, fr:NU_Wednesday_Opening_Times,
     fr:NU_Thursday_Opening_Times, fr:NU_Friday_Opening_Times, fr:NU_Saturday_Opening_Times,
     fr:NU_Sunday_Opening_Times .
 
@@ -92,7 +92,7 @@ fr:W%26N_Main_Entrance_1085 a fr:Entrance;
   fr:locatedIn fr:W%26N_building .
 
 fr:W%26N_building a fr:Building;
-  fr:openingTime fr:W%26N_1085_Monday_Opening_Times, fr:W%26N_1085_Tuesday_Opening_Times,
+  fr:hasOpeningTimes fr:W%26N_1085_Monday_Opening_Times, fr:W%26N_1085_Tuesday_Opening_Times,
     fr:W%26N_1085_Wednesday_Opening_Times, fr:W%26N_1085_Thursday_Opening_Times, fr:W%26N_1085_Friday_Opening_Times,
     fr:W%26N_1085_Saturday_Opening_Times, fr:W%26N_1085_Sunday_Opening_Times, fr:W%26N_1081_Monday_Opening_Times,
     fr:W%26N_1081_Tuesday_Opening_Times, fr:W%26N_1081_Wednesday_Opening_Times, fr:W%26N_1081_Thursday_Opening_Times,
@@ -172,7 +172,7 @@ fr:W%26N_1081_Sunday_Opening_Times a fr:OpeningTimes;
   fr:closingTime "18:00:00"^^xsd:time .
 
 fr:Initium a fr:Building;
-  fr:openingTime fr:IN_Monday_Opening_Times, fr:IN_Tuesday_Opening_Times, fr:IN_Wednesday_Opening_Times,
+  fr:hasOpeningTimes fr:IN_Monday_Opening_Times, fr:IN_Tuesday_Opening_Times, fr:IN_Wednesday_Opening_Times,
     fr:IN_Thursday_Opening_Times, fr:IN_Friday_Opening_Times, fr:IN_Saturday_Opening_Times .
 
 fr:IN_Monday_Opening_Times a fr:OpeningTimes;
@@ -206,7 +206,7 @@ fr:IN_Saturday_Opening_Times a fr:OpeningTimes;
   fr:closingTime "16:00:00"^^xsd:time .
 
 fr:O2_Lab_building a fr:Building;
-  fr:openingTime fr:O2_Monday_Opening_Times, fr:O2_Tuesday_Opening_Times, fr:O2_Wednesday_Opening_Times,
+  fr:hasOpeningTimes fr:O2_Monday_Opening_Times, fr:O2_Tuesday_Opening_Times, fr:O2_Wednesday_Opening_Times,
     fr:O2_Thursday_Opening_Times, fr:O2_Friday_Opening_Times .
 
 fr:O2_Monday_Opening_Times a fr:OpeningTimes;
@@ -235,7 +235,7 @@ fr:O2_Friday_Opening_Times a fr:OpeningTimes;
   fr:closingTime "22:00:00"^^xsd:time .
 
 fr:Transitorium a fr:Building;
-  fr:openingTime fr:T_Monday_Opening_Times, fr:T_Tuesday_Opening_Times, fr:T_Wednesday_Opening_Times,
+  fr:hasOpeningTimes fr:T_Monday_Opening_Times, fr:T_Tuesday_Opening_Times, fr:T_Wednesday_Opening_Times,
     fr:T_Thursday_Opening_Times, fr:T_Friday_Opening_Times .
 
 fr:T_Monday_Opening_Times a fr:OpeningTimes;
@@ -264,7 +264,7 @@ fr:T_Friday_Opening_Times a fr:OpeningTimes;
   fr:closingTime "19:30:00"^^xsd:time .
 
 fr:ACTA a fr:Building;
-  fr:openingTime fr:ACTA_Monday_Opening_Times, fr:ACTA_Tuesday_Opening_Times, fr:ACTA_Wednesday_Opening_Times,
+  fr:hasOpeningTimes fr:ACTA_Monday_Opening_Times, fr:ACTA_Tuesday_Opening_Times, fr:ACTA_Wednesday_Opening_Times,
     fr:ACTA_Thursday_Opening_Times, fr:ACTA_Friday_Opening_Times .
 
 fr:ACTA_Monday_Opening_Times a fr:OpeningTimes;
@@ -293,7 +293,7 @@ fr:ACTA_Friday_Opening_Times a fr:OpeningTimes;
   fr:closingTime "18:00:00"^^xsd:time .
 
 fr:OZW_building a fr:Building;
-  fr:openingTime fr:OZW_Monday_Opening_Times, fr:OZW_Tuesday_Opening_Times, fr:OZW_Wednesday_Opening_Times,
+  fr:hasOpeningTimes fr:OZW_Monday_Opening_Times, fr:OZW_Tuesday_Opening_Times, fr:OZW_Wednesday_Opening_Times,
     fr:OZW_Thursday_Opening_Times, fr:OZW_Friday_Opening_Times, fr:OZW_Saturday_Opening_Times .
 
 fr:OZW_Monday_Opening_Times a fr:OpeningTimes;
@@ -327,7 +327,7 @@ fr:OZW_Saturday_Opening_Times a fr:OpeningTimes;
   fr:closingTime "17:00:00"^^xsd:time .
 
 fr:BelleVUe a fr:Building;
-  fr:openingTime fr:BVUe_Monday_Opening_Times, fr:BVUe_Tuesday_Opening_Times, fr:BVUe_Wednesday_Opening_Times,
+  fr:hasOpeningTimes fr:BVUe_Monday_Opening_Times, fr:BVUe_Tuesday_Opening_Times, fr:BVUe_Wednesday_Opening_Times,
     fr:BVUe_Thursday_Opening_Times, fr:BVUe_Friday_Opening_Times .
 
 fr:BVUe_Monday_Opening_Times a fr:OpeningTimes;
@@ -356,7 +356,7 @@ fr:BVUe_Friday_Opening_Times a fr:OpeningTimes;
   fr:closingTime "22:00:00"^^xsd:time .
 
 fr:Kinderrijk_Day_care_centre a fr:Building;
-  fr:openingTime fr:Kinderrijk_Monday_Opening_Times, fr:Kinderrijk_Tuesday_Opening_Times,
+  fr:hasOpeningTimes fr:Kinderrijk_Monday_Opening_Times, fr:Kinderrijk_Tuesday_Opening_Times,
     fr:Kinderrijk_Wednesday_Opening_Times, fr:Kinderrijk_Thursday_Opening_Times, fr:Kinderrijk_Friday_Opening_Times .
 
 fr:Kinderrijk_Monday_Opening_Times a fr:OpeningTimes;
@@ -385,7 +385,7 @@ fr:Kinderrijk_Friday_Opening_Times a fr:OpeningTimes;
   fr:closingTime "18:00:00"^^xsd:time .
 
 fr:VU_StartHub a fr:Building;
-  fr:openingTime fr:StartHub_Monday_Opening_Times, fr:StartHub_Tuesday_Opening_Times,
+  fr:hasOpeningTimes fr:StartHub_Monday_Opening_Times, fr:StartHub_Tuesday_Opening_Times,
     fr:StartHub_Wednesday_Opening_Times, fr:StartHub_Thursday_Opening_Times, fr:StartHub_Friday_Opening_Times .
 
 fr:StartHub_Monday_Opening_Times a fr:OpeningTimes;
@@ -414,7 +414,7 @@ fr:StartHub_Friday_Opening_Times a fr:OpeningTimes;
   fr:closingTime "18:00:00"^^xsd:time .
 
 fr:Symphonie_building a fr:Building;
-  fr:openingTime fr:Sym_Monday_Opening_Times, fr:Sym_Tuesday_Opening_Times, fr:Sym_Wednesday_Opening_Times,
+  fr:hasOpeningTimes fr:Sym_Monday_Opening_Times, fr:Sym_Tuesday_Opening_Times, fr:Sym_Wednesday_Opening_Times,
     fr:Sym_Thursday_Opening_Times, fr:Sym_Friday_Opening_Times .
 
 fr:Sym_Monday_Opening_Times a fr:OpeningTimes;
@@ -446,7 +446,7 @@ fr:HG_Main_Entrance a fr:Entrance;
   fr:locatedIn fr:VU_Main_building .
 
 fr:VU_Main_building a fr:Building;
-  fr:openingTime fr:HG_Main_Entrance_Monday_Opening_Times, fr:HG_Main_Entrance_Tuesday_Opening_Times,
+  fr:hasOpeningTimes fr:HG_Main_Entrance_Monday_Opening_Times, fr:HG_Main_Entrance_Tuesday_Opening_Times,
     fr:HG_Main_Entrance_Wednesday_Opening_Times, fr:HG_Main_Entrance_Thursday_Opening_Times,
     fr:HG_Main_Entrance_Friday_Opening_Times, fr:HG_Main_Entrance_Saturday_Opening_Times,
     fr:HG_Main_Entrance_Sunday_Opening_Times, fr:HG_1101_Monday_Opening_Times, fr:HG_1101_Tuesday_Opening_Times,
@@ -608,7 +608,7 @@ fr:HG_BelleVUe_Sunday_Opening_Times a fr:OpeningTimes;
   fr:closingTime "18:00:00"^^xsd:time .
 
 fr:VU_Sports_Centre_Uilenstede a fr:Building;
-  fr:openingTime fr:Sports_Centre_Uilenstede_Monday_Opening_Times, fr:Sports_Centre_Uilenstede_Tuesday_Opening_Times,
+  fr:hasOpeningTimes fr:Sports_Centre_Uilenstede_Monday_Opening_Times, fr:Sports_Centre_Uilenstede_Tuesday_Opening_Times,
     fr:Sports_Centre_Uilenstede_Wednesday_Opening_Times, fr:Sports_Centre_Uilenstede_Thursday_Opening_Times,
     fr:Sports_Centre_Uilenstede_Friday_Opening_Times, fr:Sports_Centre_Uilenstede_Saturday_Opening_Times,
     fr:Sports_Centre_Uilenstede_Sunday_Opening_Times .
